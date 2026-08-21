@@ -1,6 +1,8 @@
 import { useState } from "react";
 import type { Game } from "@/utils/game_utils";
-import GameModalContent from "@/components/GameModal/components/GameModalContent";
+import GameModalHeader from "./components/GameModalHeader";
+import GameModalInfo from "./components/GameModalInfo";
+import GameModalReview from "./components/GameModalReview";
 
 const CLOSE_ANIMATION_MS = 250;
 
@@ -37,7 +39,16 @@ export default function GameModal({ game, onClose }: Properties) {
             : "animate-[gameDescriptionModalPanelIn_0.35s_cubic-bezier(0.16,1,0.3,1)]"
         }`}
       >
-        <GameModalContent game={game} onClose={handleClose} />
+        {/* Sticky header */}
+        <GameModalHeader game={game} onClose={onClose} />
+
+        <div className="px-7 py-5">
+          {/* Game breakdown */}
+          <GameModalInfo game={game} />
+
+          {/* Game review */}
+          <GameModalReview game={game} />
+        </div>
       </div>
     </div>
   );

@@ -21,6 +21,7 @@ export default function ParallaxImage({
       {/* List of all images */}
       {layers.map((layer, i) => (
         <img
+          alt="Parallax Layer"
           key={i}
           ref={(element) => {
             if (element) imageRefs.current[i] = element;
