@@ -5,7 +5,7 @@ import EyebrowTitle from "../../../components/EyebrowTitle";
 type Properties = {
   eyebrow: string;
   title: string;
-  body: string;
+  paragraphs: string[];
   backgroundImage: string;
   secondaryImage: string;
   side?: "left" | "right";
@@ -19,7 +19,7 @@ type Properties = {
 export default function DescriptionCard({
   eyebrow,
   title,
-  body,
+  paragraphs,
   backgroundImage,
   secondaryImage,
   side = "right",
@@ -50,9 +50,16 @@ export default function DescriptionCard({
       <div className="flex flex-1 basis-[45%] min-w-0 flex-col items-start justify-center bg-background-main px-5 pt-8 pb-10 text-left md:p-[clamp(2rem,5vw,4rem)]">
         <EyebrowTitle title={title} eyebrow={eyebrow} paddingX="0" />
         {/* Body */}
-        <p className="max-w-[34ch] font-body font-light text-[1rem] leading-[1.7] text-secondary md:max-w-[46ch]">
-          {body}
-        </p>
+        <div className="flex flex-col gap-4">
+          {paragraphs.map((paragraph, index) => (
+            <p
+              key={index}
+              className="max-w-[34ch] font-body font-light text-[1rem] leading-[1.7] text-secondary md:max-w-[46ch]"
+            >
+              {paragraph}
+            </p>
+          ))}
+        </div>
 
         {/* Optional button */}
         {button && (
