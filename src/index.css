@@ -1,5 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Gaunt:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Space+Grotesk:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap");
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/Fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url("./assets/Fonts/DMMono-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url("./assets/Fonts/DMMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Mono";
+  src: url("./assets/Fonts/DMMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
   /* Base colors */
@@ -67,15 +98,14 @@
     transparent
   );
 
-  --font-display: "Cormorant Gaunt", serif;
+  /* Fonts */
   --font-body: "Space Grotesk", system-ui, sans-serif;
   --font-mono: "DM Mono", monospace;
 
+  /* Animations */
   --animate-dropdown-in: dropdownPanelIn 0.18s ease-out;
-
   --animate-recent-scroll-horizontal: recent-scroll-horizontal 32s linear
     infinite;
-
   --animate-recent-scroll-vertical: recent-scroll-vertical 32s linear infinite;
 }
 
