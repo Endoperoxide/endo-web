@@ -15,6 +15,7 @@ export default function FamePageWIPSection() {
         <img
           src={fayeConfused}
           alt=""
+          fetchPriority="low"
           className="h-[80vh] w-auto shrink drop-shadow-[0_8px_20px_rgba(0,0,0,0.25)]"
         />
 

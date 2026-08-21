@@ -9,9 +9,12 @@ export default function GameCoverArt({ game }: Properties) {
     <div className="relative">
       {/* Image art */}
       <img
+        className={`w-full h-full object-contain`}
         src={game.coverUrl}
         alt={game.title}
-        className={`w-full h-full object-contain`}
+        fetchPriority="low"
+        loading="lazy"
+        decoding="async"
       />
 
       {/* Gradient overlay */}

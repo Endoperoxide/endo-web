@@ -25,7 +25,12 @@ export default function Navbar({ current, onNavigate }: Properties) {
           style={{ width: NAVBAR_HEIGHT }}
           className="flex h-full shrink-0 items-center justify-center border-none bg-background-bright p-0 cursor-pointer"
         >
-          <img src={logo} alt="Logo" className="block h-12 w-auto" />
+          <img
+            src={logo}
+            alt="Logo"
+            className="block h-12 w-auto"
+            fetchPriority="high"
+          />
         </button>
 
         {/* Desktop nav links */}

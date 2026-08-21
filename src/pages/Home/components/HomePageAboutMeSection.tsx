@@ -33,6 +33,7 @@ export default function HomePageAboutMeSection() {
           <img
             src={fayeFiredUp}
             alt="About Me"
+            fetchPriority="low"
             className="block h-auto w-full object-contain"
           />
         </div>

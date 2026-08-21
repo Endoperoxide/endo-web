@@ -15,6 +15,7 @@ export default function GameCardCarouselEmpty() {
         src={fayeConfused}
         alt="Faye Confused"
         className="h-[60vh] max-h-[80%]"
+        fetchPriority="low"
       />
     </div>
   );

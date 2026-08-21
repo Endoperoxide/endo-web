@@ -99,6 +99,7 @@
   );
 
   /* Fonts */
+  --font-display: "Cormorant Gaunt", serif;
   --font-body: "Space Grotesk", system-ui, sans-serif;
   --font-mono: "DM Mono", monospace;
 

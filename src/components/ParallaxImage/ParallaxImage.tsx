@@ -28,6 +28,7 @@ export default function ParallaxImage({
           }}
           src={layer.src}
           draggable={false}
+          fetchPriority="low"
           className="pointer-events-none absolute inset-0 h-full w-full select-none object-contain object-left will-change-transform"
         />
       ))}
