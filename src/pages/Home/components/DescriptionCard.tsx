@@ -1,5 +1,6 @@
 import IconButton from "@/components/IconButton";
 import type { LucideIcon } from "lucide-react";
+import EyebrowTitle from "../../../components/EyebrowTitle";
 
 type Properties = {
   eyebrow: string;
@@ -47,16 +48,7 @@ export default function DescriptionCard({
 
       {/* Text */}
       <div className="flex flex-1 basis-[45%] min-w-0 flex-col items-start justify-center bg-background-main px-5 pt-8 pb-10 text-left md:p-[clamp(2rem,5vw,4rem)]">
-        {/* Eyebrow */}
-        <div className="mb-3 font-body text-[0.7rem] uppercase tracking-[0.18em] text-accent">
-          {eyebrow}
-        </div>
-
-        {/* Title */}
-        <h3 className="mb-5 font-mono text-[clamp(28px,3.5vw,44px)] font-bold uppercase tracking-tight text-primary">
-          {title}
-        </h3>
-
+        <EyebrowTitle title={title} eyebrow={eyebrow} paddingX="0" />
         {/* Body */}
         <p className="max-w-[34ch] font-body font-light text-[1rem] leading-[1.7] text-secondary md:max-w-[46ch]">
           {body}

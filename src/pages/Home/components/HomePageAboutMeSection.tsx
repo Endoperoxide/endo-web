@@ -1,4 +1,4 @@
-import SectionTitle from "@/pages/Home/components/SectionTitle";
+import EyebrowTitle from "@/components/EyebrowTitle";
 import AboutMeText from "@/pages/Home/components/AboutMeText";
 import fayeFiredUp from "@/assets/Faye/faye_fired_up.png";
 
@@ -25,7 +25,7 @@ const ABOUT_ME_PARAGRAPHS = [
 export default function HomePageAboutMeSection() {
   return (
     <section className="relative flex flex-col bg-background-main">
-      <SectionTitle title="About" />
+      <EyebrowTitle title="About" eyebrow="What is this site?" />
 
       <div className="flex flex-wrap-reverse items-center justify-between gap-[clamp(2rem,4vw,4rem)] px-[clamp(1.5rem,4vw,3rem)] py-[clamp(2.5rem,6vw,5rem)]">
         {/* Text */}

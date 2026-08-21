@@ -4,16 +4,24 @@ type Properties = {
   eyebrow?: string;
   title?: string;
   right?: ReactNode;
+  paddingX?: string;
 };
 
-export default function SectionTitle({ eyebrow, title, right }: Properties) {
+export default function EyebrowTitle({
+  eyebrow,
+  title,
+  right,
+  paddingX = "px-[clamp(1.25rem,5vw,2.5rem)]",
+}: Properties) {
   return (
-    <div className="flex items-end justify-between bg-background-main px-[clamp(1.25rem,5vw,2.5rem)] pt-8 pb-6">
+    <div
+      className={`flex items-end justify-between bg-background-main py-5 ${paddingX}`}
+    >
       <div>
         {/* Eyebrow text */}
         {eyebrow && (
           <div
-            className={`font-body text-[0.6rem] uppercase tracking-[0.3em] text-accent ${
+            className={`font-body text-[0.65rem] uppercase tracking-[0.3em] text-accent ${
               title ? "mb-2" : "mb-0"
             }`}
           >

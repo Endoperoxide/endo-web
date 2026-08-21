@@ -18,7 +18,7 @@ export default function FilterDropdown({
   const active = tiers.find((tier) => tier.value === activeTier);
 
   return (
-    <div className="min-w-27.5 max-w-50 flex-1 basis-32.5">
+    <div className="max-w-28 shrink-0 sm:min-w-27.5 sm:max-w-50 sm:flex-1 sm:basis-32.5">
       {/* Dropdown */}
       <Dropdown
         align="stretch"
@@ -26,10 +26,10 @@ export default function FilterDropdown({
           <button
             onClick={toggle}
             aria-expanded={isOpen}
-            className="flex w-full cursor-pointer items-center justify-between border-none bg-background-main px-3 py-2.5 font-body text-[0.75rem] text-primary"
+            className="flex w-full cursor-pointer items-center justify-between gap-1 border-none bg-background-main px-3 py-2.5 font-body text-[0.75rem] text-primary"
           >
             {/* Label and range */}
-            <span>
+            <span className="truncate">
               {active?.label}
               {active?.range ? ` (${active.range})` : ""}
             </span>
@@ -56,17 +56,19 @@ export default function FilterDropdown({
                     onChange(tier.value);
                     close();
                   }}
-                  className={`flex w-full cursor-pointer items-center justify-between border-none bg-transparent px-3 py-2 text-left font-body text-[0.75rem] ${
+                  className={`flex w-full cursor-pointer items-center justify-between gap-2 border-none bg-transparent px-3 py-2 text-left font-body text-[0.75rem] ${
                     isActive ? "text-primary" : "text-secondary"
                   }`}
                 >
                   {/* Label and range */}
-                  <span>
+                  <span className="truncate">
                     {tier.label}
                     {tier.range ? ` (${tier.range})` : ""}
                   </span>
 
-                  {isActive && <Check size={13} className="text-primary" />}
+                  {isActive && (
+                    <Check size={13} className="shrink-0 text-primary" />
+                  )}
                 </button>
               );
             })}
