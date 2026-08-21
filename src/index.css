@@ -72,6 +72,11 @@
   --font-mono: "DM Mono", monospace;
 
   --animate-dropdown-in: dropdownPanelIn 0.18s ease-out;
+
+  --animate-recent-scroll-horizontal: recent-scroll-horizontal 32s linear
+    infinite;
+
+  --animate-recent-scroll-vertical: recent-scroll-vertical 32s linear infinite;
 }
 
 /* =-= Scroll bar =-= */
@@ -146,5 +151,27 @@
   to {
     opacity: 0;
     transform: translateX(-100vw);
+  }
+}
+
+/* =-= Recent Games Animations =-= */
+
+@keyframes recent-scroll-horizontal {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes recent-scroll-vertical {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
   }
 }
