@@ -1,0 +1,50 @@
+import { useEffect, useState } from "react";
+import { ratingColor } from "@/utils/rating_utils";
+
+type Properties = {
+  label: string;
+  value: number;
+};
+
+export default function GameCategoryScoreRow({ label, value }: Properties) {
+  const color = ratingColor(value);
+  const [animatedValue, setAnimatedValue] = useState(0);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => {
+      setAnimatedValue(value);
+    });
+
+    return () => cancelAnimationFrame(frame);
+  }, [value]);
+
+  return (
+    <div>
+      <div className="mb-1 flex items-baseline justify-between">
+        {/* Category label */}
+        <span className="font-mono text-[0.6rem] uppercase tracking-widest text-muted">
+          {label}
+        </span>
+
+        {/* Category value */}
+        <span
+          className="font-mono text-[0.7rem] font-semibold"
+          style={{ color }}
+        >
+          {value.toFixed(1)}
+        </span>
+      </div>
+
+      {/* Display progress bar */}
+      <div className="h-px bg-border-base">
+        <div
+          className="h-full rounded-xs transition-[width] duration-1000 ease-out"
+          style={{
+            width: `${(animatedValue / 10) * 100}%`,
+            backgroundColor: color,
+          }}
+        />
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Gaunt:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Space+Grotesk:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Base colors */
+  --color-black: #000000;
+  --color-very-dark-purple: #100c18;
+  --color-dark-purple: #171224;
+  --color-purple-gray: #231d33;
+  --color-light-purple-gray: #362d4b;
+
+  --color-text-light: #a8a0c2;
+  --color-text-secondary: #cec7e8;
+  --color-text-white: #f8f6ff;
+
+  --color-purple: #b073e8;
+  --color-purple-hover: #c48ef2;
+  --color-purple-light: #cba3f5;
+
+  --color-gold: #e1b95a;
+  --color-silver: #d8d9e7;
+  --color-bronze: #d99a74;
+
+  --color-green: #68e0a3;
+  --color-blue: #78a4ff;
+  --color-red: #ff7399;
+
+  --color-background-main: var(--color-black);
+  --color-background-base: var(--color-very-dark-purple);
+  --color-background-hover: var(--color-dark-purple);
+  --color-background-bright: var(--color-purple);
+  --color-background-highlight: rgba(176, 115, 232, 0.16);
+
+  --color-border-base: var(--color-purple-gray);
+  --color-border-hover: var(--color-purple);
+
+  --color-muted: var(--color-text-light);
+  --color-secondary: var(--color-text-secondary);
+  --color-primary: var(--color-text-white);
+  --color-accent: var(--color-purple);
+  --color-dark: var(--color-black);
+
+  --color-input-focused: var(--color-purple);
+  --color-input-unfocused: var(--color-purple-gray);
+
+  --color-button-active: var(--color-purple);
+  --color-button-inactive: var(--color-dark-purple);
+
+  --color-rating-gold: var(--color-gold);
+  --color-rating-silver: var(--color-silver);
+  --color-rating-bronze: var(--color-bronze);
+  --color-rating-green: var(--color-green);
+  --color-rating-blue: var(--color-blue);
+  --color-rating-red: var(--color-red);
+
+  --color-accent-primary: var(--color-purple);
+  --color-accent-hover: var(--color-purple-hover);
+  --color-accent-light: var(--color-purple-light);
+
+  --shadow-resting: 0 8px 28px rgba(0, 0, 0, 0.35);
+  --shadow-hover: 0 18px 52px rgba(0, 0, 0, 0.5);
+
+  --background-image-gradient-cover: linear-gradient(
+    to top,
+    rgba(9, 7, 15, 0.95) 0%,
+    rgba(9, 7, 15, 0.45) 50%,
+    transparent
+  );
+
+  --font-display: "Cormorant Gaunt", serif;
+  --font-body: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "DM Mono", monospace;
+
+  --animate-dropdown-in: dropdownPanelIn 0.18s ease-out;
+}
+
+/* =-= Scroll bar =-= */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background-main);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-base);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
+}
+
+/* =-= Dropdown Animations =-= */
+
+@keyframes dropdownPanelIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =-= Game Modal Animations =-= */
+
+@keyframes gameDescriptionModalOverlayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gameDescriptionModalOverlayOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes gameDescriptionModalPanelIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes gameDescriptionModalPanelOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+}
