@@ -35,7 +35,7 @@ export default function ReviewsPage({ onSelect }: Properties) {
   }
 
   return (
-    <main className="relative flex h-full overflow-hidden">
+    <main className="relative flex h-full overflow-hidden px-4 md:px-15">
       <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
         <ReviewsPageFilterSection
           tiers={RATING_TIERS}

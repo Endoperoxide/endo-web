@@ -23,7 +23,7 @@ export default function ReviewsPageFilterSection({
   return (
     <section>
       <div
-        className="flex w-full shrink-0 items-center justify-between border-b border-border-base bg-background-main py-2"
+        className="flex w-full shrink-0 items-center justify-betweenbg-background-main py-2"
         style={{ minHeight: NAVBAR_HEIGHT }}
       >
         {/* Filter bar */}

@@ -19,12 +19,14 @@ export default function Navbar({ current, onNavigate }: Properties) {
     >
       <div className="flex h-full w-full items-center justify-start">
         {/* Logo box */}
-        <div
+        <button
+          type="button"
+          onClick={() => onNavigate("home")}
           style={{ width: NAVBAR_HEIGHT }}
-          className="flex h-full shrink-0 items-center justify-center bg-background-bright"
+          className="flex h-full shrink-0 items-center justify-center border-none bg-background-bright p-0 cursor-pointer"
         >
-          <img src={logo} alt="Logo" className="block h-10 w-auto" />
-        </div>
+          <img src={logo} alt="Logo" className="block h-12 w-auto" />
+        </button>
 
         {/* Desktop nav links */}
         <nav className="hidden sm:flex h-full items-center gap-5 px-5">

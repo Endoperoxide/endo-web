@@ -18,14 +18,12 @@ export default function ReviewsPageTitleSection({ games, progress }: Props) {
     <section
       style={
         {
-          maskImage:
-            "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
           WebkitMaskImage:
             "linear-gradient(to right, transparent, black 12%, black 88%, transparent)",
           "--item-width": ITEM_WIDTH,
         } as React.CSSProperties
       }
-      className="relative h-22.5 w-full overflow-hidden border-t border-border-base bg-background-main"
+      className="relative h-22.5 w-full overflow-hidden bg-background-main"
     >
       {count > 0 &&
         Array.from({ length: NAV_SLOTS }, (_, i) => {
