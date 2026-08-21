@@ -1,6 +1,11 @@
 import { useEffect, useRef } from "react";
 
 const PARALLAX_LERP: number = 0.08;
+const MAX_OFFSET_PX = 40;
+
+function clamp(n: number, min: number, max: number) {
+  return Math.min(Math.max(n, min), max);
+}
 
 interface Layer {
   depth: number;
@@ -38,9 +43,12 @@ export function useParallaxLayers(layers: Layer[]) {
 
         const depth = layers[i].depth;
 
+        const offsetX = clamp(currentX * depth, -MAX_OFFSET_PX, MAX_OFFSET_PX);
+        const offsetY = clamp(currentY * depth, -MAX_OFFSET_PX, MAX_OFFSET_PX);
+
         img.style.transform = `translate3d(
-          ${currentX * depth}px,
-          ${currentY * depth}px,
+          ${offsetX}px,
+          ${offsetY}px,
           0
         )`;
       });
