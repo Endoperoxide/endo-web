@@ -19,13 +19,13 @@ export default function HomePage({ onNavigate }: Properties) {
     <main className="min-h-dvh">
       <HomePageDisplaySection />
 
-      <div>
+      <div className="px-4 md:px-15">
         <HomePageRecentReviewsSection
           onSelectGame={setModalGame}
           onNavigate={onNavigate}
         />
         <HomePageAboutMeSection />
-        <HomePageDescriptionSection onNavigate={onNavigate} />
+        <HomePageDescriptionSection />
         <HomePageFooterSection />
       </div>
 

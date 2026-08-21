@@ -27,19 +27,19 @@ export default function HomePageAboutMeSection() {
     <section className="relative flex flex-col bg-background-main">
       <EyebrowTitle title="About" eyebrow="What is this site?" />
 
-      <div className="flex flex-wrap-reverse items-center justify-between gap-[clamp(2rem,4vw,4rem)] px-[clamp(1.5rem,4vw,3rem)] py-[clamp(2.5rem,6vw,5rem)]">
-        {/* Text */}
-        <div className="min-w-0 flex-1 basis-85 pl-0 lg:pl-[clamp(2rem,8vw,9rem)]">
-          <AboutMeText paragraphs={ABOUT_ME_PARAGRAPHS} />
-        </div>
-
+      <div className="flex flex-col gap-8 py-5 md:px-10 md:py-12 lg:flex-row lg:items-center lg:gap-12">
         {/* Display image */}
-        <div className="relative min-w-0 w-[clamp(420px,48vw,900px)] max-w-full flex-1 basis-85">
+        <div className="order-first mx-auto w-full shrink-0 lg:order-last lg:w-[48%]">
           <img
             src={fayeFiredUp}
             alt="About Me"
             className="block h-auto w-full object-contain"
           />
+        </div>
+
+        {/* Text */}
+        <div className="min-w-0 flex-1 lg:pl-[clamp(2rem,5vw,6rem)]">
+          <AboutMeText paragraphs={ABOUT_ME_PARAGRAPHS} />
         </div>
       </div>
     </section>

@@ -10,13 +10,16 @@ import portal from "@/assets/Backgrounds/portal.jpg";
 import fayeConfused from "@/assets/Faye/faye_confused_top.png";
 import fayeStretch from "@/assets/Faye/faye_stretch.png";
 import fayeHeroic from "@/assets/Faye/faye_heroic.png";
+import IconButton from "@/components/IconButton";
 
 const reviewLogicParagraphs = [
   `I can appreciate what a game represents and is attempting to accomplish, 
   so I try to review games based on their own merits and intentions, 
   rather than comparing them to other games or my personal preferences.`,
 
-  `I give these games a rating not on the average score of its Category Breakdown, but rather its personal impact on me.`,
+  `I give these games a rating not on the average score of its category breakdown, but rather its personal impact on me.
+  Meaning that a game could have "low" scores across its categories, but still be ranked higher due to external factors that
+  will be described in the review`,
 ];
 
 const categoryBreakdownParagraphs = [
@@ -38,19 +41,12 @@ const hallOfFameParagraphs = [
   it higher than another game that might have a 'better' score.`,
 ];
 
-export type Properties = {
-  onNavigate: (page: Page) => void;
-};
-
-export default function HomePageDescriptionSection({ onNavigate }: Properties) {
+export default function HomePageDescriptionSection() {
   return (
     <section>
       <div>
-        {/* Title */}
-        <EyebrowTitle eyebrow="How it works" title="MY APPROACH" />
-
         {/* Cards */}
-        <div className="flex flex-col">
+        <div className="flex flex-col md:gap-15">
           <DescriptionCard
             eyebrow="Merit over comparison"
             title="Review Logic"
@@ -74,11 +70,6 @@ export default function HomePageDescriptionSection({ onNavigate }: Properties) {
             paragraphs={hallOfFameParagraphs}
             backgroundImage={expedition}
             secondaryImage={fayeHeroic}
-            button={{
-              label: "View Hall of Fame",
-              onClick: () => onNavigate("hall-of-fame"),
-              icon: ArrowRight,
-            }}
           />
         </div>
       </div>

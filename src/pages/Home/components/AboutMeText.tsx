@@ -5,12 +5,12 @@ type Properties = {
 export default function AboutMeText({ paragraphs }: Properties) {
   return (
     <div>
-      <div className="space-y-[1.1rem]">
+      <div className="space-y-5">
         {/* List of all paragraphs */}
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className="max-w-[45ch] font-body text-[1rem] font-light leading-widest text-secondary"
+            className="md:max-w-[50ch] font-body text-[1rem] font-light leading-widest text-secondary"
           >
             {paragraph}
           </p>

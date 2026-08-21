@@ -14,8 +14,8 @@ export default function RecentReviews({ orientation, onSelect }: Properties) {
   const isHorizontal = orientation === "horizontal";
 
   const containerClasses = isHorizontal
-    ? "overflow-hidden pt-4 pb-6 [mask-image:linear-gradient(to_right,transparent,black_5%,black_95%,transparent)]"
-    : "overflow-hidden px-6 [mask-image:linear-gradient(to_bottom,transparent,black_5%,black_95%,transparent)]";
+    ? "overflow-hidden pt-4 pb-5 [mask-image:linear-gradient(to_right,transparent,black_5%,black_90%,transparent)]"
+    : "overflow-hidden px-5 [mask-image:linear-gradient(to_bottom,transparent,black_5%,black_90%,transparent)]";
 
   const trackClasses = isHorizontal
     ? "flex w-max gap-4.5 pl-6 animate-recent-scroll-horizontal"

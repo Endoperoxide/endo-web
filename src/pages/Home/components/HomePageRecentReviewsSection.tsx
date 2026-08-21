@@ -17,17 +17,17 @@ export default function HomePageRecentReviewsSection({
   return (
     <section className="relative z-1 flex flex-col bg-background-main">
       {/* Title with button */}
-      <EyebrowTitle
-        title="Recent Reviews"
-        eyebrow="Most recent games reviewed"
-        right={
-          <IconButton
-            label="All Reviews"
-            icon={ArrowRight}
-            onClick={() => onNavigate("reviews")}
-          />
-        }
-      />
+      <div className="flex flex-row items-center justify-between gap-4 pr-6">
+        <EyebrowTitle
+          title="Recent Reviews"
+          eyebrow="Most recent games reviewed"
+        />
+        <IconButton
+          label="All Reviews"
+          icon={ArrowRight}
+          onClick={() => onNavigate("reviews")}
+        />
+      </div>
 
       <div className="flex flex-row items-stretch">
         {/* Recent games */}
