@@ -34,13 +34,13 @@ Balatro has (from the time I am writing this review):
 
 Each and every single one of these cards have a use case somewhere in the game and are synergise with other cards so perfectly, that there are possibly an infinite number of strategical load-outs for you to try. Every time you play this game feels completely fresh as you are being dealt with all the possible combinations of these cards for you to strategise on.
 
-## Balatro makes you feel smart
+## Game Feel
 
 Because of all these cards and combination, Balatro makes your feel really damn smart when you get the ball rolling. The feeling of combining a certain passive with another, or using a passive with a certain poker hand, or using face cards that are all amplified by your jokers, etc is just such as amazing feeling.
 
 This game encourages the player to make them feel like they are breaking the game with all the possible combinations you can achieve in this game, and this is amplified ten-fold when considering how smooth and satisfying the animations and sound effects are, especially when you hold a great deck.
 
-## The visual design
+## Visual design
 
 This game should serve as a master class of how to perfectly fine-tune game juice. The animations, sounds and effects are just phenomenal. When achieving a massive score, all the animations kick in at once, numbers explode upwards, the sounds get higher and higher pitched, its so satisfying and addicting to watch it happen before your eyes.
 
