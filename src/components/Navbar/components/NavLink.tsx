@@ -1,4 +1,4 @@
-import type { Page } from "@/utils/page_utils";
+import { Page } from "@/utils/page_utils";
 
 type Properties = {
   page: Page;

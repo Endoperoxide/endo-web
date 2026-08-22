@@ -5,7 +5,8 @@ import { useFilteredGames } from "@/pages/Reviews/hooks/useFilteredGames";
 import ReviewsPageTitleSection from "@/pages/Reviews/components/ReviewsPageTitleSection";
 import ReviewsPageFilterSection from "./components/ReviewsPageFilterSection";
 import ReviewsPageCarouselSection from "./components/ReviewsPageCarouselSection";
-import GameModal from "@/components/GameModal/GameModal";
+import GameModal from "@/components/Modal/GameModal/GameModal";
+import ListModal from "@/components/Modal/ListModal/ListModal";
 
 type Properties = {
   onSelect: (game: Game | null) => void;
@@ -23,6 +24,7 @@ export default function ReviewsPage({ onSelect }: Properties) {
   } = useFilteredGames(onSelect);
 
   const [modalGame, setModalGame] = useState<Game | null>(null);
+  const [isListOpen, setIsListOpen] = useState(false);
 
   function handleCardSelect(game: Game) {
     onSelect(game);
@@ -36,7 +38,7 @@ export default function ReviewsPage({ onSelect }: Properties) {
 
   return (
     <main className="relative flex h-full overflow-hidden px-4 md:px-15">
-      <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
+      <div className="flex flex-1 flex-col overflow-hidden">
         <ReviewsPageFilterSection
           tiers={RATING_TIERS}
           activeTier={activeTier}
@@ -44,6 +46,7 @@ export default function ReviewsPage({ onSelect }: Properties) {
           filtered={filtered}
           search={searchQuery}
           setSearch={setSearchQuery}
+          onOpenList={() => setIsListOpen(true)}
         />
 
         <ReviewsPageCarouselSection
@@ -55,9 +58,11 @@ export default function ReviewsPage({ onSelect }: Properties) {
         <ReviewsPageTitleSection games={filtered} progress={activeIndex} />
       </div>
 
+      {/* Modals */}
       {modalGame && (
         <GameModal game={modalGame} onClose={() => setModalGame(null)} />
       )}
+      {isListOpen && <ListModal onClose={() => setIsListOpen(false)} />}
     </main>
   );
 }

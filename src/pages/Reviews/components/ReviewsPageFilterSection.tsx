@@ -10,6 +10,7 @@ type Properties = {
   filtered: any[];
   search: string;
   setSearch: Dispatch<SetStateAction<string>>;
+  onOpenList: () => void;
 };
 
 export default function ReviewsPageFilterSection({
@@ -19,23 +20,35 @@ export default function ReviewsPageFilterSection({
   filtered,
   search,
   setSearch,
+  onOpenList,
 }: Properties) {
   return (
     <section>
       <div
-        className="flex w-full shrink-0 items-center justify-betweenbg-background-main py-2"
+        className="flex w-full items-center gap-2 bg-background-main"
         style={{ minHeight: NAVBAR_HEIGHT }}
       >
         {/* Filter bar */}
-        <FilterBar
-          tiers={tiers}
-          activeTier={activeTier}
-          setActiveTier={setActiveTier}
-          filtered={filtered}
-          onFilterChange={() => {}}
-          search={search}
-          setSearch={setSearch}
-        />
+        <div className="min-w-0 flex-1">
+          <FilterBar
+            tiers={tiers}
+            activeTier={activeTier}
+            setActiveTier={setActiveTier}
+            filtered={filtered}
+            onFilterChange={() => {}}
+            search={search}
+            setSearch={setSearch}
+          />
+        </div>
+
+        {/* Review list trigger */}
+        <button
+          type="button"
+          onClick={onOpenList}
+          className="mr-4 shrink-0 whitespace-nowrap border border-border-base px-4 py-2.5 font-body text-[0.72rem] text-primary hover:border-border-hover sm:px-4 sm:text-[0.78rem]"
+        >
+          List
+        </button>
       </div>
     </section>
   );

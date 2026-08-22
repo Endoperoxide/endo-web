@@ -1,7 +1,8 @@
 import { useState } from "react";
 import type { Game } from "@/utils/game_utils";
-import GameModal from "@/components/GameModal/GameModal";
 import FamePageWIPSection from "./components/FamePageWIPSection";
+import ListModal from "@/components/Modal/ListModal/ListModal";
+import GameModal from "@/components/Modal/GameModal/GameModal";
 
 type Properties = {
   onSelect: (game: Game | null) => void;

@@ -2,11 +2,11 @@ import { useState } from "react";
 import type { Game } from "@/utils/game_utils";
 import type { Page } from "@/utils/page_utils";
 import HomePageFooterSection from "@/pages/Home/components/HomePageFooterSection";
-import GameModal from "@/components/GameModal/GameModal";
 import HomePageDisplaySection from "./components/HomePageDisplaySection";
 import HomePageRecentReviewsSection from "./components/HomePageRecentReviewsSection";
 import HomePageDescriptionSection from "@/pages/Home/components/HomePageDescriptionSection";
 import HomePageAboutMeSection from "./components/HomePageAboutMeSection";
+import GameModal from "@/components/Modal/GameModal/GameModal";
 
 type Properties = {
   onNavigate: (page: Page) => void;

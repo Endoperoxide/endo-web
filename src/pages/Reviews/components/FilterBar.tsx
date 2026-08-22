@@ -28,7 +28,7 @@ export default function FilterBar({
 
   return (
     <div className="flex w-full justify-center px-4">
-      <div className="flex h-10.5 w-full max-w-170 items-center border border-border-base bg-background-base">
+      <div className="flex h-10 w-full max-w-170 items-center border border-border-base bg-background-base">
         {/* Icon */}
         <Search size={15} className="ml-3.5 shrink-0 text-muted" />
 
