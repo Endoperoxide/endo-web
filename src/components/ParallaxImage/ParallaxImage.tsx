@@ -14,10 +14,7 @@ export default function ParallaxImage({
   const { containerRef, imageRefs } = useParallaxLayers(layers);
 
   return (
-    <div
-      ref={containerRef}
-      className="relative flex h-full w-full items-center justify-start"
-    >
+    <div ref={containerRef} className="relative h-full">
       {/* List of all images */}
       {layers.map((layer, i) => (
         <img
@@ -29,7 +26,9 @@ export default function ParallaxImage({
           src={layer.src}
           draggable={false}
           fetchPriority="low"
-          className="pointer-events-none absolute inset-0 h-full w-full select-none object-contain object-left will-change-transform"
+          className={`pointer-events-none h-full w-auto max-w-full select-none object-cover object-bottom will-change-transform ${
+            i === 0 ? "" : "absolute inset-0"
+          }`}
         />
       ))}
     </div>

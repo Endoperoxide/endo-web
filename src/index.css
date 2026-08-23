@@ -34,7 +34,11 @@
 }
 
 @theme {
-  /* Base colors */
+  /* 
+  ========================================
+  Core Palette
+  ======================================== 
+  */
   --color-black: #000000;
   --color-very-dark-purple: #100c18;
   --color-dark-purple: #171224;
@@ -45,31 +49,56 @@
   --color-text-secondary: #cec7e8;
   --color-text-white: #f8f6ff;
 
+  --color-pink: #bd5b91;
   --color-purple: #b073e8;
   --color-purple-hover: #c48ef2;
   --color-purple-light: #cba3f5;
 
+  /* 
+  ========================================
+  Rating Colors
+  ========================================
+  */
   --color-gold: #e1b95a;
-  --color-silver: #d8d9e7;
+  --color-silver: #c9c9d2;
   --color-bronze: #d99a74;
 
   --color-green: #68e0a3;
   --color-blue: #78a4ff;
   --color-red: #ff7399;
 
+  /* 
+  ========================================
+  Background
+  ======================================== 
+  */
   --color-background-main: var(--color-black);
   --color-background-base: var(--color-very-dark-purple);
   --color-background-hover: var(--color-dark-purple);
   --color-background-bright: var(--color-purple);
-  --color-background-highlight: rgba(176, 115, 232, 0.16);
+  --color-background-highlight: var(--color-pink);
+
+  /* 
+  ========================================
+  Borders
+  ======================================== 
+  */
+  --color-border-subtle: #29232d;
+  --color-border-base: #39313d;
+  --color-border-strong: #514554;
 
   --color-border-base: var(--color-purple-gray);
   --color-border-hover: var(--color-purple);
 
+  /* 
+  ========================================
+  Text
+  ======================================== 
+  */
   --color-muted: var(--color-text-light);
   --color-secondary: var(--color-text-secondary);
   --color-primary: var(--color-text-white);
-  --color-accent: var(--color-purple);
+  --color-accent: var(--color-pink);
   --color-dark: var(--color-black);
 
   --color-input-focused: var(--color-purple);
@@ -99,6 +128,9 @@
     transparent
   );
 
+  /* Navbar */
+  --navbar-height: 60px;
+
   /* Fonts */
   --font-display: "Cormorant Gaunt", serif;
   --font-body: "Space Grotesk", system-ui, sans-serif;
@@ -117,13 +149,18 @@
 
 /* =-= Scroll bar =-= */
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-base) transparent;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-background-main);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {

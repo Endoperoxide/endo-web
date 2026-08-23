@@ -2,7 +2,6 @@ import type { Page } from "@/utils/page_utils";
 import { PAGES } from "@/utils/page_utils";
 import Dropdown from "@/components/Dropdown/Dropdown";
 import NavLink from "@/components/Navbar/components/NavLink";
-import { NAVBAR_HEIGHT } from "@/components/Navbar/Navbar";
 
 type Properties = {
   current: Page;
@@ -14,14 +13,13 @@ export default function NavbarDropdown({ current, onNavigate }: Properties) {
     <div className="ml-auto flex items-center sm:hidden">
       <Dropdown
         fullBleed
-        fullBleedTop={NAVBAR_HEIGHT}
+        fullBleedTop="var(--navbar-height)"
         trigger={({ isOpen, toggle }) => (
           <button
             onClick={toggle}
             aria-label={isOpen ? "Close menu" : "Open menu"}
             aria-expanded={isOpen}
-            style={{ width: NAVBAR_HEIGHT }}
-            className="flex h-full shrink-0 flex-col items-center justify-center gap-1.25 border-none bg-transparent p-0 cursor-pointer"
+            className="flex h-full shrink-0 flex-col items-center w-(--navbar-height) justify-center gap-1.25 border-none bg-transparent p-0 cursor-pointer"
           >
             <span
               className="h-0.5 w-5.5 bg-white transition-[transform,opacity] duration-200 ease-in-out"

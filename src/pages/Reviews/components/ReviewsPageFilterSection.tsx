@@ -1,7 +1,6 @@
 import FilterBar from "@/pages/Reviews/components/FilterBar";
 import type { Dispatch, SetStateAction } from "react";
 import type { RatingTier } from "@/utils/rating_utils";
-import { NAVBAR_HEIGHT } from "@/components/Navbar/Navbar";
 
 type Properties = {
   tiers: { label: string; value: RatingTier; range?: string }[];
@@ -24,10 +23,7 @@ export default function ReviewsPageFilterSection({
 }: Properties) {
   return (
     <section>
-      <div
-        className="flex w-full items-center gap-2 bg-background-main"
-        style={{ minHeight: NAVBAR_HEIGHT }}
-      >
+      <div className="flex w-full items-center gap-2 bg-background-main min-h-(--navbar-height)">
         {/* Filter bar */}
         <div className="min-w-0 flex-1">
           <FilterBar

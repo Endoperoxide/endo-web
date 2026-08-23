@@ -17,6 +17,7 @@ export default function HomePage({ onNavigate }: Properties) {
 
   return (
     <main className="min-h-dvh">
+      {/* <HomePageMain /> */}
       <HomePageDisplaySection />
 
       <div className="px-4 md:px-15">
