@@ -32,7 +32,7 @@ export default function GameRating({ game, barSide = "left" }: Properties) {
         </span>
 
         {/* Out of 10 string */}
-        <span className="font-mono text-[0.85rem] font-medium text-secondary">
+        <span className="font-mono text-[0.85rem] font-medium text-text-secondary">
           /10
         </span>
       </div>

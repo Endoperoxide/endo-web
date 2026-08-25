@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@font-face {
+  font-family: "Libre Barcode";
+  src: url("./assets/Fonts/LibreBarcode39-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Space Grotesk";
@@ -36,76 +45,38 @@
 @theme {
   /* 
   ========================================
-  Core Palette
+  Palette
   ======================================== 
   */
+
   --color-black: #000000;
-  --color-very-dark-purple: #100c18;
-  --color-dark-purple: #171224;
-  --color-purple-gray: #231d33;
-  --color-light-purple-gray: #362d4b;
+  --color-void: #0d0b10;
+  --color-surface: #171224;
+  --color-surface-raised: #231d33;
+  --color-surface-hover: #362d4b;
 
   --color-text-light: #a8a0c2;
   --color-text-secondary: #cec7e8;
   --color-text-white: #f8f6ff;
 
   --color-pink: #bd5b91;
-  --color-purple: #b073e8;
-  --color-purple-hover: #c48ef2;
-  --color-purple-light: #cba3f5;
+  --color-magenta: #d14b8a;
+  --color-magenta-hover: #e05b9a;
+  --color-magenta-light: #ee9bc3;
+
+  --color-gold: #e3b95b;
+  --color-silver: #c9c6ce;
+  --color-bronze: #d89a78;
+
+  --color-green: #65dca0;
+  --color-blue: #7ba5f5;
+  --color-red: #ff6f91;
 
   /* 
   ========================================
-  Rating Colors
+  Rating
   ========================================
   */
-  --color-gold: #e1b95a;
-  --color-silver: #c9c9d2;
-  --color-bronze: #d99a74;
-
-  --color-green: #68e0a3;
-  --color-blue: #78a4ff;
-  --color-red: #ff7399;
-
-  /* 
-  ========================================
-  Background
-  ======================================== 
-  */
-  --color-background-main: var(--color-black);
-  --color-background-base: var(--color-very-dark-purple);
-  --color-background-hover: var(--color-dark-purple);
-  --color-background-bright: var(--color-purple);
-  --color-background-highlight: var(--color-pink);
-
-  /* 
-  ========================================
-  Borders
-  ======================================== 
-  */
-  --color-border-subtle: #29232d;
-  --color-border-base: #39313d;
-  --color-border-strong: #514554;
-
-  --color-border-base: var(--color-purple-gray);
-  --color-border-hover: var(--color-purple);
-
-  /* 
-  ========================================
-  Text
-  ======================================== 
-  */
-  --color-muted: var(--color-text-light);
-  --color-secondary: var(--color-text-secondary);
-  --color-primary: var(--color-text-white);
-  --color-accent: var(--color-pink);
-  --color-dark: var(--color-black);
-
-  --color-input-focused: var(--color-purple);
-  --color-input-unfocused: var(--color-purple-gray);
-
-  --color-button-active: var(--color-purple);
-  --color-button-inactive: var(--color-dark-purple);
 
   --color-rating-gold: var(--color-gold);
   --color-rating-silver: var(--color-silver);
@@ -114,12 +85,53 @@
   --color-rating-blue: var(--color-blue);
   --color-rating-red: var(--color-red);
 
-  --color-accent-primary: var(--color-purple);
-  --color-accent-hover: var(--color-purple-hover);
-  --color-accent-light: var(--color-purple-light);
+  /* 
+  ========================================
+  Background
+  ======================================== 
+  */
+
+  --color-background-main: var(--color-black);
+  --color-background-base: var(--color-void);
+  --color-background-hover: var(--color-surface);
+  --color-background-bright: var(--color-magenta);
+  --color-background-highlight: var(--color-pink);
+
+  /* 
+  ========================================
+  Borders
+  ======================================== 
+  */
+
+  --color-border-subtle: #29232d;
+  --color-border-base: #39313d;
+  --color-border-strong: #514554;
+
+  /* 
+  ========================================
+  Text
+  ======================================== 
+  */
+
+  --color-text-primary: var(--color-text-white);
+  --color-text-secondary: #cec7e8;
+  --color-text-muted: var(--color-text-light);
+  --color-text-accent: var(--color-pink);
+
+  /* 
+  ========================================
+  Shadows
+  ======================================== 
+  */
 
   --shadow-resting: 0 8px 28px rgba(0, 0, 0, 0.35);
   --shadow-hover: 0 18px 52px rgba(0, 0, 0, 0.5);
+
+  /* 
+  ========================================
+  Gradients
+  ======================================== 
+  */
 
   --background-image-gradient-cover: linear-gradient(
     to top,
@@ -128,15 +140,30 @@
     transparent
   );
 
-  /* Navbar */
+  /* 
+  ========================================
+  Layout
+  ======================================== 
+  */
   --navbar-height: 60px;
 
-  /* Fonts */
+  /* 
+  ========================================
+  Fonts
+  ======================================== 
+  */
+
   --font-display: "Cormorant Gaunt", serif;
   --font-body: "Space Grotesk", system-ui, sans-serif;
   --font-mono: "DM Mono", monospace;
+  --font-barcode: "Libre Barcode", monospace;
+  --font-rubik: "Rubik Mono One", monospace;
 
-  /* Animations */
+  /* 
+  ========================================
+  Animations
+  ======================================== 
+  */
   --animate-modal-in: modalIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   --animate-modal-out: modalOut 0.25s cubic-bezier(0.4, 0, 1, 1) forwards;
   --animate-modal-overlay-in: modalOverlayIn 0.25s ease-out;
@@ -147,11 +174,15 @@
   --animate-recent-scroll-vertical: recent-scroll-vertical 32s linear infinite;
 }
 
-/* =-= Scroll bar =-= */
+/* 
+========================================
+Scrollbar
+======================================== 
+*/
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-border-base) transparent;
+  scrollbar-color: var(--color-pink) transparent;
 }
 
 ::-webkit-scrollbar {
@@ -164,15 +195,19 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border-base);
+  background: var(--color-magenta);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-border-hover);
+  background: var(--color-magenta-hover);
 }
 
-/* =-= Dropdown Animations =-= */
+/* 
+========================================
+Dropdown Animations
+======================================== 
+*/
 
 @keyframes dropdownPanelIn {
   from {
@@ -185,7 +220,11 @@
   }
 }
 
-/* =-= Modal Animations =-= */
+/* 
+========================================
+Modal Animations
+======================================== 
+*/
 
 @keyframes modalOverlayIn {
   from {
@@ -227,7 +266,11 @@
   }
 }
 
-/* =-= Recent Games Animations =-= */
+/* 
+========================================
+Recent Games Animations
+======================================== 
+*/
 
 @keyframes recent-scroll-horizontal {
   from {

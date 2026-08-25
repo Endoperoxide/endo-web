@@ -22,7 +22,7 @@ export default function GameCategoryScoreRow({ label, value }: Properties) {
     <div>
       <div className="mb-1 flex items-baseline justify-between">
         {/* Category label */}
-        <span className="font-mono text-[0.6rem] uppercase tracking-widest text-muted">
+        <span className="font-mono text-[0.6rem] uppercase tracking-widest text-text-muted">
           {label}
         </span>
 

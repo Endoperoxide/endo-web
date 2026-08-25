@@ -47,12 +47,12 @@ function GameModalMetaStat({ label, value }: MetaStatProperties) {
   return (
     <div className="text-right">
       {/* Meta label */}
-      <div className="font-mono text-[0.55rem] text-muted tracking-widest uppercase">
+      <div className="font-mono text-[0.55rem] text-text-muted tracking-widest uppercase">
         {label}
       </div>
 
       {/* Meta value */}
-      <div className="font-body text-[0.7rem] text-primary font-medium">
+      <div className="font-body text-[0.7rem] text-text-primary font-medium">
         {value}
       </div>
     </div>

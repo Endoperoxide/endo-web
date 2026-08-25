@@ -42,8 +42,8 @@ export default function ReviewsPageTitleSection({ games, progress }: Props) {
               title={game.title}
               className={`absolute top-1/2 line-clamp-2 -translate-x-1/2 -translate-y-1/2 pointer-events-none font-body text-center leading-tight transition-[font-size,color] duration-150 ${
                 active
-                  ? "font-medium text-[18px] tracking-[-0.02em] text-primary"
-                  : "font-normal text-[14px] tracking-[0.02em] text-muted"
+                  ? "font-medium text-[18px] tracking-[-0.02em] text-text-primary"
+                  : "font-normal text-[14px] tracking-[0.02em] text-text-muted"
               }`}
               style={{
                 left: `calc(50% + var(--item-width) * ${distance})`,

@@ -8,13 +8,16 @@ import fayeHeadTorso from "@/assets/Faye/ParallaxFaye/faye_head_torso.png";
 import fayeHipsLeftThigh from "@/assets/Faye/ParallaxFaye/faye_hips_left_thigh.png";
 
 import fayeWindows from "@/assets/Faye/faye_windows.png";
+import testImg from "@/assets/test_img.jpg";
+import anothertestImg from "@/assets/another_test_img.jpg";
+import signalis from "@/assets/signalis.jpg";
 
 export type ParallaxLayer = {
   src: string;
   depth: number;
 };
 
-export const FAYE_MAIN: ParallaxLayer[] = [{ src: fayeWindows, depth: 1 }];
+export const FAYE_MAIN: ParallaxLayer[] = [{ src: signalis, depth: 1 }];
 
 export const FAYE_PARALLAX_LAYERS: ParallaxLayer[] = [
   { src: fayeHipsLeftThigh, depth: 2 },

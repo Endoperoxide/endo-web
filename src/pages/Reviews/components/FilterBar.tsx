@@ -30,7 +30,7 @@ export default function FilterBar({
     <div className="flex w-full justify-center px-4">
       <div className="flex h-10 w-full max-w-170 items-center border border-border-base bg-background-base">
         {/* Icon */}
-        <Search size={15} className="ml-3.5 shrink-0 text-muted" />
+        <Search size={15} className="ml-3.5 shrink-0 text-text-muted" />
 
         {/* Input */}
         <input
@@ -38,7 +38,7 @@ export default function FilterBar({
           value={search}
           onChange={(event) => setSearch(event.target.value)}
           placeholder="Search by title…"
-          className="box-border h-full min-w-0 flex-1 border-none bg-transparent px-2 font-body text-[0.78rem] text-primary outline-none placeholder:text-muted"
+          className="box-border h-full min-w-0 flex-1 border-none bg-transparent px-2 font-body text-[0.78rem] text-text-primary outline-none placeholder:text-text-muted"
         />
 
         {/* Remove text button */}
@@ -46,7 +46,7 @@ export default function FilterBar({
           <button
             onClick={() => setSearch("")}
             aria-label="Clear search"
-            className="flex shrink-0 cursor-pointer border-none bg-transparent p-1.5 text-muted transition-colors hover:text-primary"
+            className="flex shrink-0 cursor-pointer border-none bg-transparent p-1.5 text-text-muted transition-colors hover:text-text-primary"
           >
             <X size={13} />
           </button>

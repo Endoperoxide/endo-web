@@ -13,7 +13,7 @@ export default function ModalHeader({ onClose, children }: Properties) {
         {/* Close button */}
         <button
           onClick={onClose}
-          className="flex h-6 w-6 cursor-pointer border-l border-b border-border-base justify-center items-center text-secondary"
+          className="flex h-6 w-6 cursor-pointer border-l border-b border-border-base justify-center items-center text-text-secondary"
         >
           <X size={15} strokeWidth={2} />
         </button>

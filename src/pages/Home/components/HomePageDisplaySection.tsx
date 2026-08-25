@@ -1,9 +1,6 @@
-import ParallaxImage from "@/components/ParallaxImage/ParallaxImage";
-import GameShowcase from "@/components/GameShowcase/GameShowcase";
-import fayeWindows from "@/assets/Faye/faye_windows.png";
-import { FAYE_MAIN } from "@/utils/parallax_utils";
-import { podiumGames } from "@/utils/podium_utils";
 import TriangleBackground from "@/components/TriangleBackground";
+import fayeStand from "@/assets/Faye/faye_stand.png";
+import marathonText from "@/assets/Vector/marathon_text.svg";
 
 export default function HomePageDisplaySection() {
   return (
@@ -11,9 +8,7 @@ export default function HomePageDisplaySection() {
       {/* Main Display */}
       <div className="relative flex-1 overflow-hidden">
         {/* Game Showcase */}
-        <TriangleBackground />
-        {/* <GameShowcase games={podiumGames} autoPlay fill objectFit="cover" /> */}
-
+        <TriangleBackground autoScroll autoScrollSpeed={100} />
         <div
           className="pointer-events-none absolute inset-0 z-1"
           style={{
@@ -21,12 +16,35 @@ export default function HomePageDisplaySection() {
               "linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%)",
           }}
         />
-        <div className="pointer-events-none absolute inset-0 z-2 flex items-end justify-center">
-          <ParallaxImage layers={FAYE_MAIN} />
-        </div>
+
+        {/* Static image test */}
+        <img
+          src={fayeStand}
+          alt=""
+          aria-hidden="true"
+          className="pointer-events-none absolute object-cover bottom-0 left-1/2 -translate-x-1/2 z-2 h-full"
+        />
+
+        {/* Inverted text */}
+        {/* <span className="pointer-events-none absolute inset-0 z-3 flex items-end justify-center mix-blend-difference p-4 @container-size">
+          <span
+            className="font-mono font-bold text-text-accent whitespace-nowrap leading-none"
+            style={{ fontSize: "calc(85cqh / 12)" }}
+          >
+            ENDOPEROXIDE
+          </span>
+        </span> */}
       </div>
+
       {/* Bottom strip */}
-      <div className="relative h-15 w-full overflow-hidden bg-background-highlight" />
+      <div className="relative md:hidden p-3 h-15 w-full overflow-hidden bg-background-highlight flex items-center justify-center">
+        <img
+          src={marathonText}
+          alt=""
+          aria-hidden="true"
+          className="h-full w-auto max-w-full object-contain invert"
+        />
+      </div>
     </section>
   );
 }

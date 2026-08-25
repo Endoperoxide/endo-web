@@ -7,7 +7,7 @@ export default function NavbarListButton({ onClick }: Properties) {
     <button
       type="button"
       onClick={onClick}
-      className="flex h-full flex-1 cursor-pointer items-center justify-center border-none bg-background-bright px-4 font-mono uppercase text-primary sm:flex-none sm:ml-auto sm:px-25"
+      className="flex h-full flex-1 cursor-pointer items-center justify-center border-none bg-background-bright px-4 font-mono uppercase text-text-primary sm:flex-none sm:ml-auto sm:px-25"
     >
       Review List
     </button>

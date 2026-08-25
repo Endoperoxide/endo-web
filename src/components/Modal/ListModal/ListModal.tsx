@@ -28,7 +28,7 @@ export default function ListModal({ onClose }: Properties) {
                 >
                   <span
                     className={
-                      game.reviewed ? "text-rating-green" : "text-muted"
+                      game.reviewed ? "text-rating-green" : "text-text-muted"
                     }
                   >
                     {game.title}

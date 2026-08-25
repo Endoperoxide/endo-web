@@ -7,13 +7,15 @@ type Properties = {
   onClick: () => void;
 };
 
-export default function NavLink({ page, label, active, onClick }: Properties) {
+export default function Navlink({ page, label, active, onClick }: Properties) {
   return (
     <button
       key={page}
       onClick={onClick}
       className={`flex h-full cursor-pointer items-center justify-center px-3 font-mono text-[0.85rem] font-medium tracking-widest transition-colors duration-300 ${
-        active ? "text-accent" : "text-primary hover:text-secondary"
+        active
+          ? "text-text-accent"
+          : "text-text-primary hover:text-text-secondary"
       }`}
     >
       {label.toUpperCase()}

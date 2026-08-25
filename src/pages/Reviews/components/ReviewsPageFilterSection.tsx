@@ -41,7 +41,7 @@ export default function ReviewsPageFilterSection({
         <button
           type="button"
           onClick={onOpenList}
-          className="mr-4 shrink-0 whitespace-nowrap border border-border-base px-4 py-2.5 font-body text-[0.72rem] text-primary hover:border-border-hover sm:px-4 sm:text-[0.78rem]"
+          className="mr-4 shrink-0 whitespace-nowrap border border-border-base px-4 py-2.5 font-body text-[0.72rem] text-text-primary hover:border-strong sm:px-4 sm:text-[0.78rem]"
         >
           List
         </button>

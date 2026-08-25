@@ -1,5 +1,5 @@
 import { Page, PAGES } from "@/utils/page_utils";
-import NavLink from "@/components/Navbar/components/NavLink";
+import Navlink from "@/components/Navbar/components/Navlink";
 
 type Properties = {
   current: Page;
@@ -12,7 +12,7 @@ export default function NavbarLinks({ current, onNavigate }: Properties) {
       {/* Desktop nav links */}
       <nav className="hidden sm:flex h-full items-center gap-5 px-5">
         {PAGES.map(({ page, label }) => (
-          <NavLink
+          <Navlink
             key={page}
             page={page}
             label={label}

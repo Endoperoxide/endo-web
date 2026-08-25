@@ -50,7 +50,7 @@ export default function DescriptionCard({
           {paragraphs.map((paragraph, index) => (
             <p
               key={index}
-              className="w-full max-w-none font-body text-[1rem] font-light leading-relaxed text-secondary md:max-w-[46ch]"
+              className="w-full max-w-none font-body text-[1rem] font-light leading-relaxed text-text-secondary md:max-w-[46ch]"
             >
               {paragraph}
             </p>

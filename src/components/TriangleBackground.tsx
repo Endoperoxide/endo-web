@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type Properties = {
   offset?: number;
@@ -8,20 +8,52 @@ type Properties = {
   strokeWidth?: number;
   edgeFade?: number;
   borderWidth?: number;
+  autoScroll?: boolean;
+  autoScrollSpeed?: number;
 };
 
 export default function TriangleBackground({
-  offset = 0,
+  offset: offsetProp = 0,
   parallaxFactor = 0.15,
   triangleSize = 250,
   stroke = "var(--color-border-base)",
   strokeWidth = 1,
   edgeFade = 0.1,
   borderWidth = 1,
+  autoScroll = false,
+  autoScrollSpeed = 40,
 }: Properties) {
   const side = triangleSize;
   const rowHeight = (side * Math.sqrt(3)) / 2;
   const columnWidth = side;
+
+  const [autoOffset, setAutoOffset] = useState(0);
+  const frameRef = useRef<number | undefined>(undefined);
+  const lastTimeRef = useRef<number | undefined>(undefined);
+
+  useEffect(() => {
+    if (!autoScroll) return;
+
+    const tick = (time: number) => {
+      if (lastTimeRef.current === undefined) {
+        lastTimeRef.current = time;
+      }
+      const deltaSeconds = (time - lastTimeRef.current) / 1000;
+      lastTimeRef.current = time;
+
+      setAutoOffset((prev) => prev + autoScrollSpeed * deltaSeconds);
+      frameRef.current = requestAnimationFrame(tick);
+    };
+
+    frameRef.current = requestAnimationFrame(tick);
+
+    return () => {
+      if (frameRef.current) cancelAnimationFrame(frameRef.current);
+      lastTimeRef.current = undefined;
+    };
+  }, [autoScroll, autoScrollSpeed]);
+
+  const offset = autoScroll ? autoOffset : offsetProp;
 
   const shiftX = useMemo(() => {
     const raw = -(offset * parallaxFactor);
@@ -54,7 +86,6 @@ export default function TriangleBackground({
             stroke={stroke}
             strokeWidth={strokeWidth}
           />
-
           <line
             x1="0"
             y1={rowHeight}
@@ -66,11 +97,7 @@ export default function TriangleBackground({
 
           {/* Upper pair of triangles */}
           <polyline
-            points={`
-              0,0
-              ${columnWidth / 2},${rowHeight}
-              ${columnWidth},0
-            `}
+            points={`0,0 ${columnWidth / 2},${rowHeight} ${columnWidth},0`}
             fill="none"
             stroke={stroke}
             strokeWidth={strokeWidth}
@@ -78,18 +105,13 @@ export default function TriangleBackground({
 
           {/* Lower pair of triangles */}
           <polyline
-            points={`
-              0,${rowHeight * 2}
-              ${columnWidth / 2},${rowHeight}
-              ${columnWidth},${rowHeight * 2}
-            `}
+            points={`0,${rowHeight * 2} ${columnWidth / 2},${rowHeight} ${columnWidth},${rowHeight * 2}`}
             fill="none"
             stroke={stroke}
             strokeWidth={strokeWidth}
           />
         </pattern>
 
-        {/* Fade mask */}
         <linearGradient id={`${maskId}-gradient`} x1="0" y1="0" x2="1" y2="0">
           <stop offset="0%" stopColor="black" />
           <stop offset={fadeStop} stopColor="white" />
@@ -109,7 +131,6 @@ export default function TriangleBackground({
         mask={`url(#${maskId})`}
       />
 
-      {/* Border lines */}
       <g mask={`url(#${maskId})`}>
         <line
           x1="0"
