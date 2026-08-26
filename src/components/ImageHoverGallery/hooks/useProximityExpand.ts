@@ -4,7 +4,6 @@ type Options = {
   itemCount: number;
   baseFlex?: number;
   maxFlex?: number;
-  activeFlex?: number;
   smoothing?: number;
   influence?: number;
 };
@@ -13,7 +12,6 @@ export function useProximityExpand({
   itemCount,
   baseFlex = 1,
   maxFlex = 3,
-  activeFlex = 6,
   smoothing = 0.08,
   influence = 0.3,
 }: Options) {
@@ -136,11 +134,6 @@ export function useProximityExpand({
           hitIndex = i;
         }
       }
-
-      if (hitIndex !== null) {
-        targetFlex.current[hitIndex] = activeFlex;
-      }
-
       updateActive(hitIndex);
       startAnimating();
     };
@@ -166,7 +159,7 @@ export function useProximityExpand({
         rafId.current = null;
       }
     };
-  }, [itemCount, baseFlex, maxFlex, activeFlex, smoothing, influence]);
+  }, [itemCount, baseFlex, maxFlex, smoothing, influence]);
 
   return {
     containerRef,

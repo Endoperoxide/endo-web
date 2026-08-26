@@ -13,7 +13,6 @@ export default function App() {
   const pageContainerRef = useRef<HTMLDivElement>(null);
   const [isUpcomingOpen, setIsUpcomingOpen] = useState(false);
 
-  // useLenis(pageContainerRef); -- This is hella broken ngl
   useScrollToTop(pageContainerRef, page);
 
   function renderPageComponent(page: Page) {
@@ -35,11 +34,7 @@ export default function App() {
     <div className="relative min-h-screen bg-background-main">
       <div className="relative flex h-dvh flex-col">
         {/* Navbar */}
-        <Navbar
-          current={page}
-          onNavigate={navigate}
-          onListClick={() => setIsUpcomingOpen(true)}
-        />
+        <Navbar current={page} onNavigate={navigate} />
 
         {/* Page */}
         <div ref={pageContainerRef} className="min-h-0 flex-1 overflow-auto">

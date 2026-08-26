@@ -1,5 +1,6 @@
 import TriangleBackground from "@/components/TriangleBackground";
 import fayeStand from "@/assets/Faye/faye_stand.png";
+import fayeStandNoSphere from "@/assets/Faye/faye_stand_no_sphere.png";
 import marathonText from "@/assets/Vector/marathon_text.svg";
 
 export default function HomePageDisplaySection() {
@@ -37,7 +38,7 @@ export default function HomePageDisplaySection() {
       </div>
 
       {/* Bottom strip */}
-      <div className="relative md:hidden p-3 h-15 w-full overflow-hidden bg-background-highlight flex items-center justify-center">
+      <div className="relative p-3 h-(--navbar-height) w-full overflow-hidden bg-background-highlight flex items-center justify-center">
         <img
           src={marathonText}
           alt=""

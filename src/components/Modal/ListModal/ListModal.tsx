@@ -1,6 +1,5 @@
 import Modal from "@/components/Modal/Modal";
-import ModalHeader from "@/components/Modal/components/ModalHeader";
-import { getUpcomingStatuses } from "@/utils/upcoming_games_utils";
+import { getUpcomingStatuses } from "@/utils/game_title_list";
 import ListModalHeader from "./components/ListModalHeader";
 
 type Properties = {

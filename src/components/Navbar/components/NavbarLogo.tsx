@@ -10,12 +10,12 @@ export default function NavbarLogo({ onNavigate }: Properties) {
     <button
       type="button"
       onClick={() => onNavigate("home")}
-      className="flex h-full shrink-0 w-(--navbar-height) items-center justify-center border-none bg-background-highlight p-0 cursor-pointer"
+      className="flex h-full p-1.5 w-(--navbar-height) items-center justify-center border-none bg-background-highlight cursor-pointer"
     >
       <img
         src={logo}
         alt="Logo"
-        className="block h-12 w-auto"
+        className="object-contain"
         fetchPriority="high"
       />
     </button>

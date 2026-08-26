@@ -15,7 +15,7 @@ export default function HomePage({ onNavigate }: Properties) {
       <HomePageDisplaySection />
       <HomePageMobileSection />
 
-      <div className="px-4 md:px-15">
+      <div className="content-padding-horizontal">
         <HomePageAboutMeSection />
         <HomePageDescriptionSection />
         <HomePageFooterSection />
