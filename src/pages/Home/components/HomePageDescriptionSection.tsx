@@ -46,7 +46,7 @@ export default function HomePageDescriptionSection() {
     <section>
       <div>
         {/* Cards */}
-        <div className="flex flex-col md:gap-15">
+        <div className="flex flex-col md:gap-15 pt-15">
           <DescriptionCard
             eyebrow="Merit over comparison"
             title="Review Logic"

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ratingColor } from "@/utils/rating_utils";
+import { ratingGradientColor } from "@/utils/rating_utils";
 
 type Properties = {
   label: string;
@@ -7,7 +7,7 @@ type Properties = {
 };
 
 export default function GameCategoryScoreRow({ label, value }: Properties) {
-  const color = ratingColor(value);
+  const color = ratingGradientColor(value);
   const [animatedValue, setAnimatedValue] = useState(0);
 
   useEffect(() => {
@@ -22,15 +22,12 @@ export default function GameCategoryScoreRow({ label, value }: Properties) {
     <div>
       <div className="mb-1 flex items-baseline justify-between">
         {/* Category label */}
-        <span className="font-mono text-[0.6rem] uppercase tracking-widest text-text-muted">
+        <span className="text-[0.6rem] uppercase tracking-widest text-text-muted">
           {label}
         </span>
 
         {/* Category value */}
-        <span
-          className="font-mono text-[0.7rem] font-semibold"
-          style={{ color }}
-        >
+        <span className="text-[0.7rem] font-semibold" style={{ color }}>
           {value.toFixed(1)}
         </span>
       </div>

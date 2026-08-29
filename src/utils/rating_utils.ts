@@ -1,5 +1,9 @@
 import type { Game } from "@/utils/game_utils";
 
+const RATING_GRADIENT_MAX = 10;
+const RATING_GRADIENT_START = "var(--color-rating-low)";
+const RATING_GRADIENT_END = "var(--color-rating-high)";
+
 export type RatingTier =
   | "all"
   | "masterpiece"
@@ -18,17 +22,16 @@ export const RATING_THRESHOLDS = {
 } as const;
 
 export const RATING_TIERS = [
-  { label: "All Games", value: "all", range: "" },
-  { label: "Masterpiece", value: "masterpiece", range: "9.5–10" },
-  { label: "Excellent", value: "excellent", range: "9–9.4" },
-  { label: "Great", value: "great", range: "8–8.9" },
-  { label: "Good", value: "good", range: "6–7.9" },
-  { label: "Mixed", value: "mixed", range: "5–5.9" },
-  { label: "Poor", value: "poor", range: "<5" },
+  { label: "All Games", value: "all" },
+  { label: "Masterpiece", value: "masterpiece" },
+  { label: "Excellent", value: "excellent" },
+  { label: "Great", value: "great" },
+  { label: "Good", value: "good" },
+  { label: "Mixed", value: "mixed" },
+  { label: "Poor", value: "poor" },
 ] satisfies {
   label: string;
   value: RatingTier;
-  range: string;
 }[];
 
 export function getRatingTier(rating: number): RatingTier {
@@ -47,24 +50,21 @@ export function ratingLabel(rating: number): string {
   return RATING_TIERS.find((item) => item.value === tier)?.label ?? "Poor";
 }
 
-export function ratingColor(rating: number): string {
-  const tier = getRatingTier(rating);
+export function ratingGradientColor(rating: number): string {
+  const percent = clamp((rating / RATING_GRADIENT_MAX) * 100, 0, 100);
 
-  switch (tier) {
-    case "masterpiece":
-    case "excellent":
-      return "var(--color-rating-gold)";
+  // Stay near white longer, then accelerate toward pink
+  const easedPercent = Math.pow(percent / 100, 3) * 100;
 
-    case "great":
-      return "var(--color-rating-green)";
+  return `color-mix(
+    in srgb,
+    ${RATING_GRADIENT_END} ${easedPercent}%,
+    ${RATING_GRADIENT_START}
+  )`;
+}
 
-    case "good":
-    case "mixed":
-      return "var(--color-rating-blue)";
-
-    default:
-      return "var(--color-rating-red)";
-  }
+function clamp(n: number, min: number, max: number) {
+  return Math.min(Math.max(n, min), max);
 }
 
 type PodiumEntry = {

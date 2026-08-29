@@ -26,13 +26,10 @@ export default function FilterDropdown({
           <button
             onClick={toggle}
             aria-expanded={isOpen}
-            className="flex w-full cursor-pointer items-center justify-between gap-1 border-none bg-background-main px-3 py-2.5 font-body text-[0.75rem] text-text-primary"
+            className="flex w-full cursor-pointer items-center justify-between gap-1 px-3 py-2.5 text-[0.75rem] text-text-primary"
           >
-            {/* Label and range */}
-            <span className="truncate">
-              {active?.label}
-              {active?.range ? ` (${active.range})` : ""}
-            </span>
+            {/* Label */}
+            <span className="truncate">{active?.label}</span>
 
             {/* Icon */}
             <ChevronDown
@@ -56,15 +53,12 @@ export default function FilterDropdown({
                     onChange(tier.value);
                     close();
                   }}
-                  className={`flex w-full cursor-pointer items-center justify-between gap-2 border-none bg-transparent px-3 py-2 text-left font-body text-[0.75rem] ${
+                  className={`flex w-full cursor-pointer items-center justify-between gap-2 border-none bg-transparent px-3 py-2 text-left text-[0.75rem] ${
                     isActive ? "text-text-primary" : "text-text-secondary"
                   }`}
                 >
-                  {/* Label and range */}
-                  <span className="truncate">
-                    {tier.label}
-                    {tier.range ? ` (${tier.range})` : ""}
-                  </span>
+                  {/* Label */}
+                  <span className="truncate">{tier.label}</span>
 
                   {isActive && (
                     <Check size={13} className="shrink-0 text-text-primary" />

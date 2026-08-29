@@ -1,5 +1,5 @@
 import { Game } from "@/utils/game_utils";
-import { ratingLabel, ratingColor } from "@/utils/rating_utils";
+import { ratingLabel, ratingGradientColor } from "@/utils/rating_utils";
 
 type Properties = {
   game: Game;
@@ -7,7 +7,7 @@ type Properties = {
 };
 
 export default function GameRating({ game, barSide = "left" }: Properties) {
-  const color = ratingColor(game.rating);
+  const color = ratingGradientColor(game.rating);
   const label = ratingLabel(game.rating);
 
   // Bar
@@ -25,21 +25,21 @@ export default function GameRating({ game, barSide = "left" }: Properties) {
       >
         {/* Rating number */}
         <span
-          className="font-display text-[2rem] font-bold leading-none tracking-tight"
+          className="text-[2rem] font-bold leading-none tracking-tight"
           style={{ color }}
         >
           {game.rating.toFixed(1)}
         </span>
 
         {/* Out of 10 string */}
-        <span className="font-mono text-[0.85rem] font-medium text-text-secondary">
+        <span className="text-[0.85rem] font-medium text-text-primary">
           /10
         </span>
       </div>
 
       {/* Rating label */}
       <div
-        className="mt-0.5 font-mono text-[0.7em] uppercase tracking-widest"
+        className="mt-0.5 text-[0.7em] uppercase tracking-widest"
         style={{ color }}
       >
         {label}

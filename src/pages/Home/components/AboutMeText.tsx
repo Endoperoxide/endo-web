@@ -10,7 +10,7 @@ export default function AboutMeText({ paragraphs }: Properties) {
         {paragraphs.map((paragraph, index) => (
           <p
             key={index}
-            className="md:max-w-[50ch] font-body text-[1rem] font-light leading-widest text-text-secondary"
+            className="md:max-w-[50ch] text-[1rem] font-light leading-widest text-text-secondary"
           >
             {paragraph}
           </p>

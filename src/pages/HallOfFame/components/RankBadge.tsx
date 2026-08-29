@@ -6,20 +6,20 @@ export default function RankBadge({ rank }: { rank: number }) {
 
   return (
     <div className="flex items-end gap-4">
-      <span
-        className="select-none font-display text-[4.5rem] font-light italic leading-none"
+      <h1
+        className="select-none text-[4.5rem] font-light italic leading-none"
         style={{
           color: meta.color,
           textShadow: `0 0 32px ${meta.glow}`,
         }}
       >
         {padded}
-      </span>
+      </h1>
 
       {/* Medal name + divider */}
       <div className="flex flex-col gap-1 pb-2.5">
         <span
-          className="font-body text-[0.62rem] font-semibold uppercase tracking-[0.18em]"
+          className="text-[0.62rem] font-semibold uppercase tracking-[0.18em]"
           style={{
             color: meta.color,
             opacity: 0.8,

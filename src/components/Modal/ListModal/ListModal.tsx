@@ -27,7 +27,7 @@ export default function ListModal({ onClose }: Properties) {
                 >
                   <span
                     className={
-                      game.reviewed ? "text-rating-green" : "text-text-muted"
+                      game.reviewed ? "text-rating-high" : "text-text-muted"
                     }
                   >
                     {game.title}
@@ -36,7 +36,7 @@ export default function ListModal({ onClose }: Properties) {
                   <span
                     className={`h-2.5 w-2.5 shrink-0 rounded-full ${
                       game.reviewed
-                        ? "bg-rating-green"
+                        ? "bg-rating-high"
                         : "border border-border-base bg-transparent"
                     }`}
                   />

@@ -5,6 +5,8 @@ import temp3 from "@/assets/Temp/image-52.webp";
 import temp4 from "@/assets/Temp/image-56.webp";
 import temp5 from "@/assets/Temp/image-58.webp";
 import { useResponsiveCount } from "@/components/ImageHoverGallery/hooks/useResponsiveCount";
+import TextBox from "@/components/TextBox";
+import PageIntroSection from "@/components/Page/PageIntroSection";
 
 const allImages = [
   { src: temp1, alt: "..." },
@@ -29,10 +31,14 @@ export default function HomePageMobileSection() {
   );
 
   return (
-    <section className="bg-background-highlight content-padding-horizontal h-[60vh]">
+    <section className="bg-background-highlight content-padding-horizontal">
       {/* <h1 className="text-text-primary uppercase">About</h1> */}
       <div className="h-full w-full py-5">
-        <ImageHoverGallery images={allImages.slice(0, visibleCount)} />
+        <PageIntroSection
+          title="About this site"
+          description="This website started due to burnout I've had from other projects, which was intended to be a stand-alone reviews website. And while this remains true, now it exists mostly as a hub of all my creative works such as Drawing, Writing and Coding projects. "
+        />
+        {/* <ImageHoverGallery images={allImages.slice(0, visibleCount)} /> */}
       </div>
     </section>
   );

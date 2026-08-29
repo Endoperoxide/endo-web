@@ -25,7 +25,7 @@ export default function Modal({ onClose, children }: Properties) {
     >
       <div
         onClick={(event) => event.stopPropagation()}
-        className={`h-screen w-[min(92vw,640px)] overflow-auto border border-l-0 border-border-base bg-background-main p-0 max-sm:w-screen max-sm:border-r-0 ${
+        className={`h-screen w-[min(92vw,640px)] overflow-auto border border-l-0 border-border-base bg-background-main p-0 max-lg:w-screen max-sm:border-r-0 ${
           isClosing ? "animate-modal-out" : "animate-modal-in"
         }`}
       >

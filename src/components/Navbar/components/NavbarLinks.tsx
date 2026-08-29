@@ -10,7 +10,7 @@ export default function NavbarLinks({ current, onNavigate }: Properties) {
   return (
     <>
       {/* Desktop nav links */}
-      <nav className="hidden sm:flex h-full items-center gap-5 px-5">
+      <nav className="hidden sm:flex h-full items-center gap-5 px-10">
         {PAGES.map(({ page, label }) => (
           <Navlink
             key={page}

@@ -63,16 +63,14 @@ export default function GameCardCarouselFull({
   }, [offset, onOffsetChange]);
 
   return (
-    <div
-      ref={containerRef}
-      className="flex h-full w-full items-center justify-center overflow-hidden touch-none"
-    >
+    <div className="flex h-full w-full items-center justify-center overflow-hidden">
       <section
         ref={wrapperRef}
         className="flex h-full w-full items-center justify-center overflow-hidden"
       >
         <div
-          className="flex w-max items-center gap-5 will-change-transform"
+          ref={containerRef}
+          className="flex w-max items-center gap-5 touch-none will-change-transform"
           style={{ transform: `translateX(${-offset}px)` }}
         >
           {/* List of all cards */}

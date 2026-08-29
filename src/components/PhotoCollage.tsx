@@ -16,10 +16,6 @@ export default function PhotoCollage({
           alt=""
           className="h-full w-full object-contain"
         />
-        {/* optional small badge/label like "THE FIGHTER" text overlay */}
-        <span className="absolute top-4 right-4 font-mono text-xs tracking-widest text-white/80">
-          THE FIGHTER
-        </span>
       </div>
 
       {/* Secondary overlapping image */}

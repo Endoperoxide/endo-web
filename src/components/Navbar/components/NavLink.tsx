@@ -12,13 +12,13 @@ export default function Navlink({ page, label, active, onClick }: Properties) {
     <button
       key={page}
       onClick={onClick}
-      className={`flex h-full cursor-pointer items-center justify-center px-3 font-mono text-[0.85rem] font-medium tracking-widest transition-colors duration-300 ${
+      className={`font-display flex cursor-pointer items-center justify-center p-0.5 text-[0.85rem] tracking-wide ${
         active
-          ? "text-text-accent"
-          : "text-text-primary hover:text-text-secondary"
+          ? "text-text-dark bg-background-highlight"
+          : "text-text-primary hover:text-text-dark hover:bg-background-highlight"
       }`}
     >
-      {label.toUpperCase()}
+      {`[ ${label.toUpperCase()} ]`}
     </button>
   );
 }

@@ -7,6 +7,10 @@ import ReviewsPageFilterSection from "./components/ReviewsPageFilterSection";
 import ReviewsPageCarouselSection from "./components/ReviewsPageCarouselSection";
 import GameModal from "@/components/Modal/GameModal/GameModal";
 import ListModal from "@/components/Modal/ListModal/ListModal";
+import PageDisplaySection from "@/components/Page/PageDisplaySection";
+import fayeStandNoSphere from "@/assets/Faye/faye_stand_no_sphere.png";
+import ReviewsPageHeaderSection from "./components/ReviewsPageHeaderSection";
+import PageIntroSection from "@/components/Page/PageIntroSection";
 
 type Properties = {
   onSelect: (game: Game | null) => void;
@@ -19,6 +23,8 @@ export default function ReviewsPage({ onSelect }: Properties) {
     setActiveTier,
     searchQuery,
     setSearchQuery,
+    sortOrder,
+    setSortOrder,
     activeIndex,
     handleActiveChange,
   } = useFilteredGames(onSelect);
@@ -37,24 +43,35 @@ export default function ReviewsPage({ onSelect }: Properties) {
   }
 
   return (
-    <main className="relative flex h-full overflow-hidden content-padding-horizontal">
-      <div className="flex flex-1 flex-col overflow-hidden">
-        <ReviewsPageFilterSection
-          tiers={RATING_TIERS}
-          activeTier={activeTier}
-          setActiveTier={setActiveTier}
-          filtered={filtered}
-          search={searchQuery}
-          setSearch={setSearchQuery}
-          onOpenList={() => setIsListOpen(true)}
-        />
+    <main>
+      <PageDisplaySection displayImage={fayeStandNoSphere} />
+      <PageIntroSection title="Reviews" description="test hi hello" />
 
-        <ReviewsPageCarouselSection
-          games={filtered}
-          onCardSelect={handleCardSelect}
-          onActiveChange={handleActiveChange}
-        />
+      <div className="flex flex-col h-[calc(100svh-var(--navbar-height))] overflow-hidden">
+        <div className="pt-5 flex flex-1 flex-col content-padding-horizontal">
+          <ReviewsPageHeaderSection
+            search={searchQuery}
+            setSearch={setSearchQuery}
+            onOpenList={() => setIsListOpen(true)}
+          />
 
+          <ReviewsPageFilterSection
+            tiers={RATING_TIERS}
+            activeTier={activeTier}
+            setActiveTier={setActiveTier}
+            search={searchQuery}
+            setSearch={setSearchQuery}
+            sortOrder={sortOrder}
+            setSortOrder={setSortOrder}
+            onOpenList={() => setIsListOpen(true)}
+          />
+
+          <ReviewsPageCarouselSection
+            games={filtered}
+            onCardSelect={handleCardSelect}
+            onActiveChange={handleActiveChange}
+          />
+        </div>
         <ReviewsPageTitleSection games={filtered} progress={activeIndex} />
       </div>
 
