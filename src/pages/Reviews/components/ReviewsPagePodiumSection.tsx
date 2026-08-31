@@ -1,17 +1,13 @@
-import EyebrowTitle from "@/components/EyebrowTitle";
-import PlusDivider from "@/components/PlusDivider";
 import fayeConfused from "@/assets/Faye/faye_confused.png";
+import PageContentSection from "@/components/Page/PageContentSection";
 
 export default function ReviewsPagePodiumSection() {
   return (
-    <section>
-      <PlusDivider />
-      <EyebrowTitle
-        title="Hall of fame"
-        eyebrow="hand-picked top 10 games"
-        eyebrowColor="text-text-accent"
-      />
-
+    <PageContentSection
+      theme="dark"
+      title="Hall of fame"
+      eyebrow="Hand-picked top 10 games"
+    >
       <div className="relative z-1 flex flex-col">
         <div className="flex w-full max-w-2xl flex-col gap-2 text-left">
           <p className="text-base tracking-wide text-text-secondary">
@@ -27,6 +23,6 @@ export default function ReviewsPagePodiumSection() {
           className="h-[80vh] w-auto shrink self-center"
         />
       </div>
-    </section>
+    </PageContentSection>
   );
 }

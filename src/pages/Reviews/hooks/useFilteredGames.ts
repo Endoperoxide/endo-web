@@ -7,7 +7,7 @@ import type { SortOrder } from "@/pages/Reviews/components/SortButton";
 export function useFilteredGames() {
   const [activeTier, setActiveTier] = useState<RatingTier>("all");
   const [searchQuery, setSearchQuery] = useState("");
-  const [sortOrder, setSortOrder] = useState<SortOrder>("ascending");
+  const [sortOrder, setSortOrder] = useState<SortOrder>("descending");
   const [activeIndex, setActiveIndex] = useState(0);
 
   const filtered = useMemo(() => {
@@ -26,9 +26,9 @@ export function useFilteredGames() {
     const sorted = [...searched].sort((a, b) => {
       switch (sortOrder) {
         case "ascending":
-          return b.year - a.year;
+          return a.rating - b.rating;
         case "descending":
-          return a.year - b.year;
+          return b.rating - a.rating;
         default:
           return 0;
       }

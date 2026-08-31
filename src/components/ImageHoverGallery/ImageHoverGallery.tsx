@@ -1,16 +1,18 @@
 import { useProximityExpand } from "@/components/ImageHoverGallery/hooks/useProximityExpand";
+import GameCoverArt from "@/components/Game/GameCoverArt";
+import type { Game } from "@/utils/game_utils";
 
 export type ImageHoverGalleryProps = {
-  images: { src: string; alt?: string }[];
+  games: Game[];
   onSelect?: (index: number) => void;
 };
 
 export default function ImageHoverGallery({
-  images,
+  games,
   onSelect,
 }: ImageHoverGalleryProps) {
   const { containerRef, setItemRef } = useProximityExpand({
-    itemCount: images.length,
+    itemCount: games.length,
     baseFlex: 1,
     maxFlex: 3,
     smoothing: 0.08,
@@ -18,10 +20,10 @@ export default function ImageHoverGallery({
 
   return (
     <div ref={containerRef} className="flex h-full w-full flex-row gap-3">
-      {images.map((image, index) => {
+      {games.map((game, index) => {
         return (
           <div
-            key={image.src}
+            key={game.slug}
             ref={setItemRef(index)}
             role={onSelect ? "button" : undefined}
             tabIndex={onSelect ? 0 : undefined}
@@ -42,9 +44,8 @@ export default function ImageHoverGallery({
             }`}
           >
             <img
-              src={image.src}
-              alt={image.alt ?? ""}
-              className="h-full w-full object-cover"
+              className="block h-full w-full object-cover"
+              src={game.coverUrl}
             />
           </div>
         );

@@ -1,5 +1,5 @@
 import type { Dispatch, SetStateAction } from "react";
-import { ArrowUp, ArrowDown } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 
 export type SortOrder = "descending" | "ascending";
 
@@ -24,17 +24,15 @@ export default function SortButton({ sortOrder, setSortOrder }: Properties) {
           ? "Sort by lowest rating"
           : "Sort by highest rating"
       }
-      className="flex shrink-0 items-center gap-1.5 whitespace-nowrap text-[0.72rem] sm:text-[0.78rem]"
+      className="flex h-full shrink-0 items-center gap-1.5 whitespace-nowrap border border-border-base px-3 text-[0.75rem] text-text-primary hover:border-strong"
     >
-      <span className="text-text-muted">Sort by:</span>
-      <span className="flex items-center gap-1 text-text-accent">
-        {sortOrder === "descending" ? (
-          <ArrowDown size={13} />
-        ) : (
-          <ArrowUp size={13} />
-        )}
-        {sortOrder === "descending" ? "Descending" : "Ascending"}
-      </span>
+      <ArrowUp
+        size={16}
+        className={`shrink-0 transition-transform duration-200 ${
+          sortOrder === "descending" ? "rotate-180" : "rotate-0"
+        }`}
+      />
+      {sortOrder === "descending" ? "Descending" : "Ascending"}
     </button>
   );
 }

@@ -9,7 +9,7 @@ export default function GameCoverArt({ game }: Properties) {
     <div className="relative">
       {/* Image art */}
       <img
-        className={`w-full h-full object-contain`}
+        className={`w-full h-full object-cover`}
         src={game.coverUrl}
         alt={game.title}
         fetchPriority="low"

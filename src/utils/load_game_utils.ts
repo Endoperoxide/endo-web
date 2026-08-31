@@ -2,7 +2,7 @@ import { parseFrontmatter } from "./frontmatter_utils";
 import { GameFrontmatterSchema, type Game } from "./game_utils";
 
 const seenSlugs = new Set<string>();
-const RECENT_GAMES_COUNT = 8;
+const RECENT_GAMES_COUNT = 3;
 
 const reviewFiles = import.meta.glob("../reviews/*.md", {
   eager: true,
@@ -38,9 +38,13 @@ function parseReviewFile([path, raw]: [string, string]): Game {
   return { ...result.data, review: content };
 }
 
+function parseReviewDate(dateStr: string): number {
+  const [day, month, year] = dateStr.split("-").map(Number);
+  return new Date(year, month - 1, day).getTime();
+}
+
 function sortByMostRecent(gamesToSort: Game[]): Game[] {
   return [...gamesToSort].sort(
-    (a, b) =>
-      new Date(b.reviewDate).getTime() - new Date(a.reviewDate).getTime(),
+    (a, b) => parseReviewDate(b.reviewDate) - parseReviewDate(a.reviewDate),
   );
 }

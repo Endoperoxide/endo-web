@@ -1,12 +1,11 @@
 import type { Dispatch, SetStateAction } from "react";
-import PlusDivider from "@/components/PlusDivider";
-import ReviewsPageSearchHeader from "./ReviewsPageSearchHeader";
-import ReviewsPageSearchFilter from "./ReviewsPageSearchFilter";
 import ReviewsPageSearchCarousel from "./ReviewsPageSearchCarousel";
 import ReviewsPageSearchTitles from "./ReviewsPageSearchTitles";
 import type { SortOrder } from "./SortButton";
 import type { RatingTier } from "@/utils/rating_utils";
 import type { Game } from "@/utils/game_utils";
+import PageContentSection from "@/components/Page/PageContentSection";
+import ReviewsPageSearchBar from "./ReviewsPageSearchBar";
 
 type Properties = {
   games: Game[];
@@ -38,35 +37,34 @@ export default function ReviewsPageSearchSection({
   tiers,
 }: Properties) {
   return (
-    <section className="flex h-[calc(100svh-var(--navbar-height))] flex-col overflow-hidden">
-      <div className="flex flex-1 flex-col">
-        <PlusDivider />
+    <PageContentSection
+      theme="dark"
+      title="All Reviews"
+      eyebrow="Repository of all reviews"
+      className="h-[calc(100svh-var(--navbar-height))] pt-5"
+    >
+      <div className="flex h-full min-h-0 flex-col overflow-hidden">
+        <div className="flex min-h-0 flex-1 flex-col">
+          <ReviewsPageSearchBar
+            tiers={tiers}
+            activeTier={activeTier}
+            setActiveTier={setActiveTier}
+            search={searchQuery}
+            setSearch={setSearchQuery}
+            sortOrder={sortOrder}
+            setSortOrder={setSortOrder}
+            onOpenList={onOpenList}
+          />
 
-        <ReviewsPageSearchHeader
-          search={searchQuery}
-          setSearch={setSearchQuery}
-          onOpenList={onOpenList}
-        />
+          <ReviewsPageSearchCarousel
+            games={games}
+            onCardSelect={onCardSelect}
+            onActiveChange={onActiveChange}
+          />
+        </div>
 
-        <ReviewsPageSearchFilter
-          tiers={tiers}
-          activeTier={activeTier}
-          setActiveTier={setActiveTier}
-          search={searchQuery}
-          setSearch={setSearchQuery}
-          sortOrder={sortOrder}
-          setSortOrder={setSortOrder}
-          onOpenList={onOpenList}
-        />
-
-        <ReviewsPageSearchCarousel
-          games={games}
-          onCardSelect={onCardSelect}
-          onActiveChange={onActiveChange}
-        />
+        <ReviewsPageSearchTitles games={games} progress={activeIndex} />
       </div>
-
-      <ReviewsPageSearchTitles games={games} progress={activeIndex} />
-    </section>
+    </PageContentSection>
   );
 }

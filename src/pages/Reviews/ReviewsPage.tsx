@@ -8,6 +8,8 @@ import ReviewsPageDisplaySection from "./components/ReviewsPageDisplaySection";
 import ReviewsPageIntroSection from "./components/ReviewsPageIntroSection";
 import ReviewsPagePodiumSection from "./components/ReviewsPagePodiumSection";
 import ReviewsPageSearchSection from "./components/ReviewsPageSearchSection";
+import ReviewsPageRecentSection from "./components/ReviewsPageRecentSection";
+import PlusDivider from "@/components/PlusDivider";
 
 export default function ReviewsPage() {
   const {
@@ -36,8 +38,21 @@ export default function ReviewsPage() {
   return (
     <>
       <ReviewsPageDisplaySection />
+      <PlusDivider theme="light" />
       <ReviewsPageIntroSection />
+      <PlusDivider theme="light" />
+      <PlusDivider theme="dark" />
       <ReviewsPagePodiumSection />
+      <PlusDivider theme="dark" />
+      <PlusDivider theme="light" />
+      <ReviewsPageRecentSection
+        onCardSelect={(index) => {
+          const game = filtered[index];
+          if (game) setModalGame(game);
+        }}
+      />
+      <PlusDivider theme="light" />
+      <PlusDivider theme="dark" />
       <ReviewsPageSearchSection
         games={filtered}
         searchQuery={searchQuery}

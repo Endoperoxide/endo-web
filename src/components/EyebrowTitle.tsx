@@ -1,6 +1,6 @@
 type Properties = {
   title: string;
-  eyebrow?: string;
+  eyebrow: string;
   eyebrowColor?: string;
 };
 
@@ -11,11 +11,8 @@ export default function EyebrowTitle({
 }: Properties) {
   return (
     <div className="mb-5">
-      {eyebrow && (
-        <p className={`uppercase ${eyebrowColor}`}>{`>> ${eyebrow}`}</p>
-      )}
-
-      {title && <h1 className="text-text-primary">{title.toUpperCase()}</h1>}
+      <p className={`uppercase ${eyebrowColor}`}> {`>> ${eyebrow}`} </p>
+      <h1 className="text-text-primary"> {title.toUpperCase()} </h1>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import PageDisplaySection from "@/components/Page/PageDisplaySection";
 import fayeStand from "@/assets/Faye/faye_stand_no_sphere.png";
 import titleName from "@/assets/title_name.png";
 import titleNameVector from "@/assets/Vector/title_name_vector.svg";
-import DiagonalStripes from "@/components/DiagonalStripes";
 
 export default function HomePageDisplaySection() {
   return (

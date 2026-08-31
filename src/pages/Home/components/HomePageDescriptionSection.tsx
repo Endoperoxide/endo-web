@@ -1,6 +1,3 @@
-import { ArrowRight } from "lucide-react";
-import { Page } from "@/utils/page_utils";
-import EyebrowTitle from "@/components/EyebrowTitle";
 import DescriptionCard from "@/pages/Home/components/DescriptionCard";
 
 import wattson from "@/assets/Backgrounds/wattson.jpg";
@@ -11,6 +8,7 @@ import fayeConfused from "@/assets/Faye/faye_confused_top.png";
 import fayeStretch from "@/assets/Faye/faye_stretch.png";
 import fayeHeroic from "@/assets/Faye/faye_heroic.png";
 import PlusDivider from "@/components/PlusDivider";
+import PageContentSection from "@/components/Page/PageContentSection";
 
 const reviewLogicParagraphs = [
   `I can appreciate what a game represents and is attempting to accomplish, 
@@ -43,8 +41,7 @@ const hallOfFameParagraphs = [
 
 export default function HomePageDescriptionSection() {
   return (
-    <section>
-      <PlusDivider color="text-text-primary" />
+    <PageContentSection theme="dark" title="test" eyebrow="test">
       {/* Cards */}
       <div className="flex flex-col">
         <DescriptionCard
@@ -55,7 +52,7 @@ export default function HomePageDescriptionSection() {
           backgroundImage={portal}
         />
 
-        <PlusDivider color="text-text-primary" />
+        <PlusDivider theme="dark" padded={false} />
 
         <DescriptionCard
           eyebrow="Breakdown of common merits"
@@ -66,7 +63,7 @@ export default function HomePageDescriptionSection() {
           backgroundImage={wattson}
         />
 
-        <PlusDivider color="text-text-primary" />
+        <PlusDivider theme="dark" padded={false} />
 
         <DescriptionCard
           eyebrow="The top 10"
@@ -76,7 +73,6 @@ export default function HomePageDescriptionSection() {
           secondaryImage={fayeHeroic}
         />
       </div>
-      <PlusDivider color="text-text-primary" />
-    </section>
+    </PageContentSection>
   );
 }
