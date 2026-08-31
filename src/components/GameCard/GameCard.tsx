@@ -19,10 +19,6 @@ export default function GameCard({ game, onClick }: Properties) {
       onClick={onClick}
       className="relative block w-full cursor-pointer aspect-2/3"
     >
-      {/* Visual-only layer. Hit-testing lives on the outer <button>, whose
-          box never moves — so the tilt transform below can't shift the
-          hoverable region out from under the cursor and cause an
-          enter/leave feedback loop. */}
       <div
         className="relative h-full w-full will-change-transform"
         style={{

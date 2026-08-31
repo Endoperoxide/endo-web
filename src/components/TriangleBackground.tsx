@@ -1,65 +1,34 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo } from "react";
 
 type Properties = {
-  offset?: number;
+  scrollOffset?: number;
   parallaxFactor?: number;
   triangleSize?: number;
   stroke?: string;
   strokeWidth?: number;
   edgeFade?: number;
   borderWidth?: number;
-  autoScroll?: boolean;
-  autoScrollSpeed?: number;
 };
 
 export default function TriangleBackground({
-  offset: offsetProp = 0,
+  scrollOffset = 0,
   parallaxFactor = 0.15,
   triangleSize = 250,
   stroke = "var(--color-border-base)",
   strokeWidth = 1,
   edgeFade = 0.1,
   borderWidth = 1,
-  autoScroll = false,
-  autoScrollSpeed = 40,
 }: Properties) {
   const side = triangleSize;
   const rowHeight = (side * Math.sqrt(3)) / 2;
   const columnWidth = side;
+  const patternHeight = rowHeight * 2;
 
-  const [autoOffset, setAutoOffset] = useState(0);
-  const frameRef = useRef<number | undefined>(undefined);
-  const lastTimeRef = useRef<number | undefined>(undefined);
+  const shiftY = useMemo(() => {
+    const raw = -(scrollOffset * parallaxFactor);
 
-  useEffect(() => {
-    if (!autoScroll) return;
-
-    const tick = (time: number) => {
-      if (lastTimeRef.current === undefined) {
-        lastTimeRef.current = time;
-      }
-      const deltaSeconds = (time - lastTimeRef.current) / 1000;
-      lastTimeRef.current = time;
-
-      setAutoOffset((prev) => prev + autoScrollSpeed * deltaSeconds);
-      frameRef.current = requestAnimationFrame(tick);
-    };
-
-    frameRef.current = requestAnimationFrame(tick);
-
-    return () => {
-      if (frameRef.current) cancelAnimationFrame(frameRef.current);
-      lastTimeRef.current = undefined;
-    };
-  }, [autoScroll, autoScrollSpeed]);
-
-  const offset = autoScroll ? autoOffset : offsetProp;
-
-  const shiftX = useMemo(() => {
-    const raw = -(offset * parallaxFactor);
-
-    return ((raw % columnWidth) + columnWidth) % columnWidth;
-  }, [offset, parallaxFactor, columnWidth]);
+    return ((raw % patternHeight) + patternHeight) % patternHeight;
+  }, [scrollOffset, parallaxFactor, patternHeight]);
 
   const patternId = "triangle-grid";
   const maskId = "triangle-edge-fade";
@@ -73,9 +42,9 @@ export default function TriangleBackground({
           x="0"
           y="0"
           width={columnWidth}
-          height={rowHeight * 2}
+          height={patternHeight}
           patternUnits="userSpaceOnUse"
-          patternTransform={`translate(${shiftX}, 0)`}
+          patternTransform={`translate(0, ${shiftY})`}
         >
           {/* Horizontal rows */}
           <line
@@ -105,7 +74,7 @@ export default function TriangleBackground({
 
           {/* Lower pair of triangles */}
           <polyline
-            points={`0,${rowHeight * 2} ${columnWidth / 2},${rowHeight} ${columnWidth},${rowHeight * 2}`}
+            points={`0,${patternHeight} ${columnWidth / 2},${rowHeight} ${columnWidth},${patternHeight}`}
             fill="none"
             stroke={stroke}
             strokeWidth={strokeWidth}

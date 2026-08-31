@@ -1,17 +1,14 @@
-import TriangleBackground from "@/components/TriangleBackground";
 import innerRing from "@/assets/Backgrounds/inner_ring.png";
 import outerRing from "@/assets/Backgrounds/outer_ring.png";
 import PageDisplaySection from "@/components/Page/PageDisplaySection";
 import fayeStand from "@/assets/Faye/faye_stand_no_sphere.png";
 import titleName from "@/assets/title_name.png";
 import titleNameVector from "@/assets/Vector/title_name_vector.svg";
+import DiagonalStripes from "@/components/DiagonalStripes";
 
 export default function HomePageDisplaySection() {
   return (
     <PageDisplaySection>
-      {/* Background */}
-      <TriangleBackground autoScroll autoScrollSpeed={100} />
-
       {/* Rings */}
       <div className="pointer-events-none absolute inset-0 z-1">
         <img

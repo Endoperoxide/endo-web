@@ -1,6 +1,7 @@
 import { List } from "lucide-react";
 import SearchBar from "./SearchBar";
 import { Dispatch, SetStateAction } from "react";
+import EyebrowTitle from "@/components/EyebrowTitle";
 
 type Properties = {
   search: string;
@@ -8,7 +9,7 @@ type Properties = {
   onOpenList: () => void;
 };
 
-export default function ReviewsPageHeaderSection({
+export default function ReviewsPageSearchHeader({
   search,
   setSearch,
   onOpenList,
@@ -16,10 +17,11 @@ export default function ReviewsPageHeaderSection({
   return (
     <div className="flex flex-col gap-2 py-1 sm:flex-row sm:items-center sm:gap-4">
       {/* Title and eyebrow */}
-      <div className="flex min-w-0 flex-col justify-start">
-        <h1 className="truncate text-text-primary">All Reviews</h1>
-        <p className="truncate text-text-accent">Repository of all reviews</p>
-      </div>
+      <EyebrowTitle
+        title="All Reviews"
+        eyebrow="Repository of all reviews"
+        eyebrowColor="text-text-accent"
+      />
 
       {/* Search */}
       <div className="flex min-w-0 flex-1 items-center gap-2 sm:ml-auto sm:max-w-150">

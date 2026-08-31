@@ -10,7 +10,7 @@ import portal from "@/assets/Backgrounds/portal.jpg";
 import fayeConfused from "@/assets/Faye/faye_confused_top.png";
 import fayeStretch from "@/assets/Faye/faye_stretch.png";
 import fayeHeroic from "@/assets/Faye/faye_heroic.png";
-import IconButton from "@/components/IconButton";
+import PlusDivider from "@/components/PlusDivider";
 
 const reviewLogicParagraphs = [
   `I can appreciate what a game represents and is attempting to accomplish, 
@@ -44,35 +44,39 @@ const hallOfFameParagraphs = [
 export default function HomePageDescriptionSection() {
   return (
     <section>
-      <div>
-        {/* Cards */}
-        <div className="flex flex-col md:gap-15 pt-15">
-          <DescriptionCard
-            eyebrow="Merit over comparison"
-            title="Review Logic"
-            secondaryImage={fayeConfused}
-            paragraphs={reviewLogicParagraphs}
-            backgroundImage={portal}
-          />
+      <PlusDivider color="text-text-primary" />
+      {/* Cards */}
+      <div className="flex flex-col">
+        <DescriptionCard
+          eyebrow="Merit over comparison"
+          title="Review Logic"
+          secondaryImage={fayeConfused}
+          paragraphs={reviewLogicParagraphs}
+          backgroundImage={portal}
+        />
 
-          <DescriptionCard
-            eyebrow="Breakdown of common merits"
-            title="Category Breakdown"
-            secondaryImage={fayeStretch}
-            side="left"
-            paragraphs={categoryBreakdownParagraphs}
-            backgroundImage={wattson}
-          />
+        <PlusDivider color="text-text-primary" />
 
-          <DescriptionCard
-            eyebrow="The top 10"
-            title="Hall of Fame"
-            paragraphs={hallOfFameParagraphs}
-            backgroundImage={expedition}
-            secondaryImage={fayeHeroic}
-          />
-        </div>
+        <DescriptionCard
+          eyebrow="Breakdown of common merits"
+          title="Category Breakdown"
+          secondaryImage={fayeStretch}
+          side="left"
+          paragraphs={categoryBreakdownParagraphs}
+          backgroundImage={wattson}
+        />
+
+        <PlusDivider color="text-text-primary" />
+
+        <DescriptionCard
+          eyebrow="The top 10"
+          title="Hall of Fame"
+          paragraphs={hallOfFameParagraphs}
+          backgroundImage={expedition}
+          secondaryImage={fayeHeroic}
+        />
       </div>
+      <PlusDivider color="text-text-primary" />
     </section>
   );
 }

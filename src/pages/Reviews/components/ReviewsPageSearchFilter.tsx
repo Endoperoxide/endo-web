@@ -14,7 +14,7 @@ type Properties = {
   onOpenList: () => void;
 };
 
-export default function ReviewsPageFilterSection({
+export default function ReviewsPageSearchFilter({
   tiers,
   activeTier,
   setActiveTier,
@@ -22,21 +22,19 @@ export default function ReviewsPageFilterSection({
   setSortOrder,
 }: Properties) {
   return (
-    <section>
-      <div className="min-h-(--navbar-height) py-3">
-        {/* Filter row */}
-        <div className="flex w-full flex-row items-center justify-between bg-background-base p-3">
-          <FilterButtons
-            tiers={tiers}
-            activeTier={activeTier}
-            setActiveTier={setActiveTier}
-          />
+    <div className="min-h-(--navbar-height) py-3">
+      {/* Filter row */}
+      <div className="flex w-full flex-row items-center justify-between bg-background-base p-3">
+        <FilterButtons
+          tiers={tiers}
+          activeTier={activeTier}
+          setActiveTier={setActiveTier}
+        />
 
-          <div className="flex">
-            <SortButton sortOrder={sortOrder} setSortOrder={setSortOrder} />
-          </div>
+        <div className="flex">
+          <SortButton sortOrder={sortOrder} setSortOrder={setSortOrder} />
         </div>
       </div>
-    </section>
+    </div>
   );
 }

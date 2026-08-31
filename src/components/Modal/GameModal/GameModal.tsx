@@ -15,7 +15,7 @@ export default function GameModal({ game, onClose }: Properties) {
       {(handleClose) => (
         <>
           <GameModalHeader game={game} onClose={handleClose} />
-          <div className="px-7 py-5">
+          <div className="py-5">
             <GameModalInfo game={game} />
             <GameModalReview game={game} />
           </div>

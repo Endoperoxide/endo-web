@@ -1,11 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { games } from "@/utils/load_game_utils";
-import type { Game } from "@/utils/game_utils";
 import type { RatingTier } from "@/utils/rating_utils";
 import { filterByTier } from "@/utils/rating_utils";
 import type { SortOrder } from "@/pages/Reviews/components/SortButton";
 
-export function useFilteredGames(onSelect: (game: Game | null) => void) {
+export function useFilteredGames() {
   const [activeTier, setActiveTier] = useState<RatingTier>("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOrder, setSortOrder] = useState<SortOrder>("ascending");
@@ -24,7 +23,6 @@ export function useFilteredGames(onSelect: (game: Game | null) => void) {
           return haystack.includes(normalizedQuery);
         });
 
-    // adjust to your real SortOrder values / Game fields
     const sorted = [...searched].sort((a, b) => {
       switch (sortOrder) {
         case "ascending":
@@ -41,12 +39,10 @@ export function useFilteredGames(onSelect: (game: Game | null) => void) {
 
   useEffect(() => {
     setActiveIndex(0);
-    onSelect(filtered[0] ?? null);
   }, [filtered]);
 
   function handleActiveChange(index: number) {
     setActiveIndex(index);
-    onSelect(filtered[index] ?? null);
   }
 
   return {

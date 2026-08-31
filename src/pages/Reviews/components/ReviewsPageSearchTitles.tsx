@@ -9,12 +9,12 @@ const ITEM_WIDTH = "clamp(90px, 20vw, 180px)";
 const NAV_SLOTS = 15;
 const NAV_HALF = 7;
 
-export default function ReviewsPageTitleSection({ games, progress }: Props) {
+export default function ReviewsPageSearchTitles({ games, progress }: Props) {
   const count = games.length;
   const floor = Math.floor(progress);
 
   return (
-    <section className="relative h-20 w-full overflow-hidden bg-background-base">
+    <div className="relative h-20 w-full overflow-hidden bg-background-base">
       {count > 0 &&
         Array.from({ length: NAV_SLOTS }, (_, i) => {
           const slot = i - NAV_HALF;
@@ -44,6 +44,6 @@ export default function ReviewsPageTitleSection({ games, progress }: Props) {
             </h1>
           );
         })}
-    </section>
+    </div>
   );
 }

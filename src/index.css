@@ -165,25 +165,14 @@ Format
     letter-spacing: -0.015em;
   }
 
-  p {
-    font-family: var(--font-body);
-  }
-
-  button {
-    font-family: var(--font-body);
-  }
-
-  span {
-    font-family: var(--font-body);
-  }
-
+  p,
+  button,
+  span,
   input {
     font-family: var(--font-body);
   }
-}
 
-@layer components {
-  .content-padding-horizontal {
+  section {
     @apply px-4 md:px-15;
   }
 }
@@ -261,22 +250,22 @@ Modal Animations
 @keyframes modalIn {
   from {
     opacity: 0;
-    transform: translateX(-100vw);
+    clip-path: inset(0 0 100% 0);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    clip-path: inset(0 0 0 0);
   }
 }
 
 @keyframes modalOut {
   from {
     opacity: 1;
-    transform: translateX(0);
+    clip-path: inset(0 0 0 0);
   }
   to {
     opacity: 0;
-    transform: translateX(-100vw);
+    clip-path: inset(0 0 100% 0);
   }
 }
 

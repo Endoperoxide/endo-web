@@ -6,7 +6,7 @@ import { useCardTransforms } from "@/components/GameCardCarousel/hooks/useCardTr
 
 const FALLBACK_CARD_SPACING = 470;
 const DEFAULT_HEIGHT_CLASSES =
-  "h-[clamp(260px,50vh,500px)] sm:h-[clamp(300px,55vh,560px)]";
+  "h-[clamp(340px,45vh,500px)] sm:h-[clamp(300px,50vh,450px)]";
 
 type Props = {
   games: Game[];

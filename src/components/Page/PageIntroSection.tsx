@@ -1,38 +1,29 @@
 import { ReactNode } from "react";
-import TextBox from "../TextBox";
-import CornerPlus from "../CornerPlus";
+import PlusDivider from "../PlusDivider";
 import EyebrowTitle from "../EyebrowTitle";
 
 type Properties = {
   title: string;
-  description: string;
   eyebrow?: string;
   children?: ReactNode;
 };
 
 export default function PageIntroSection({
   title,
-  description,
   eyebrow,
   children,
 }: Properties) {
   return (
-    <section className="relative flex flex-col bg-background-highlight content-padding-horizontal">
-      <CornerPlus color="text-text-primary" />
-      <EyebrowTitle title={title} eyebrow={eyebrow ?? "test"} />
+    <section className="relative min-h-100 bg-background-highlight">
+      {/* Left: all existing content */}
+      <div className="flex flex-1 flex-col">
+        <PlusDivider color="text-text-primary" />
+        <EyebrowTitle title={title} eyebrow={eyebrow ?? "test"} />
 
-      <div className="flex flex-col gap-8 py-5 md:px-10 md:py-12 lg:flex-row">
         {/* Children */}
-        <div className="order-first mx-auto w-full shrink-0 lg:order-last lg:w-[48%]">
-          {children}
-        </div>
+        <div className="w-full shrink-0">{children}</div>
 
-        {/* Text */}
-        <div className="flex-1">
-          <TextBox variant="muted">
-            <p className="text-text-primary">{description}</p>
-          </TextBox>
-        </div>
+        <PlusDivider color="text-text-primary" />
       </div>
     </section>
   );

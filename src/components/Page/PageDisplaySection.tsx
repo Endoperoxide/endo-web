@@ -7,7 +7,7 @@ type Properties = {
 
 export default function PageDisplaySection({ children }: Properties) {
   return (
-    <section className="relative flex flex-col w-full bg-black h-[calc(100svh-var(--navbar-height))]">
+    <section className="p-0 relative flex flex-col w-full bg-black h-[calc(100svh-var(--navbar-height))]">
       {/* Main Display */}
       <div className="relative flex-1 overflow-hidden">{children}</div>
 
