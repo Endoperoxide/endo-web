@@ -1,13 +1,19 @@
 import { Plus } from "lucide-react";
 
-type Properties = {
+export type SubHeaderProperties = {
   title: string;
+  titleBgColor?: string;
 };
 
-export default function SubHeader({ title }: Properties) {
+export default function SubHeader({
+  title,
+  titleBgColor = "bg-background-main",
+}: SubHeaderProperties) {
   return (
     <div className="flex h-6 w-full items-center bg-white">
-      <h1 className="flex h-full items-center px-5 text-sm uppercase tracking-wide bg-background-main text-text-primary">
+      <h1
+        className={`flex h-full items-center px-5 text-sm uppercase tracking-wide text-text-primary ${titleBgColor}`}
+      >
         {title}
       </h1>
 

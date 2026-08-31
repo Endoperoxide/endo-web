@@ -1,7 +1,7 @@
-import HomePageDescriptionSection from "@/pages/Home/components/HomePageDescriptionSection";
-import HomePageDisplaySection from "./components/HomePageDisplaySection";
-import HomePageIntroSection from "./components/HomePageIntroSection";
+import HomePageDisplaySection from "@/pages/Home/components/HomePageDisplaySection";
+import HomePageIntroSection from "@/pages/Home/components/HomePageIntroSection";
 import PlusDivider from "@/components/PlusDivider";
+import HomePageStatusSection from "./components/HomePageStatusSection";
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
       <HomePageIntroSection />
       <PlusDivider theme="light" />
       <PlusDivider theme="dark" />
-      <HomePageDescriptionSection />
+      <HomePageStatusSection />
       <PlusDivider theme="dark" />
     </>
   );

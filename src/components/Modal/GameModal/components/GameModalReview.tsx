@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkBreaks from "remark-breaks";
 import { Game } from "@/utils/game_utils";
-import SubHeader from "@/components/SubHeader";
+import SubHeader from "@/components/ContentContainer/components/SubHeader";
 
 type Properties = {
   game: Game;
