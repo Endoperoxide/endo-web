@@ -1,25 +1,22 @@
 import type { Page } from "@/utils/page_utils";
+
 import NavbarLinks from "./components/NavbarLinks";
 import NavbarDropdown from "./components/NavbarDropdown";
 import NavbarLogo from "./components/NavbarLogo";
 
 type Properties = {
   current: Page;
-  onNavigate: (page: Page) => void;
 };
 
-export default function Navbar({ current, onNavigate }: Properties) {
+export default function Navbar({ current }: Properties) {
   return (
-    <header className="sticky top-0 h-(--navbar-height) z-100 w-full bg-background-main">
+    <header className="sticky top-0 z-100 h-(--navbar-height) w-full bg-background-main">
       <div className="flex h-full w-full items-center justify-start">
-        {/* Logo box */}
-        <NavbarLogo onNavigate={onNavigate} />
+        <NavbarLogo />
 
-        {/* Desktop nav links */}
-        <NavbarLinks current={current} onNavigate={onNavigate} />
+        <NavbarLinks current={current} />
 
-        {/* Mobile dropdown */}
-        <NavbarDropdown current={current} onNavigate={onNavigate} />
+        <NavbarDropdown current={current} />
       </div>
     </header>
   );

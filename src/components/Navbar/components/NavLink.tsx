@@ -1,16 +1,21 @@
-import { Page } from "@/utils/page_utils";
+import type { Page } from "@/utils/page_utils";
+
+const PAGE_PATHS: Record<Page, string> = {
+  home: "/endo-web/",
+  reviews: "/endo-web/reviews/",
+};
 
 type Properties = {
   page: Page;
   label: string;
   active: boolean;
-  onClick: () => void;
+  onClick?: () => void;
 };
 
 export default function Navlink({ page, label, active, onClick }: Properties) {
   return (
-    <button
-      key={page}
+    <a
+      href={PAGE_PATHS[page]}
       onClick={onClick}
       className={`font-display flex cursor-pointer items-center justify-center p-0.5 text-[0.85rem] tracking-wide ${
         active
@@ -19,6 +24,6 @@ export default function Navlink({ page, label, active, onClick }: Properties) {
       }`}
     >
       {`[ ${label.toUpperCase()} ]`}
-    </button>
+    </a>
   );
 }

@@ -1,43 +1,32 @@
-import { useRef, useState } from "react";
-import { useNavigation } from "@/app/hooks/useNavigation";
+import { useRef } from "react";
+
 import { useScrollToTop } from "@/app/hooks/useScrollToTop";
 import { useElementScroll } from "@/app/hooks/useElementScroll";
-import type { Page } from "@/utils/page_utils";
-import HomePage from "@/pages/Home/HomePage";
-import ReviewsPage from "@/pages/Reviews/ReviewsPage";
+
 import Navbar from "@/components/Navbar/Navbar";
-import ListModal from "@/components/Modal/ListModal/ListModal";
 import TriangleBackground from "@/components/TriangleBackground";
 
-const PAGE_COMPONENTS: Record<Page, React.ComponentType> = {
-  home: HomePage,
-  reviews: ReviewsPage,
+type Properties = {
+  children: React.ReactNode;
+  currentPage: "home" | "reviews";
 };
 
-export default function App() {
-  const { page, navigate } = useNavigation();
-  const PageComponent = PAGE_COMPONENTS[page];
+export default function App({ children, currentPage }: Properties) {
   const pageContainerRef = useRef<HTMLDivElement>(null);
-  const [isUpcomingOpen, setIsUpcomingOpen] = useState(false);
-  const scrollY = useElementScroll(pageContainerRef);
 
-  useScrollToTop(pageContainerRef, page);
+  const scrollY = useElementScroll(pageContainerRef);
+  useScrollToTop(pageContainerRef, currentPage);
 
   return (
     <div className="relative min-h-screen bg-background-main">
       <TriangleBackground scrollOffset={scrollY} />
+
       <div className="relative mx-auto flex h-dvh max-w-6xl flex-col border-l border-r border-border-base bg-background-main">
-        {/* Navbar */}
-        <Navbar current={page} onNavigate={navigate} />
+        <Navbar current={currentPage} />
 
-        {/* Page */}
         <main ref={pageContainerRef} className="min-h-0 flex-1 overflow-auto">
-          <PageComponent />
+          {children}
         </main>
-
-        {isUpcomingOpen && (
-          <ListModal onClose={() => setIsUpcomingOpen(false)} />
-        )}
       </div>
     </div>
   );

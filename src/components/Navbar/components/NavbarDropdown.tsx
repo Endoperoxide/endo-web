@@ -1,14 +1,14 @@
 import type { Page } from "@/utils/page_utils";
 import { PAGES } from "@/utils/page_utils";
+
 import Dropdown from "@/components/Dropdown/Dropdown";
 import Navlink from "@/components/Navbar/components/Navlink";
 
 type Properties = {
   current: Page;
-  onNavigate: (page: Page) => void;
 };
 
-export default function NavbarDropdown({ current, onNavigate }: Properties) {
+export default function NavbarDropdown({ current }: Properties) {
   return (
     <div className="ml-auto flex items-center sm:hidden">
       <Dropdown
@@ -16,22 +16,24 @@ export default function NavbarDropdown({ current, onNavigate }: Properties) {
         fullBleedTop="var(--navbar-height)"
         trigger={({ isOpen, toggle }) => (
           <button
+            type="button"
             onClick={toggle}
             aria-label={isOpen ? "Close menu" : "Open menu"}
             aria-expanded={isOpen}
-            className="flex h-full shrink-0 flex-col items-center w-(--navbar-height) justify-center gap-1.25 border-none bg-transparent p-0 cursor-pointer"
+            className="flex h-full w-(--navbar-height) shrink-0 cursor-pointer flex-col items-center justify-center gap-1.25 border-none bg-transparent p-0"
           >
-            {/* Lines*/}
             <span
               className="h-0.5 w-5.5 bg-white transition-[transform,opacity] duration-200 ease-in-out"
               style={{
                 transform: isOpen ? "translateY(7px) rotate(45deg)" : "none",
               }}
             />
+
             <span
               className="h-0.5 w-5.5 bg-white transition-opacity duration-200 ease-in-out"
               style={{ opacity: isOpen ? 0 : 1 }}
             />
+
             <span
               className="h-0.5 w-5.5 bg-white transition-[transform,opacity] duration-200 ease-in-out"
               style={{
@@ -49,10 +51,7 @@ export default function NavbarDropdown({ current, onNavigate }: Properties) {
                   page={page}
                   label={label}
                   active={current === page}
-                  onClick={() => {
-                    onNavigate(page);
-                    close();
-                  }}
+                  onClick={close}
                 />
               </div>
             ))}

@@ -83,7 +83,7 @@ export default function GameCardCarouselFull({
               } ${index !== 0 ? "max-sm:-ml-20" : ""}`}
               style={cardHeight ? { height: cardHeight } : undefined}
             >
-              <GameCard game={game} onClick={() => handleCardClick(game)} />
+              <GameCard game={game} />
             </div>
           ))}
         </div>
