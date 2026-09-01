@@ -1,5 +1,4 @@
 import type { Dispatch, SetStateAction } from "react";
-import { List } from "lucide-react";
 import SearchBar from "./SearchBar";
 import FilterDropdown from "./FilterDropdown";
 import SortButton, { type SortOrder } from "./SortButton";
@@ -13,7 +12,6 @@ type Properties = {
   setSearch: Dispatch<SetStateAction<string>>;
   sortOrder: SortOrder;
   setSortOrder: Dispatch<SetStateAction<SortOrder>>;
-  onOpenList: () => void;
 };
 
 export default function ReviewsPageSearchBar({
@@ -24,7 +22,6 @@ export default function ReviewsPageSearchBar({
   setSearch,
   sortOrder,
   setSortOrder,
-  onOpenList,
 }: Properties) {
   return (
     <div className="flex w-full flex-col gap-2 py-3">
@@ -32,15 +29,6 @@ export default function ReviewsPageSearchBar({
         <div className="min-w-0 flex-1">
           <SearchBar search={search} setSearch={setSearch} />
         </div>
-
-        <button
-          type="button"
-          onClick={onOpenList}
-          aria-label="Open list view"
-          className="flex aspect-square h-full items-center justify-center text-text-primary hover:text-text-accent transition-colors"
-        >
-          <List size={16} />
-        </button>
       </div>
 
       <div className="flex h-11 items-stretch gap-2">

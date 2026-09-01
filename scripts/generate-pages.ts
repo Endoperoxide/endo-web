@@ -46,7 +46,7 @@ function generatePages() {
           </head>
           <body>
             <div id="root"></div>
-            <script type="module" src="./../../src/pages/Reviews/GameReviewEntry.tsx"></script>
+            <script type="module" src="./../../src/pages/GameReview/GameReviewEntry.tsx"></script>
           </body>
         </html>
     `,

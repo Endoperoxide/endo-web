@@ -5,7 +5,6 @@ import GameCardCarouselFull from "@/components/GameCardCarousel/components/GameC
 type Props = {
   games: Game[];
   cardHeight?: string;
-  onSelect?: (game: Game) => void;
   onActiveChange?: (index: number) => void;
   onOffsetChange?: (offset: number) => void;
 };

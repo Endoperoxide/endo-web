@@ -2,8 +2,6 @@ import { useState } from "react";
 import type { Game } from "@/utils/game_utils";
 import { RATING_TIERS } from "@/utils/rating_utils";
 import { useFilteredGames } from "@/pages/Reviews/hooks/useFilteredGames";
-import GameModal from "@/components/Modal/GameModal/GameModal";
-import ListModal from "@/components/Modal/ListModal/ListModal";
 import ReviewsPageDisplaySection from "./components/ReviewsPageDisplaySection";
 import ReviewsPageIntroSection from "./components/ReviewsPageIntroSection";
 import ReviewsPagePodiumSection from "./components/ReviewsPagePodiumSection";
@@ -20,20 +18,8 @@ export default function ReviewsPage() {
     setSearchQuery,
     sortOrder,
     setSortOrder,
-    activeIndex,
     handleActiveChange,
   } = useFilteredGames();
-
-  const [modalGame, setModalGame] = useState<Game | null>(null);
-  const [isListOpen, setIsListOpen] = useState(false);
-
-  function handleCardSelect(game: Game) {
-    const isActiveCard = filtered.indexOf(game) === activeIndex;
-
-    if (isActiveCard) {
-      setModalGame(game);
-    }
-  }
 
   return (
     <>
@@ -56,18 +42,9 @@ export default function ReviewsPage() {
         setActiveTier={setActiveTier}
         sortOrder={sortOrder}
         setSortOrder={setSortOrder}
-        activeIndex={activeIndex}
-        onCardSelect={handleCardSelect}
         onActiveChange={handleActiveChange}
-        onOpenList={() => setIsListOpen(true)}
         tiers={RATING_TIERS}
       />
-
-      {/* Modals */}
-      {modalGame && (
-        <GameModal game={modalGame} onClose={() => setModalGame(null)} />
-      )}
-      {isListOpen && <ListModal onClose={() => setIsListOpen(false)} />}
     </>
   );
 }

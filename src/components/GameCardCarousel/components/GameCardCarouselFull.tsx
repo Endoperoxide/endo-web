@@ -11,14 +11,12 @@ const DEFAULT_HEIGHT_CLASSES =
 type Props = {
   games: Game[];
   cardHeight?: string;
-  onSelect?: (game: Game) => void;
   onActiveChange?: (index: number) => void;
   onOffsetChange?: (offset: number) => void;
 };
 
 export default function GameCardCarouselFull({
   games,
-  onSelect,
   cardHeight,
   onActiveChange,
   onOffsetChange,
@@ -46,17 +44,6 @@ export default function GameCardCarouselFull({
     onActiveChange,
     onMeasure: setCardSpacing,
   });
-
-  function handleCardClick(game: Game) {
-    const index = games.indexOf(game);
-
-    if (index !== -1) {
-      scrollToIndex(index);
-      onActiveChange?.(index);
-    }
-
-    onSelect?.(game);
-  }
 
   useEffect(() => {
     onOffsetChange?.(offset);

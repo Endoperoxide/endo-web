@@ -14,10 +14,7 @@ type Properties = {
   setActiveTier: Dispatch<SetStateAction<RatingTier>>;
   sortOrder: SortOrder;
   setSortOrder: Dispatch<SetStateAction<SortOrder>>;
-  activeIndex: number;
-  onCardSelect: (game: Game) => void;
   onActiveChange: (index: number) => void;
-  onOpenList: () => void;
   tiers: { label: string; value: RatingTier; range?: string }[];
 };
 
@@ -29,10 +26,7 @@ export default function ReviewsPageSearchSection({
   setActiveTier,
   sortOrder,
   setSortOrder,
-  activeIndex,
-  onCardSelect,
   onActiveChange,
-  onOpenList,
   tiers,
 }: Properties) {
   return (
@@ -52,11 +46,10 @@ export default function ReviewsPageSearchSection({
             setSearch={setSearchQuery}
             sortOrder={sortOrder}
             setSortOrder={setSortOrder}
-            onOpenList={onOpenList}
           />
+
           <ReviewsPageSearchCarousel
             games={games}
-            onCardSelect={onCardSelect}
             onActiveChange={onActiveChange}
           />
         </div>

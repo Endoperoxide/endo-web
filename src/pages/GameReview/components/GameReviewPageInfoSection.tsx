@@ -1,14 +1,28 @@
 import type { Game } from "@/utils/game_utils";
 import GameCoverArt from "@/components/Game/GameCoverArt";
 import GameCategoryScore from "@/components/Game/GameCategory/GameCategoryScore";
+import GameRating from "@/components/Game/GameRating";
+import GameTitle from "@/components/Game/GameTitle";
+import { ArrowLeft } from "lucide-react";
 
 type Properties = {
   game: Game;
 };
 
-export default function GameModalInfo({ game }: Properties) {
+export default function GameReviewPageInfoSection({ game }: Properties) {
   return (
     <div className="flex flex-col gap-4 w-full">
+      <div className="flex flex-row items-center gap-2">
+        <a
+          href="/endo-web/reviews/"
+          className="inline-flex size-9 items-center justify-center text-text-accent"
+        >
+          <ArrowLeft />
+        </a>
+        <GameTitle game={game} />
+        <GameRating game={game} barSide="right" />
+      </div>
+
       {/* Cover art */}
       <GameCoverArt game={game} />
 

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import App from "@/app/App";
-import GameReviewPage from "@/pages/Reviews/GameReviewPage";
+import GameReviewPage from "@/pages/GameReview/GameReviewPage";
 
 import "@/index.css";
 

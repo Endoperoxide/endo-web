@@ -4,13 +4,11 @@ import type { Game } from "@/utils/game_utils";
 
 type Properties = {
   games: Game[];
-  onCardSelect: (game: Game) => void;
   onActiveChange: (index: number) => void;
 };
 
 export default function ReviewsPageSearchCarousel({
   games,
-  onCardSelect,
   onActiveChange,
 }: Properties) {
   const [offset, setOffset] = useState(0);
@@ -21,7 +19,6 @@ export default function ReviewsPageSearchCarousel({
         {/* Carousel */}
         <GameCardCarousel
           games={games}
-          onSelect={onCardSelect}
           onActiveChange={onActiveChange}
           onOffsetChange={setOffset}
         />

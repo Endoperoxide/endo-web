@@ -2,13 +2,12 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkBreaks from "remark-breaks";
 import { Game } from "@/utils/game_utils";
-import SubHeader from "@/components/ContentContainer/components/SubHeader";
 
 type Properties = {
   game: Game;
 };
 
-export default function GameModalReview({ game }: Properties) {
+export default function GameReview({ game }: Properties) {
   return (
     <div>
       <div className="flex flex-col">
