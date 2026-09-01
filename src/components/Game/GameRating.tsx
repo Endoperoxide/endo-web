@@ -1,3 +1,4 @@
+// GameRating.tsx
 import { Game } from "@/utils/game_utils";
 import { ratingLabel, ratingGradientColor } from "@/utils/rating_utils";
 
@@ -10,13 +11,36 @@ export default function GameRating({ game, barSide = "left" }: Properties) {
   const color = ratingGradientColor(game.rating);
   const label = ratingLabel(game.rating);
 
-  // Bar
-  const bar = (
+  return (
+    <div className="flex gap-2">
+      {barSide === "right" ? (
+        <>
+          {renderText(color, label, game.rating, barSide)}
+          {renderBar(color)}
+        </>
+      ) : (
+        <>
+          {renderBar(color)}
+          {renderText(color, label, game.rating, barSide)}
+        </>
+      )}
+    </div>
+  );
+}
+
+function renderBar(color: string) {
+  return (
     <div className="w-0.75 rounded-xs" style={{ backgroundColor: color }} />
   );
+}
 
-  // Text
-  const text = (
+function renderText(
+  color: string,
+  label: string,
+  rating: number,
+  barSide: "left" | "right",
+) {
+  return (
     <div className={barSide === "right" ? "text-right" : "text-left"}>
       <div
         className={`flex items-baseline gap-0.5 ${
@@ -25,42 +49,25 @@ export default function GameRating({ game, barSide = "left" }: Properties) {
       >
         {/* Rating number */}
         <span
-          className="text-[2rem] font-bold leading-none tracking-tight"
+          className="font-bold leading-none tracking-tight text-[clamp(1.1rem,14cqw,2rem)]"
           style={{ color }}
         >
-          {game.rating.toFixed(1)}
+          {rating.toFixed(1)}
         </span>
 
         {/* Out of 10 string */}
-        <span className="text-[0.85rem] font-medium text-text-primary">
+        <span className="font-medium text-text-primary text-[clamp(0.55rem,5cqw,0.85rem)]">
           /10
         </span>
       </div>
 
       {/* Rating label */}
       <div
-        className="mt-0.5 text-[0.7em] uppercase tracking-widest"
+        className="mt-0.5 uppercase tracking-widest text-[clamp(0.5rem,4cqw,0.7rem)]"
         style={{ color }}
       >
         {label}
       </div>
-    </div>
-  );
-
-  return (
-    <div className="flex gap-2">
-      {/* Change bar and text position depending on optional side arg */}
-      {barSide === "right" ? (
-        <>
-          {text}
-          {bar}
-        </>
-      ) : (
-        <>
-          {bar}
-          {text}
-        </>
-      )}
     </div>
   );
 }

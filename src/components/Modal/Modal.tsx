@@ -23,14 +23,14 @@ export default function Modal({ onClose, children }: Properties) {
         isClosing ? "animate-modal-overlay-out" : "animate-modal-overlay-in"
       }`}
     >
-      <section
+      <div
         onClick={(event) => event.stopPropagation()}
         className={`h-full w-full overflow-auto border-0 bg-background-main ${
           isClosing ? "animate-modal-out" : "animate-modal-in"
         }`}
       >
         {children(handleClose)}
-      </section>
+      </div>
     </div>
   );
 }

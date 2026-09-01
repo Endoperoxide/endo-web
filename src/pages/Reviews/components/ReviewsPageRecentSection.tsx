@@ -1,9 +1,10 @@
-import GameCard from "@/components/GameCard/GameCard";
+import GameCard from "@/components/Game/GameCard";
 import PageContentSection from "@/components/Page/PageContentSection";
+import { Game } from "@/utils/game_utils";
 import { recentGames } from "@/utils/load_game_utils";
 
 type Properties = {
-  onCardSelect: (index: number) => void;
+  onCardSelect: (game: Game) => void;
 };
 
 export default function ReviewsPageRecentSection({ onCardSelect }: Properties) {
@@ -13,12 +14,12 @@ export default function ReviewsPageRecentSection({ onCardSelect }: Properties) {
       title="Recent Games"
       eyebrow="Recently reviewed games"
     >
-      <div className="grid w-full grid-cols-3 gap-2">
-        {recentGames.map((game, index) => (
+      <div className="grid w-full grid-cols-1 gap-2 bg-background-main p-2 sm:grid-cols-3">
+        {recentGames.map((game) => (
           <GameCard
             key={game.slug}
             game={game}
-            onClick={() => onCardSelect(index)}
+            onClick={() => onCardSelect(game)}
           />
         ))}
       </div>

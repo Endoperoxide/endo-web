@@ -1,4 +1,4 @@
-import ModalHeader from "@/components/Modal/components/ModalHeader";
+import ModalHeaderSection from "@/components/Modal/components/ModalHeader";
 
 type Properties = {
   handleClose: () => void;
@@ -12,7 +12,7 @@ export default function ListModalHeader({
   totalCount,
 }: Properties) {
   return (
-    <ModalHeader onClose={handleClose}>
+    <ModalHeaderSection onClose={handleClose}>
       <h1 className="font-bold leading-none text-[clamp(0.8rem,9cqw,1.5rem)] text-text-primary">
         Review List
       </h1>
@@ -20,6 +20,6 @@ export default function ListModalHeader({
       <div className="ml-auto tracking-wide shrink-0 text-text-secondary">
         {reviewedCount}/{totalCount}
       </div>
-    </ModalHeader>
+    </ModalHeaderSection>
   );
 }

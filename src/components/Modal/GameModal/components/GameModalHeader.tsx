@@ -1,5 +1,5 @@
 import type { Game } from "@/utils/game_utils";
-import ModalHeader from "@/components/Modal/components/ModalHeader";
+import ModalHeaderSection from "@/components/Modal/components/ModalHeader";
 import GameTitle from "@/components/Game/GameTitle";
 import GameRating from "@/components/Game/GameRating";
 
@@ -10,7 +10,7 @@ type Properties = {
 
 export default function GameModalHeader({ game, onClose }: Properties) {
   return (
-    <ModalHeader onClose={onClose}>
+    <ModalHeaderSection onClose={onClose}>
       {/* Title */}
       <div className="min-w-0 overflow-hidden text-ellipsis whitespace-nowrap">
         <GameTitle game={game} />
@@ -20,6 +20,6 @@ export default function GameModalHeader({ game, onClose }: Properties) {
       <div className="ml-auto shrink-0">
         <GameRating game={game} barSide="right" />
       </div>
-    </ModalHeader>
+    </ModalHeaderSection>
   );
 }

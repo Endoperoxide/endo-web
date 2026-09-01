@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import type { Game } from "@/utils/game_utils";
-import GameCard from "@/components/GameCard/GameCard";
+import GameCard from "@/components/Game/GameCard";
 import { useCarouselScroll } from "@/components/GameCardCarousel/hooks/useCarouselScroll";
 import { useCardTransforms } from "@/components/GameCardCarousel/hooks/useCardTransforms";
 
@@ -78,7 +78,7 @@ export default function GameCardCarouselFull({
             <div
               key={`${game.slug}-${index}`}
               data-card
-              className={`aspect-2/3 shrink-0 transform-3d will-change-transform ${
+              className={`aspect-2/3 shrink-0 min-w-0 transform-3d will-change-transform ${
                 cardHeight ? "" : DEFAULT_HEIGHT_CLASSES
               } ${index !== 0 ? "max-sm:-ml-20" : ""}`}
               style={cardHeight ? { height: cardHeight } : undefined}

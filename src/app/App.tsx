@@ -9,26 +9,19 @@ import Navbar from "@/components/Navbar/Navbar";
 import ListModal from "@/components/Modal/ListModal/ListModal";
 import TriangleBackground from "@/components/TriangleBackground";
 
+const PAGE_COMPONENTS: Record<Page, React.ComponentType> = {
+  home: HomePage,
+  reviews: ReviewsPage,
+};
+
 export default function App() {
   const { page, navigate } = useNavigation();
+  const PageComponent = PAGE_COMPONENTS[page];
   const pageContainerRef = useRef<HTMLDivElement>(null);
   const [isUpcomingOpen, setIsUpcomingOpen] = useState(false);
   const scrollY = useElementScroll(pageContainerRef);
 
   useScrollToTop(pageContainerRef, page);
-
-  function renderPageComponent(page: Page) {
-    switch (page) {
-      case "home":
-        return <HomePage />;
-      case "reviews":
-        return <ReviewsPage />;
-      default: {
-        const exhaustiveCheck: never = page;
-        return exhaustiveCheck;
-      }
-    }
-  }
 
   return (
     <div className="relative min-h-screen bg-background-main">
@@ -39,7 +32,7 @@ export default function App() {
 
         {/* Page */}
         <main ref={pageContainerRef} className="min-h-0 flex-1 overflow-auto">
-          {renderPageComponent(page)}
+          <PageComponent />
         </main>
 
         {isUpcomingOpen && (

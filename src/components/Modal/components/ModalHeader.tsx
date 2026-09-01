@@ -6,9 +6,9 @@ type Properties = {
   children?: ReactNode;
 };
 
-export default function ModalHeader({ onClose, children }: Properties) {
+export default function ModalHeaderSection({ onClose, children }: Properties) {
   return (
-    <div className="sticky top-0 z-5 border-b border-border-base bg-background-main">
+    <section className="p-0 sticky top-0 z-5 border-b border-border-base bg-background-main">
       <div className="flex justify-end">
         {/* Close button */}
         <button
@@ -22,6 +22,6 @@ export default function ModalHeader({ onClose, children }: Properties) {
       {children && (
         <div className="flex items-center gap-2 p-4">{children}</div>
       )}
-    </div>
+    </section>
   );
 }

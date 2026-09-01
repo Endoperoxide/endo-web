@@ -10,10 +10,9 @@ type Properties = {
 
 export default function GameModalReview({ game }: Properties) {
   return (
-    <div className="h-full overflow-y-auto py-5">
-      <SubHeader title="Description" />
-      <div className="flex flex-col gap-4 p-5">
-        <p className=" prose prose-invert text-[0.8rem] leading-relaxed text-text-secondary max-w-none">
+    <div>
+      <div className="flex flex-col">
+        <p className="prose prose-invert text-[0.8rem] leading-relaxed text-text-secondary max-w-none">
           <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
             {game.review}
           </ReactMarkdown>

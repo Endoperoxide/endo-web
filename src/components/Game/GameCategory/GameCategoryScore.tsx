@@ -1,19 +1,19 @@
 import type { Game } from "@/utils/game_utils";
 import { CATEGORY_LABELS } from "@/utils/game_utils";
-import GameCategoryScoreRow from "@/components/GameCategory/components/GameCategoryScoreRow";
+import GameCategoryScoreRow from "@/components/Game/GameCategory/components/GameCategoryScoreRow";
 
 type Properties = {
-  categories: Game["categories"];
+  game: Game;
 };
 
-export default function GameCategoryScore({ categories }: Properties) {
-  const entries = Object.entries(categories) as [
-    keyof typeof categories,
+export default function GameCategoryScore({ game }: Properties) {
+  const entries = Object.entries(game.categories) as [
+    keyof typeof game.categories,
     number,
   ][];
 
   return (
-    <div className="grid grid-cols-1 gap-y-1">
+    <div className="grid grid-cols-1 gap-3">
       {/* List of all categories */}
       {entries.map(([key, val]) => (
         <GameCategoryScoreRow

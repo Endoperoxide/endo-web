@@ -1,10 +1,10 @@
 import type { PodiumGame } from "@/utils/podium_utils";
 import GameVideo from "@/components/Game/GameVideo/GameVideo";
-import { useHoverToPlay } from "@/components/GameShowcase/hooks/useHoverToPlay";
-import { useActiveGame } from "@/components/GameShowcase/hooks/useActiveGame";
-import GameCoverArt from "../Game/GameCoverArt";
-import GameRating from "../Game/GameRating";
-import GameTitle from "../Game/GameTitle";
+import { useHoverToPlay } from "@/components/Game/GameShowcase/hooks/useHoverToPlay";
+import { useActiveGame } from "@/components/Game/GameShowcase/hooks/useActiveGame";
+import GameCoverArt from "@/components/Game/GameCoverArt";
+import GameRating from "@/components/Game/GameRating";
+import GameTitle from "@/components/Game/GameTitle";
 
 type Props = {
   games: PodiumGame[];

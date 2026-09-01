@@ -20,11 +20,11 @@ export default function GameCategoryScoreRow({ label, value }: Properties) {
 
   return (
     <div>
-      <div className="mb-1 flex items-baseline justify-between">
+      <div className="flex items-baseline justify-between">
         {/* Category label */}
-        <span className="text-[0.6rem] uppercase tracking-widest text-text-muted">
+        <h1 className="text-[0.6rem] uppercase tracking-widest text-text-muted">
           {label}
-        </span>
+        </h1>
 
         {/* Category value */}
         <span className="text-[0.7rem] font-semibold" style={{ color }}>
@@ -33,7 +33,7 @@ export default function GameCategoryScoreRow({ label, value }: Properties) {
       </div>
 
       {/* Display progress bar */}
-      <div className="h-px bg-border-base">
+      <div className="h-1 bg-border-base">
         <div
           className="h-full rounded-xs transition-[width] duration-1000 ease-out"
           style={{

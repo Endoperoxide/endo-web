@@ -5,7 +5,6 @@ import type { RatingTier } from "@/utils/rating_utils";
 import type { Game } from "@/utils/game_utils";
 import PageContentSection from "@/components/Page/PageContentSection";
 import ReviewsPageSearchBar from "./ReviewsPageSearchBar";
-import GameSegmentScroller from "@/components/GameSegment/GameSegmentScroller";
 
 type Properties = {
   games: Game[];
@@ -55,17 +54,11 @@ export default function ReviewsPageSearchSection({
             setSortOrder={setSortOrder}
             onOpenList={onOpenList}
           />
-
-          <GameSegmentScroller
-            games={games}
-            onSelect={onCardSelect}
-            onActiveChange={onActiveChange}
-          />
-          {/* <ReviewsPageSearchCarousel
+          <ReviewsPageSearchCarousel
             games={games}
             onCardSelect={onCardSelect}
             onActiveChange={onActiveChange}
-          /> */}
+          />
         </div>
       </div>
     </PageContentSection>

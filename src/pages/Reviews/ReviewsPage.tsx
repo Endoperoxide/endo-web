@@ -45,12 +45,7 @@ export default function ReviewsPage() {
       <ReviewsPagePodiumSection />
       <PlusDivider theme="dark" />
       <PlusDivider theme="light" />
-      <ReviewsPageRecentSection
-        onCardSelect={(index) => {
-          const game = filtered[index];
-          if (game) setModalGame(game);
-        }}
-      />
+      <ReviewsPageRecentSection onCardSelect={(game) => setModalGame(game)} />
       <PlusDivider theme="light" />
       <PlusDivider theme="dark" />
       <ReviewsPageSearchSection

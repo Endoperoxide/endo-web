@@ -1,5 +1,5 @@
 import PageDisplaySection from "@/components/Page/PageDisplaySection";
-import GameShowcase from "@/components/GameShowcase/GameShowcase";
+import GameShowcase from "@/components/Game/GameShowcase/GameShowcase";
 import { podiumGames } from "@/utils/podium_utils";
 
 export default function ReviewsPageDisplaySection() {
