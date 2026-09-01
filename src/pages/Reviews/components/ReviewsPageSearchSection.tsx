@@ -1,11 +1,11 @@
 import type { Dispatch, SetStateAction } from "react";
 import ReviewsPageSearchCarousel from "./ReviewsPageSearchCarousel";
-import ReviewsPageSearchTitles from "./ReviewsPageSearchTitles";
 import type { SortOrder } from "./SortButton";
 import type { RatingTier } from "@/utils/rating_utils";
 import type { Game } from "@/utils/game_utils";
 import PageContentSection from "@/components/Page/PageContentSection";
 import ReviewsPageSearchBar from "./ReviewsPageSearchBar";
+import GameSegmentScroller from "@/components/GameSegment/GameSegmentScroller";
 
 type Properties = {
   games: Game[];
@@ -56,14 +56,17 @@ export default function ReviewsPageSearchSection({
             onOpenList={onOpenList}
           />
 
-          <ReviewsPageSearchCarousel
+          <GameSegmentScroller
+            games={games}
+            onSelect={onCardSelect}
+            onActiveChange={onActiveChange}
+          />
+          {/* <ReviewsPageSearchCarousel
             games={games}
             onCardSelect={onCardSelect}
             onActiveChange={onActiveChange}
-          />
+          /> */}
         </div>
-
-        <ReviewsPageSearchTitles games={games} progress={activeIndex} />
       </div>
     </PageContentSection>
   );

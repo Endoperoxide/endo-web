@@ -1,4 +1,4 @@
-import fayeConfused from "@/assets/Faye/faye_confused.png";
+import fayeConfused from "@/assets/Faye/faye_confused_top.png";
 
 export default function GameCardCarouselEmpty() {
   return (
@@ -14,7 +14,7 @@ export default function GameCardCarouselEmpty() {
       <img
         src={fayeConfused}
         alt="Faye Confused"
-        className="h-[60vh] max-h-[80%]"
+        className=""
         fetchPriority="low"
       />
     </div>

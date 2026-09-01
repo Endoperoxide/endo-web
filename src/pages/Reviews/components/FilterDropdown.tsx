@@ -18,7 +18,7 @@ export default function FilterDropdown({
   const active = tiers.find((tier) => tier.value === activeTier);
 
   return (
-    <div className="shrink-0">
+    <div className="shrink-0 bg-background-base">
       {/* Dropdown */}
       <Dropdown
         align="stretch"
@@ -26,7 +26,7 @@ export default function FilterDropdown({
           <button
             onClick={toggle}
             aria-expanded={isOpen}
-            className="flex h-11 w-full cursor-pointer items-center justify-between gap-1 whitespace-nowrap border border-border-base px-3 text-[0.75rem] text-text-primary hover:border-strong"
+            className="flex h-11 w-full cursor-pointer items-center justify-between gap-1 whitespace-nowrap border border-border-base px-3 text-[0.75rem] text-text-secondary hover:border-strong"
           >
             {/* Label */}
             <span className="truncate">{active?.label}</span>

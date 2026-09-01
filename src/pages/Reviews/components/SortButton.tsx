@@ -24,7 +24,7 @@ export default function SortButton({ sortOrder, setSortOrder }: Properties) {
           ? "Sort by lowest rating"
           : "Sort by highest rating"
       }
-      className="flex h-full shrink-0 items-center gap-1.5 whitespace-nowrap border border-border-base px-3 text-[0.75rem] text-text-primary hover:border-strong"
+      className="flex h-full shrink-0 items-center gap-1.5 whitespace-nowrap bg-background-base border border-border-base px-3 text-[0.75rem] text-text-secondary hover:border-strong"
     >
       <ArrowUp
         size={16}

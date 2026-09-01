@@ -1,25 +1,27 @@
 import PageContentSection from "@/components/Page/PageContentSection";
-import marathonTest from "@/assets/marathon_test_img.png";
 import { ImageContentContainer } from "@/components/ContentContainer/ImageContentContainer";
 import TextContentContainer from "@/components/ContentContainer/TextContentContainer";
+import illustration from "@/assets/signalis_test.jpg";
 
 const PARAGRAPHS = [
-  `This website started due to burnout I've had from other projects,
-  which was intended to be a stand-alone reviews website. And while this remains true,
-  now it exists mostly as a hub of all my creative works such as Drawing, Writing and Coding projects. `,
+  `This site was initially intended to be a repository of my game reviews, something to do whilst I was burnt out from other projects, 
+  but it has since evolved into a hub for all my creative works, including drawing, writing, and coding projects.`,
 
-  `This website started due to burnout I've had from other projects,
-  which was intended to be a stand-alone reviews website. And while this remains true,
-  now it exists mostly as a hub of all my creative works such as Drawing, Writing and Coding projects.`,
+  `As of right now, the site is still a work in progress, and I am actively working on adding more content and features to it.
+  Be sure to check back often for updates, and welcome to my small corner of the internet!`,
 ];
 
 export default function HomePageIntroSection() {
   return (
-    <PageContentSection theme="light" title="About" eyebrow="test">
+    <PageContentSection
+      theme="light"
+      title="About this site"
+      eyebrow="What kind of awesome is this?"
+    >
       <div className="flex flex-col gap-3 md:flex-row">
         {/* Image column */}
         <div className="flex flex-3 flex-col">
-          <ImageContentContainer title="Faye" image={marathonTest} />
+          <ImageContentContainer title="Faye" image={illustration} />
         </div>
 
         {/* Text column */}

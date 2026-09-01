@@ -1,6 +1,6 @@
 {
-  "homepage": "http://endoperoxide.github.io/endo-reviews",
-  "name": "endo-reviews",
+  "homepage": "http://endoperoxide.github.io/endo-web",
+  "name": "endo-web",
   "private": true,
   "version": "1.0.0",
   "type": "module",

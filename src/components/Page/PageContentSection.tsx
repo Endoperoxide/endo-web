@@ -17,7 +17,7 @@ const themeStyles = {
   },
   light: {
     background: "bg-background-highlight",
-    eyebrowColor: "text-text-secondary",
+    eyebrowColor: "text-text-dark",
   },
 } as const;
 
