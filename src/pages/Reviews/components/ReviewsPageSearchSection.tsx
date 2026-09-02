@@ -1,10 +1,10 @@
 import type { Dispatch, SetStateAction } from "react";
-import ReviewsPageSearchCarousel from "./ReviewsPageSearchCarousel";
-import type { SortOrder } from "./SortButton";
+import type { SortOrder } from "@/pages/Reviews/components/SortButton";
 import type { RatingTier } from "@/utils/rating_utils";
 import type { Game } from "@/utils/game_utils";
+import ReviewsPageSearchCarousel from "@/pages/Reviews/components/ReviewsPageSearchCarousel";
 import PageContentSection from "@/components/Page/PageContentSection";
-import ReviewsPageSearchBar from "./ReviewsPageSearchBar";
+import ReviewsPageSearchBar from "@/pages/Reviews/components/ReviewsPageSearchBar";
 
 type Properties = {
   games: Game[];

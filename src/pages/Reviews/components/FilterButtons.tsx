@@ -1,6 +1,6 @@
 import type { Dispatch, SetStateAction } from "react";
 import type { RatingTier } from "@/utils/rating_utils";
-import FilterDropdown from "./FilterDropdown";
+import FilterDropdown from "@/pages/Reviews/components/FilterDropdown";
 
 type Properties = {
   tiers: { label: string; value: RatingTier; range?: string }[];

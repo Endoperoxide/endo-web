@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import PageTitle from "./PageTitle";
-import BackgroundStripes from "../Background/BackgroundStripes";
+import PageTitle from "@/components/Page/PageTitle";
+import BackgroundStripes from "@/components/Background/BackgroundStripes";
 
 type Properties = {
   title: string;

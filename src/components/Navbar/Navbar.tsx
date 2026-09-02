@@ -1,8 +1,7 @@
 import type { Page } from "@/utils/page_utils";
-
-import NavbarLinks from "./components/NavbarLinks";
-import NavbarDropdown from "./components/NavbarDropdown";
-import NavbarLogo from "./components/NavbarLogo";
+import NavbarLinks from "@/components/Navbar/components/NavbarLinks";
+import NavbarDropdown from "@/components/Navbar/components/NavbarDropdown";
+import NavbarLogo from "@/components/Navbar/components/NavbarLogo";
 
 type Properties = {
   current: Page;

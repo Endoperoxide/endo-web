@@ -1,8 +1,10 @@
 import type { Dispatch, SetStateAction } from "react";
-import SearchBar from "./SearchBar";
-import FilterDropdown from "./FilterDropdown";
-import SortButton, { type SortOrder } from "./SortButton";
 import type { RatingTier } from "@/utils/rating_utils";
+import SearchBar from "@/pages/Reviews/components/SearchBar";
+import FilterDropdown from "@/pages/Reviews/components/FilterDropdown";
+import SortButton, {
+  type SortOrder,
+} from "@/pages/Reviews/components/SortButton";
 
 type Properties = {
   tiers: { label: string; value: RatingTier; range?: string }[];

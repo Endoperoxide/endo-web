@@ -1,5 +1,5 @@
-import { parseFrontmatter } from "./frontmatter_utils";
-import { GameFrontmatterSchema, type Game } from "./game_utils";
+import { parseFrontmatter } from "@/utils/frontmatter_utils";
+import { GameFrontmatterSchema, type Game } from "@/utils/game_utils";
 
 const seenSlugs = new Set<string>();
 const RECENT_GAMES_COUNT = 3;

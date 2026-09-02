@@ -3,7 +3,7 @@ import type { Game } from "@/utils/game_utils";
 import GameCoverArt from "@/components/Game/GameCoverArt";
 import GameTitle from "@/components/Game/GameTitle";
 
-import GameRating from "./GameRating";
+import GameRating from "@/components/Game/GameRating";
 import { PAGES } from "@/utils/page_utils";
 
 type Properties = {

@@ -1,4 +1,6 @@
-import SubHeader, { SubHeaderProperties } from "./components/SubHeader";
+import SubHeader, {
+  SubHeaderProperties,
+} from "@/components/ContentContainer/components/SubHeader";
 
 type Properties = SubHeaderProperties & {
   paragraphs: string[];
