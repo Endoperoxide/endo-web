@@ -1,4 +1,4 @@
-import { PAGES, type Page } from "@/utils/page_utils";
+import { getNavPages, PAGES, type Page } from "@/utils/page_utils";
 import Navlink from "@/components/Navbar/components/Navlink";
 
 type Properties = {
@@ -8,7 +8,7 @@ type Properties = {
 export default function NavbarLinks({ current }: Properties) {
   return (
     <nav className="hidden h-full items-center gap-5 px-10 sm:flex">
-      {(Object.keys(PAGES) as Page[]).map((page) => (
+      {getNavPages().map((page) => (
         <Navlink
           key={page}
           page={page}

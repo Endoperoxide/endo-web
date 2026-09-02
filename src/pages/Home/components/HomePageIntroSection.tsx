@@ -8,7 +8,7 @@ const PARAGRAPHS = [
   but it has since evolved into a hub for all my creative works, including drawing, writing, and coding projects.`,
 
   `As of right now, the site is still a work in progress, and I am actively working on adding more content and features to it.
-  Be sure to check back often for updates, and welcome to my small corner of the internet!`,
+  Be sure to check back often for updates, and welcome to my small pet project!`,
 ];
 
 export default function HomePageIntroSection() {
@@ -20,12 +20,12 @@ export default function HomePageIntroSection() {
     >
       <div className="flex flex-col gap-3 md:flex-row">
         {/* Image column */}
-        <div className="flex flex-3 flex-col">
+        <div className="flex flex-3">
           <ImageContentContainer title="Faye" image={illustration} />
         </div>
 
         {/* Text column */}
-        <div className="flex flex-2 flex-col">
+        <div className="flex flex-2">
           <TextContentContainer title="Description" paragraphs={PARAGRAPHS} />
         </div>
       </div>

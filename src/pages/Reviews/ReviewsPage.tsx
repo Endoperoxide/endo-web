@@ -27,12 +27,8 @@ export default function ReviewsPage() {
       <PageDivider theme="light" />
       <ReviewsPageIntroSection />
       <PageDivider theme="light" />
-      <PageDivider theme="dark" />
-      <ReviewsPagePodiumSection />
-      <PageDivider theme="dark" />
-      <PageDivider theme="light" />
-      <ReviewsPageRecentSection />
-      <PageDivider theme="light" />
+      {/* <ReviewsPageRecentSection /> */}
+      {/* <PageDivider theme="light" /> */}
       <PageDivider theme="dark" />
       <ReviewsPageSearchSection
         games={filtered}

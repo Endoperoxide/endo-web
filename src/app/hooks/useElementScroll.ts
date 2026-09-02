@@ -4,22 +4,22 @@ export function useElementScroll(ref: RefObject<HTMLElement | null>) {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
+    const element = ref.current;
+    if (!element) return;
 
     let frame: number | undefined;
 
     const handleScroll = () => {
       if (frame) return;
       frame = requestAnimationFrame(() => {
-        setScrollY(el.scrollTop);
+        setScrollY(element.scrollTop);
         frame = undefined;
       });
     };
 
-    el.addEventListener("scroll", handleScroll, { passive: true });
+    element.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
-      el.removeEventListener("scroll", handleScroll);
+      element.removeEventListener("scroll", handleScroll);
       if (frame) cancelAnimationFrame(frame);
     };
   }, [ref]);

@@ -29,12 +29,12 @@ export default function ReviewsPageIntroSection() {
     >
       <div className="flex flex-col gap-3 md:flex-row">
         {/* Image column */}
-        <div className="flex flex-3 flex-col">
+        <div className="flex flex-3">
           <ImageContentContainer title="Faye" image={marathonTest} />
         </div>
 
         {/* Text column */}
-        <div className="flex flex-2 flex-col">
+        <div className="flex flex-2">
           <TextContentContainer title="Description" paragraphs={PARAGRAPHS} />
         </div>
       </div>

@@ -33,13 +33,13 @@ export default function PageContentSection({
   return (
     <section className={`relative flex flex-col ${background} ${className}`}>
       <div className="flex min-h-0 flex-1 flex-col">
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center gap-5 mb-5">
           <PageTitle
             title={title}
             eyebrow={eyebrow}
             eyebrowColor={eyebrowColor}
           />
-          {theme === "light" && <BackgroundStripes className="ml-6" />}
+          {theme === "light" && <BackgroundStripes />}
         </div>
 
         {/* Children */}

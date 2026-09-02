@@ -1,5 +1,5 @@
 import type { Page } from "@/utils/page_utils";
-import { PAGES } from "@/utils/page_utils";
+import { getNavPages, PAGES } from "@/utils/page_utils";
 import Dropdown from "@/components/Dropdown/Dropdown";
 import Navlink from "@/components/Navbar/components/Navlink";
 
@@ -44,7 +44,7 @@ export default function NavbarDropdown({ current }: Properties) {
       >
         {(close) => (
           <nav className="flex flex-col py-2">
-            {(Object.keys(PAGES) as Page[]).map((page) => (
+            {getNavPages().map((page) => (
               <div key={page} className="px-5 py-3">
                 <Navlink
                   page={page}

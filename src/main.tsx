@@ -6,7 +6,7 @@ import HomePage from "@/pages/Home/HomePage";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App currentPage="home">
+    <App current="home">
       <HomePage />
     </App>
   </React.StrictMode>,

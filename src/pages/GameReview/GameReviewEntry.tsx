@@ -12,7 +12,7 @@ if (!slug) {
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App currentPage="reviews">
+    <App current="reviews">
       <GameReviewPage slug={slug} />
     </App>
   </React.StrictMode>,
