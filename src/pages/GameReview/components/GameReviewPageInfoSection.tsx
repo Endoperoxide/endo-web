@@ -1,4 +1,5 @@
 import type { Game } from "@/utils/game_utils";
+import { getGameDisplay } from "@/utils/game_display_utils";
 import GameCoverArt from "@/components/Game/GameCoverArt";
 import GameCategoryScore from "@/components/Game/GameCategory/GameCategoryScore";
 import GameRating from "@/components/Game/GameRating";
@@ -11,6 +12,8 @@ type Properties = {
 };
 
 export default function GameReviewPageInfoSection({ game }: Properties) {
+  const { reviewDateText, playtimeText } = getGameDisplay(game);
+
   return (
     <div className="flex flex-col gap-4 w-full h-full min-h-0">
       {/* Header */}
@@ -35,14 +38,8 @@ export default function GameReviewPageInfoSection({ game }: Properties) {
         <GameCategoryScore game={game} />
         <div className="h-px my-2 bg-border-base" />
         <div className="flex justify-end gap-5">
-          <GameModalMetaStat
-            label="Date of review"
-            value={String(game.reviewDate)}
-          />
-          <GameModalMetaStat
-            label="Estimated Playtime"
-            value={`~${game.playtimeHours}h`}
-          />
+          <GameModalMetaStat label="Date of review" value={reviewDateText} />
+          <GameModalMetaStat label="Estimated Playtime" value={playtimeText} />
         </div>
       </div>
     </div>
@@ -57,12 +54,9 @@ type MetaStatProperties = {
 function GameModalMetaStat({ label, value }: MetaStatProperties) {
   return (
     <div className="text-right">
-      {/* Meta label */}
       <h1 className="text-[0.55rem] text-text-muted tracking-widest uppercase">
         {label}
       </h1>
-
-      {/* Meta value */}
       <p className="text-[0.7rem] text-text-primary font-medium">{value}</p>
     </div>
   );

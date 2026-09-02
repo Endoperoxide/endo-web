@@ -1,5 +1,5 @@
 import type { Game } from "@/utils/game_utils";
-import { CATEGORY_LABELS } from "@/utils/game_utils";
+import { CATEGORY_LABELS, isReviewed } from "@/utils/game_utils";
 import GameCategoryScoreRow from "@/components/Game/GameCategory/components/GameCategoryScoreRow";
 
 type Properties = {
@@ -7,6 +7,8 @@ type Properties = {
 };
 
 export default function GameCategoryScore({ game }: Properties) {
+  if (!isReviewed(game)) return null;
+
   const entries = Object.entries(game.categories) as [
     keyof typeof game.categories,
     number,

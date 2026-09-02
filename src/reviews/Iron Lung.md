@@ -2,11 +2,12 @@
 slug: "iron-lung"
 title: "Iron Lung"
 year: 2022
-reviewDate: 22-08-2026
+platforms:
+  - PC
+coverUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/library_600x900.jpg"
+reviewDate: "2026-08-22"
 playtimeHours: 1
 rating: 6.2
-coverUrl: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846170/library_600x900.jpg
-platform: PC
 categories:
   gameplay: 3.1
   story: 5

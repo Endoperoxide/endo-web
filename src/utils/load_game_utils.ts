@@ -2,7 +2,6 @@ import { parseFrontmatter } from "@/utils/frontmatter_utils";
 import { GameFrontmatterSchema, type Game } from "@/utils/game_utils";
 
 const seenSlugs = new Set<string>();
-const RECENT_GAMES_COUNT = 3;
 
 const reviewFiles = import.meta.glob("../reviews/*.md", {
   eager: true,
@@ -11,10 +10,6 @@ const reviewFiles = import.meta.glob("../reviews/*.md", {
 }) as Record<string, string>;
 
 export const games: Game[] = Object.entries(reviewFiles).map(parseReviewFile);
-export const recentGames: Game[] = sortByMostRecent(games).slice(
-  0,
-  RECENT_GAMES_COUNT,
-);
 
 function parseReviewFile([path, raw]: [string, string]): Game {
   const { data, content } = parseFrontmatter(raw);
@@ -36,15 +31,4 @@ function parseReviewFile([path, raw]: [string, string]): Game {
   seenSlugs.add(result.data.slug);
 
   return { ...result.data, review: content };
-}
-
-function parseReviewDate(dateStr: string): number {
-  const [day, month, year] = dateStr.split("-").map(Number);
-  return new Date(year, month - 1, day).getTime();
-}
-
-function sortByMostRecent(gamesToSort: Game[]): Game[] {
-  return [...gamesToSort].sort(
-    (a, b) => parseReviewDate(b.reviewDate) - parseReviewDate(a.reviewDate),
-  );
 }

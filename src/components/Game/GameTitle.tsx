@@ -20,7 +20,7 @@ export default function GameTitle({
       <span
         className={`uppercase tracking-widest text-[clamp(0.6rem,0.9vw,0.75rem)] ${metaColor}`}
       >
-        {game.year} · {game.platform}
+        {game.year} · {game.platforms.join("/")}
       </span>
     </div>
   );

@@ -2,11 +2,12 @@
 slug: "apex-legends"
 title: "Apex Legends"
 year: 2019
-reviewDate: 21-08-2026
+platforms:
+  - PC
+coverUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg"
+reviewDate: "2026-08-21"
 playtimeHours: 2500
 rating: 6.6
-coverUrl: https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg
-platform: PC
 categories:
   gameplay: 7.8
   story: 2

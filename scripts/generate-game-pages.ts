@@ -1,4 +1,5 @@
-import { games } from "@/utils/load_game_utils";
+import fs from "node:fs";
+import path from "node:path";
 
 export const upcomingGames: string[] = [
   "Apex Legends",
@@ -209,16 +210,52 @@ export const upcomingGames: string[] = [
   "Fortnite",
 ];
 
-export type UpcomingStatus = {
-  title: string;
-  reviewed: boolean;
-};
+const outputDir = "./src/content/reviews";
 
-export function getUpcomingStatuses(): UpcomingStatus[] {
-  return upcomingGames.map((title) => ({
-    title,
-    reviewed: games.some(
-      (game) => game.title.trim().toLowerCase() === title.trim().toLowerCase(),
-    ),
-  }));
+fs.mkdirSync(outputDir, { recursive: true });
+
+function slugify(title: string): string {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function createMarkdown(title: string): string {
+  const slug = slugify(title);
+
+  return `---
+slug: "${slug}"
+title: "${title}"
+year:
+platforms: []
+coverUrl:
+reviewDate:
+playtimeHours:
+rating:
+categories:
+  gameplay:
+  story:
+  music:
+  soundDesign:
+  visualDesign:
+  replayability:
+---
+
+`;
+}
+
+for (const game of upcomingGames) {
+  const slug = slugify(game);
+  const filePath = path.join(outputDir, `${slug}.md`);
+
+  if (fs.existsSync(filePath)) {
+    console.log(`Skipping ${game} — file already exists`);
+    continue;
+  }
+
+  fs.writeFileSync(filePath, createMarkdown(game), "utf8");
+  console.log(`Created ${filePath}`);
 }

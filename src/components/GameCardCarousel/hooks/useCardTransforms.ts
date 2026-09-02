@@ -1,9 +1,5 @@
 import { useLayoutEffect, useRef } from "react";
 
-const MAX_ROTATE = 32;
-const MAX_DEPTH = 320;
-const MAX_SCALE_LOSS = 0.2;
-
 type Params = {
   offset: number;
   length: number;
@@ -38,40 +34,12 @@ export function useCardTransforms({
         const rect = card.getBoundingClientRect();
         const cardCenter = rect.left + rect.width / 2;
         const distance = (cardCenter - center) / (wrapper.clientWidth / 2);
-        return { card, index, distance, abs: Math.abs(distance) };
+        return { index, abs: Math.abs(distance) };
       });
 
       const active = entries.reduce((closest, entry) =>
         entry.abs < closest.abs ? entry : closest,
       ).index;
-
-      const ranked = [...entries].sort((a, b) => a.abs - b.abs);
-      const zIndexByIndex = new Map<number, number>();
-      ranked.forEach((entry, rank) => {
-        zIndexByIndex.set(entry.index, entries.length - rank);
-      });
-
-      entries.forEach(({ card, index, distance, abs }) => {
-        const rotate = -distance * MAX_ROTATE;
-        const depth = -Math.pow(abs, 1.4) * MAX_DEPTH;
-        const scale =
-          1 - Math.min(MAX_SCALE_LOSS, Math.pow(abs, 1.5) * MAX_SCALE_LOSS);
-
-        card.style.transformOrigin =
-          distance > 0
-            ? "left center"
-            : distance < 0
-              ? "right center"
-              : "center";
-
-        card.style.zIndex = String(zIndexByIndex.get(index));
-        card.style.transform = `
-          perspective(2200px)
-          translateZ(${depth}px)
-          rotateY(${rotate}deg)
-          scale(${scale})
-        `;
-      });
 
       if (flowCenters.length > 1) {
         const spacing = Math.round(flowCenters[1] - flowCenters[0]);
