@@ -10,7 +10,7 @@ type Properties = {
   borderWidth?: number;
 };
 
-export default function TriangleBackground({
+export default function BackgroundTriangles({
   scrollOffset = 0,
   parallaxFactor = 0.15,
   triangleSize = 250,

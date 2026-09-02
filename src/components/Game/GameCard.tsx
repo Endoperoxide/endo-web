@@ -4,6 +4,7 @@ import GameCoverArt from "@/components/Game/GameCoverArt";
 import GameTitle from "@/components/Game/GameTitle";
 
 import GameRating from "./GameRating";
+import { PAGES } from "@/utils/page_utils";
 
 type Properties = {
   game: Game;
@@ -12,7 +13,7 @@ type Properties = {
 export default function GameCard({ game }: Properties) {
   return (
     <a
-      href={`/endo-web/reviews/${game.slug}/`}
+      href={`${PAGES.reviews.path}${game.slug}/`}
       className="relative block w-full cursor-pointer overflow-hidden border-0 bg-background-highlight"
     >
       <div className="flex flex-col">

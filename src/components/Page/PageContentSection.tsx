@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import EyebrowTitle from "../EyebrowTitle";
-import DiagonalStripes from "../DiagonalStripes";
+import PageTitle from "./PageTitle";
+import BackgroundStripes from "../Background/BackgroundStripes";
 
 type Properties = {
   title: string;
@@ -34,12 +34,12 @@ export default function PageContentSection({
     <section className={`relative flex flex-col ${background} ${className}`}>
       <div className="flex min-h-0 flex-1 flex-col">
         <div className="flex flex-row items-center">
-          <EyebrowTitle
+          <PageTitle
             title={title}
             eyebrow={eyebrow}
             eyebrowColor={eyebrowColor}
           />
-          {theme === "light" && <DiagonalStripes className="ml-6" />}
+          {theme === "light" && <BackgroundStripes className="ml-6" />}
         </div>
 
         {/* Children */}

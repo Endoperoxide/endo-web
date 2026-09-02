@@ -4,6 +4,7 @@ import GameCategoryScore from "@/components/Game/GameCategory/GameCategoryScore"
 import GameRating from "@/components/Game/GameRating";
 import GameTitle from "@/components/Game/GameTitle";
 import { ArrowLeft } from "lucide-react";
+import { PAGES } from "@/utils/page_utils";
 
 type Properties = {
   game: Game;
@@ -11,11 +12,12 @@ type Properties = {
 
 export default function GameReviewPageInfoSection({ game }: Properties) {
   return (
-    <div className="flex flex-col gap-4 w-full">
-      <div className="flex flex-row items-center gap-2">
+    <div className="flex flex-col gap-4 w-full h-full min-h-0">
+      {/* Header */}
+      <div className="flex flex-row items-center gap-2 shrink-0">
         <a
-          href="/endo-web/reviews/"
-          className="inline-flex size-9 items-center justify-center text-text-accent"
+          href={`${PAGES.reviews.path}`}
+          className="inline-flex size-9 shrink-0 items-center justify-center text-text-accent"
         >
           <ArrowLeft />
         </a>
@@ -24,22 +26,19 @@ export default function GameReviewPageInfoSection({ game }: Properties) {
       </div>
 
       {/* Cover art */}
-      <GameCoverArt game={game} />
+      <div className="min-h-0 flex-1 overflow-hidden">
+        <GameCoverArt game={game} />
+      </div>
 
-      <div className="flex-1 flex flex-col">
-        {/* Category scores */}
+      {/* Scores + meta */}
+      <div className="shrink-0 flex flex-col">
         <GameCategoryScore game={game} />
-
         <div className="h-px my-2 bg-border-base" />
-
-        {/* Meta container */}
         <div className="flex justify-end gap-5">
-          {/* Date of review */}
           <GameModalMetaStat
             label="Date of review"
             value={String(game.reviewDate)}
           />
-          {/* Playtime */}
           <GameModalMetaStat
             label="Estimated Playtime"
             value={`~${game.playtimeHours}h`}

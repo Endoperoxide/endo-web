@@ -1,4 +1,4 @@
-export default function DiagonalStripes({
+export default function BackgroundStripes({
   className = "",
 }: {
   className?: string;

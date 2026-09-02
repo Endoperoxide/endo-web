@@ -2,7 +2,7 @@ import { games } from "@/utils/load_game_utils";
 
 import GameReviewPageInfoSection from "@/pages/GameReview/components/GameReviewPageInfoSection";
 import GameReview from "@/components/Game/GameReview";
-import PlusDivider from "@/components/PlusDivider";
+import PageDivider from "@/components/Page/PageDivider";
 import GameTitle from "@/components/Game/GameTitle";
 import GameRating from "@/components/Game/GameRating";
 import { ArrowLeft } from "lucide-react";
@@ -26,9 +26,9 @@ export default function GameReviewPage({ slug }: Properties) {
         </div>
 
         <div className="flex flex-2 flex-col">
-          <PlusDivider theme="dark" padded={false} />
+          <PageDivider theme="dark" padded={false} />
           <GameReview game={game} />
-          <PlusDivider theme="dark" padded={false} />
+          <PageDivider theme="dark" padded={false} />
         </div>
       </section>
     </>

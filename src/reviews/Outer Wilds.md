@@ -1,6 +1,6 @@
 ---
 slug: "outer-wilds"
-title: "The Awesome Adventures of Captain Spirit"
+title: "Outer Wilds"
 year: 2024
 reviewDate: 31-08-2026
 playtimeHours: 40

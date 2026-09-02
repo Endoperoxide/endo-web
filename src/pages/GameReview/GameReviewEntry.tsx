@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
 import App from "@/app/App";
 import GameReviewPage from "@/pages/GameReview/GameReviewPage";
-
 import "@/index.css";
 
 const slug = document.documentElement.dataset.gameSlug;

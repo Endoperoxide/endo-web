@@ -4,7 +4,7 @@ type Properties = {
   eyebrowColor?: string;
 };
 
-export default function EyebrowTitle({
+export default function PageTitle({
   eyebrow,
   title,
   eyebrowColor = "text-text-secondary",

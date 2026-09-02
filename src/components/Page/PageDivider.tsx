@@ -16,7 +16,7 @@ const themeStyles = {
   },
 } as const;
 
-export default function PlusDivider({
+export default function PageDivider({
   theme = "dark",
   padded = true,
 }: Properties) {

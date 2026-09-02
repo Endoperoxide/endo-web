@@ -7,7 +7,7 @@ import ReviewsPageIntroSection from "./components/ReviewsPageIntroSection";
 import ReviewsPagePodiumSection from "./components/ReviewsPagePodiumSection";
 import ReviewsPageSearchSection from "./components/ReviewsPageSearchSection";
 import ReviewsPageRecentSection from "./components/ReviewsPageRecentSection";
-import PlusDivider from "@/components/PlusDivider";
+import PageDivider from "@/components/Page/PageDivider";
 
 export default function ReviewsPage() {
   const {
@@ -24,16 +24,16 @@ export default function ReviewsPage() {
   return (
     <>
       <ReviewsPageDisplaySection />
-      <PlusDivider theme="light" />
+      <PageDivider theme="light" />
       <ReviewsPageIntroSection />
-      <PlusDivider theme="light" />
-      <PlusDivider theme="dark" />
+      <PageDivider theme="light" />
+      <PageDivider theme="dark" />
       <ReviewsPagePodiumSection />
-      <PlusDivider theme="dark" />
-      <PlusDivider theme="light" />
+      <PageDivider theme="dark" />
+      <PageDivider theme="light" />
       <ReviewsPageRecentSection />
-      <PlusDivider theme="light" />
-      <PlusDivider theme="dark" />
+      <PageDivider theme="light" />
+      <PageDivider theme="dark" />
       <ReviewsPageSearchSection
         games={filtered}
         searchQuery={searchQuery}

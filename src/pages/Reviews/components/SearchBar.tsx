@@ -9,7 +9,7 @@ type Properties = {
 export default function SearchBar({ search, setSearch }: Properties) {
   return (
     <div className="flex h-11 w-full items-center ">
-      <Search size={15} className="ml-3.5 shrink-0 text-text-muted" />
+      <Search size={15} className="ml-3 shrink-0 text-text-muted" />
 
       <input
         type="text"
@@ -23,7 +23,7 @@ export default function SearchBar({ search, setSearch }: Properties) {
         <button
           onClick={() => setSearch("")}
           aria-label="Clear search"
-          className="flex cursor-pointer border-none p-1.5 text-text-muted transition-colors hover:text-text-primary"
+          className="flex cursor-pointer border-none mr-3 text-text-muted transition-colors hover:text-text-primary"
         >
           <X size={13} />
         </button>

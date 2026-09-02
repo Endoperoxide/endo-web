@@ -1,10 +1,9 @@
 import { useRef } from "react";
-
 import { useScrollToTop } from "@/app/hooks/useScrollToTop";
 import { useElementScroll } from "@/app/hooks/useElementScroll";
 
 import Navbar from "@/components/Navbar/Navbar";
-import TriangleBackground from "@/components/TriangleBackground";
+import BackgroundTriangles from "@/components/Background/BackgroundTriangles";
 
 type Properties = {
   children: React.ReactNode;
@@ -19,7 +18,7 @@ export default function App({ children, currentPage }: Properties) {
 
   return (
     <div className="relative min-h-screen bg-background-main">
-      <TriangleBackground scrollOffset={scrollY} />
+      <BackgroundTriangles scrollOffset={scrollY} />
 
       <div className="relative mx-auto flex h-dvh max-w-6xl flex-col border-l border-r border-border-base bg-background-main">
         <Navbar current={currentPage} />
