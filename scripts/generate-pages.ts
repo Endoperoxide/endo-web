@@ -5,8 +5,8 @@ import { parseFrontmatter } from "@/utils/frontmatter_utils";
 import { GameFrontmatterSchema } from "@/utils/game_utils";
 
 const ROOT = process.cwd();
-const REVIEWS_SOURCE_DIR = path.join(ROOT, "src", "reviews");
-const REVIEWS_OUTPUT_DIR = path.join(ROOT, "reviews");
+const REVIEWS_SOURCE_DIR = path.join(ROOT, "src", "content", "reviews");
+const REVIEWS_OUTPUT_DIR = path.join(ROOT, "reviews"); // STOP FUCKING CHANGING THIS, THIS SHOULD ALWAYS BE JUST REVIEWS
 
 const generateHtml = (slug: string) => `
 <!doctype html>
@@ -14,13 +14,19 @@ const generateHtml = (slug: string) => `
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Endoperoxide's website for random stuff"
+    />
     <title>Endoperoxide</title>
+    <link rel="icon" type="image/svg+xml" href="/src/assets/Vector/logo.svg" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="./../../src/pages/GameReview/GameReviewEntry.tsx"></script>
   </body>
-</html>`;
+</html>
+`;
 
 function generatePages() {
   const reviewFiles = fs

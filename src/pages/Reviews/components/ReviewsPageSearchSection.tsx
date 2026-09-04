@@ -2,9 +2,9 @@ import type { Dispatch, SetStateAction } from "react";
 import type { SortOrder } from "@/pages/Reviews/components/SortButton";
 import type { RatingTier } from "@/utils/rating_utils";
 import type { Game } from "@/utils/game_utils";
-import ReviewsPageSearchCarousel from "@/pages/Reviews/components/ReviewsPageSearchCarousel";
 import PageContentSection from "@/components/Page/PageContentSection";
 import ReviewsPageSearchBar from "@/pages/Reviews/components/ReviewsPageSearchBar";
+import GameEntryList from "@/components/Game/GameEntryList/GameEntryList";
 
 type Properties = {
   games: Game[];
@@ -14,7 +14,6 @@ type Properties = {
   setActiveTier: Dispatch<SetStateAction<RatingTier>>;
   sortOrder: SortOrder;
   setSortOrder: Dispatch<SetStateAction<SortOrder>>;
-  onActiveChange: (index: number) => void;
   tiers: { label: string; value: RatingTier; range?: string }[];
 };
 
@@ -26,7 +25,6 @@ export default function ReviewsPageSearchSection({
   setActiveTier,
   sortOrder,
   setSortOrder,
-  onActiveChange,
   tiers,
 }: Properties) {
   return (
@@ -34,10 +32,11 @@ export default function ReviewsPageSearchSection({
       theme="dark"
       title="All Reviews"
       eyebrow="Repository of all reviews"
-      className="h-[calc(100svh-var(--navbar-height))] pt-5"
+      className="pt-5"
     >
-      <div className="flex h-full min-h-0 flex-col overflow-hidden">
-        <div className="flex min-h-0 flex-1 flex-col">
+      <div className="flex flex-col">
+        {/* Search bar */}
+        <div className="flex">
           <ReviewsPageSearchBar
             tiers={tiers}
             activeTier={activeTier}
@@ -47,12 +46,13 @@ export default function ReviewsPageSearchSection({
             sortOrder={sortOrder}
             setSortOrder={setSortOrder}
           />
-
-          <ReviewsPageSearchCarousel
-            games={games}
-            onActiveChange={onActiveChange}
-          />
         </div>
+
+        {/* Decorative divider */}
+        <div className="border border-b-0 border-border-highlight mb-5 h-5 rounded-t-md" />
+
+        {/* Game entry list */}
+        <GameEntryList games={games} />
       </div>
     </PageContentSection>
   );

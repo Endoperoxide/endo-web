@@ -1,12 +1,8 @@
-import { useState } from "react";
-import type { Game } from "@/utils/game_utils";
 import { RATING_TIERS } from "@/utils/rating_utils";
 import { useFilteredGames } from "@/pages/Reviews/hooks/useFilteredGames";
 import ReviewsPageDisplaySection from "@/pages/Reviews/components/ReviewsPageDisplaySection";
 import ReviewsPageIntroSection from "@/pages/Reviews/components/ReviewsPageIntroSection";
-import ReviewsPagePodiumSection from "@/pages/Reviews/components/ReviewsPagePodiumSection";
 import ReviewsPageSearchSection from "@/pages/Reviews/components/ReviewsPageSearchSection";
-import ReviewsPageRecentSection from "@/pages/Reviews/components/ReviewsPageRecentSection";
 import PageDivider from "@/components/Page/PageDivider";
 
 export default function ReviewsPage() {
@@ -18,7 +14,6 @@ export default function ReviewsPage() {
     setSearchQuery,
     sortOrder,
     setSortOrder,
-    handleActiveChange,
   } = useFilteredGames();
 
   return (
@@ -27,8 +22,6 @@ export default function ReviewsPage() {
       <PageDivider theme="light" />
       <ReviewsPageIntroSection />
       <PageDivider theme="light" />
-      {/* <ReviewsPageRecentSection /> */}
-      {/* <PageDivider theme="light" /> */}
       <PageDivider theme="dark" />
       <ReviewsPageSearchSection
         games={filtered}
@@ -38,9 +31,9 @@ export default function ReviewsPage() {
         setActiveTier={setActiveTier}
         sortOrder={sortOrder}
         setSortOrder={setSortOrder}
-        onActiveChange={handleActiveChange}
         tiers={RATING_TIERS}
       />
+      <PageDivider theme="dark" />
     </>
   );
 }

@@ -83,7 +83,7 @@ export default function GameShowcase({
           <div className="flex min-w-0 items-end gap-4">
             {/* Cover art */}
             <div
-              className="relative aspect-2/3 shrink-0 overflow-hidden rounded bg-black shadow-[0_4px_14px_rgba(0,0,0,0.5)]"
+              className="relative shrink-0 overflow-hidden rounded bg-black shadow-[0_4px_14px_rgba(0,0,0,0.5)]"
               style={{ width: "clamp(50px, 8vw, 100px)" }}
             >
               <GameCoverArt game={activeGame} />

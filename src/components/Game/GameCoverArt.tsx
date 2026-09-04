@@ -6,10 +6,10 @@ type Properties = {
 
 export default function GameCoverArt({ game }: Properties) {
   return (
-    <div className="relative">
+    <div className="relative w-full aspect-3/4">
       {/* Image art */}
       <img
-        className={`w-full h-full object-cover aspect-2/3`}
+        className="h-full w-full object-cover"
         src={game.coverUrl}
         alt={game.title}
         fetchPriority="low"

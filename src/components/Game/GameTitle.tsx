@@ -10,7 +10,7 @@ export default function GameTitle({
   metaColor = "text-text-accent",
 }: Properties) {
   return (
-    <div className="flex flex-1 flex-col justify-center gap-2">
+    <div className="flex flex-1 min-w-0 flex-col justify-center gap-2">
       {/* Title */}
       <h1 className="font-bold truncate leading-none text-[clamp(0.75rem,8cqw,1.35rem)] text-text-primary">
         {game.title}
@@ -18,7 +18,7 @@ export default function GameTitle({
 
       {/* Year / platform */}
       <span
-        className={`uppercase tracking-widest text-[clamp(0.6rem,0.9vw,0.75rem)] ${metaColor}`}
+        className={`truncate uppercase tracking-widest text-[clamp(0.6rem,0.9vw,0.75rem)] ${metaColor}`}
       >
         {game.year} · {game.platforms.join("/")}
       </span>

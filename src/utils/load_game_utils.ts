@@ -3,7 +3,7 @@ import { GameFrontmatterSchema, type Game } from "@/utils/game_utils";
 
 const seenSlugs = new Set<string>();
 
-const reviewFiles = import.meta.glob("../reviews/*.md", {
+const reviewFiles = import.meta.glob("../content/reviews/*.md", {
   eager: true,
   query: "?raw",
   import: "default",

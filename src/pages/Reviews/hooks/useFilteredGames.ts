@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { games } from "@/utils/load_game_utils";
 import type { RatingTier } from "@/utils/rating_utils";
 import { filterByTier } from "@/utils/rating_utils";
@@ -8,7 +8,6 @@ export function useFilteredGames() {
   const [activeTier, setActiveTier] = useState<RatingTier>("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOrder, setSortOrder] = useState<SortOrder>("descending");
-  const [activeIndex, setActiveIndex] = useState(0);
 
   const filtered = useMemo(() => {
     const tierFiltered = filterByTier(games, activeTier);
@@ -20,15 +19,26 @@ export function useFilteredGames() {
           const haystack = [game.title, String(game.year)]
             .join(" ")
             .toLowerCase();
+
           return haystack.includes(normalizedQuery);
         });
 
     const sorted = [...searched].sort((a, b) => {
+      const aRating = a.rating;
+      const bRating = b.rating;
+
+      // Always put unreviewed games at the bottom.
+      if (aRating === undefined && bRating === undefined) return 0;
+      if (aRating === undefined) return 1;
+      if (bRating === undefined) return -1;
+
       switch (sortOrder) {
         case "ascending":
-          return a.rating - b.rating;
+          return aRating - bRating;
+
         case "descending":
-          return b.rating - a.rating;
+          return bRating - aRating;
+
         default:
           return 0;
       }
@@ -36,14 +46,6 @@ export function useFilteredGames() {
 
     return sorted;
   }, [activeTier, searchQuery, sortOrder]);
-
-  useEffect(() => {
-    setActiveIndex(0);
-  }, [filtered]);
-
-  function handleActiveChange(index: number) {
-    setActiveIndex(index);
-  }
 
   return {
     filtered,
@@ -53,7 +55,5 @@ export function useFilteredGames() {
     setSearchQuery,
     sortOrder,
     setSortOrder,
-    activeIndex,
-    handleActiveChange,
   };
 }

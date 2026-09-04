@@ -1,10 +1,10 @@
-import { useRef } from "react";
 import { useScrollToTop } from "@/app/hooks/useScrollToTop";
-import { useElementScroll } from "@/app/hooks/useElementScroll";
+import { useWindowScroll } from "@/app/hooks/useWindowScroll";
 import { Page } from "@/utils/page_utils";
 
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/app/Navbar/Navbar";
 import BackgroundTriangles from "@/components/Background/BackgroundTriangles";
+import Footer from "@/app/Footer";
 
 type Properties = {
   children: React.ReactNode;
@@ -12,20 +12,19 @@ type Properties = {
 };
 
 export default function App({ children, current }: Properties) {
-  const pageContainerRef = useRef<HTMLDivElement>(null);
-  const scrollY = useElementScroll(pageContainerRef);
-  useScrollToTop(pageContainerRef, current);
+  const scrollY = useWindowScroll();
+  useScrollToTop(current);
 
   return (
     <div className="relative min-h-screen bg-background-main">
       <BackgroundTriangles scrollOffset={scrollY} />
 
-      <div className="relative mx-auto flex h-dvh max-w-6xl flex-col border-l border-r border-border-base bg-background-main">
+      <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col border-l border-r border-border-base bg-background-main">
         <Navbar current={current} />
 
-        <main ref={pageContainerRef} className="min-h-0 flex-1 overflow-auto">
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
+
+        <Footer />
       </div>
     </div>
   );

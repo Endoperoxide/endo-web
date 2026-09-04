@@ -1,5 +1,26 @@
 import { z as zod } from "zod";
 
+const CATEGORY_KEYS = [
+  "gameplay",
+  "story",
+  "music",
+  "soundDesign",
+  "visualDesign",
+  "replayability",
+] as const;
+
+const PLATFORM_VALUES = [
+  "PC",
+  "Wii",
+  "PlayStation",
+  "Switch",
+  "Xbox",
+  "Wii U",
+  "Nintendo DS",
+  "Nintendo 3DS",
+  "Web Browser",
+] as const;
+
 const CategoriesSchema = zod.object({
   gameplay: zod.number().min(0).max(10).optional(),
   story: zod.number().min(0).max(10).optional(),
@@ -14,21 +35,12 @@ const BaseFrontmatterSchema = zod.object({
   title: zod.string().min(1),
   year: zod.number().int(),
   coverUrl: zod.string(),
-  platforms: zod.array(zod.string()).min(1),
+  platforms: zod.array(zod.enum(PLATFORM_VALUES)),
   reviewDate: zod.string().optional(),
   playtimeHours: zod.number().min(0).optional(),
   rating: zod.number().min(0).max(10).optional(),
   categories: CategoriesSchema.optional(),
 });
-
-const CATEGORY_KEYS = [
-  "gameplay",
-  "story",
-  "music",
-  "soundDesign",
-  "visualDesign",
-  "replayability",
-] as const;
 
 function categoriesFilledCount(categories: Categories | undefined) {
   if (!categories) return 0;

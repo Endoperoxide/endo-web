@@ -1,14 +1,23 @@
-export default function BackgroundStripes() {
+type Properties = {
+  color?: string;
+  height?: string;
+};
+
+export default function BackgroundStripes({
+  color = "currentColor",
+  height = "2.5rem",
+}: Properties) {
   return (
     <div
-      className="h-10 flex-1"
+      className="flex-1"
       style={{
+        height,
         backgroundImage: `repeating-linear-gradient(
           45deg,
           transparent 0px,
           transparent 12px,
-          #fff 12px,
-          #fff 24px
+          ${color} 12px,
+          ${color} 24px
         )`,
       }}
     />

@@ -80,6 +80,7 @@
   ======================================== 
   */
 
+  --color-border-highlight: var(--color-pink);
   --color-border-subtle: #29232d;
   --color-border-base: #39313d;
   --color-border-strong: #514554;
@@ -172,7 +173,8 @@ Format
     font-family: var(--font-body);
   }
 
-  section {
+  section,
+  footer {
     @apply px-4 md:px-15;
   }
 }

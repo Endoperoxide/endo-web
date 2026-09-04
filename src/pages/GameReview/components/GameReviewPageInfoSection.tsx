@@ -20,6 +20,10 @@ export default function GameReviewPageInfoSection({ game }: Properties) {
       <div className="flex flex-row items-center gap-2 shrink-0">
         <a
           href={`${PAGES.reviews.path}`}
+          onClick={(e) => {
+            e.preventDefault();
+            window.history.back();
+          }}
           className="inline-flex size-9 shrink-0 items-center justify-center text-text-accent"
         >
           <ArrowLeft />
@@ -54,7 +58,7 @@ type MetaStatProperties = {
 function GameModalMetaStat({ label, value }: MetaStatProperties) {
   return (
     <div className="text-right">
-      <h1 className="text-[0.55rem] text-text-muted tracking-widest uppercase">
+      <h1 className="text-[0.6rem] text-text-muted tracking-widest uppercase">
         {label}
       </h1>
       <p className="text-[0.7rem] text-text-primary font-medium">{value}</p>

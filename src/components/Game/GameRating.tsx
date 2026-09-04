@@ -10,7 +10,7 @@ export default function GameRating({ game, barSide = "left" }: Properties) {
   const { ratingText, ratingLabel, color } = getGameDisplay(game);
 
   return (
-    <div className="flex gap-2">
+    <div className="flex shrink-0 gap-2">
       {barSide === "right" ? (
         <>
           {renderText(color, ratingLabel, ratingText, barSide)}
