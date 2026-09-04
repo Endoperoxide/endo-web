@@ -1,16 +1,15 @@
 import PageDisplaySection from "@/components/Page/PageDisplaySection";
-import GameShowcase from "@/components/Game/GameShowcase/GameShowcase";
-import { podiumGames } from "@/utils/podium_utils";
+import BackgroundRings from "@/components/Background/BackgroundRings";
+import BackgroundDisplayTitle from "@/components/Background/BackgroundDisplayTitle";
 
 export default function ReviewsPageDisplaySection() {
   return (
     <PageDisplaySection>
-      <GameShowcase
-        games={podiumGames}
-        objectFit="cover"
-        autoPlay={true}
-        fill={true}
-      />
+      {/* Rings */}
+      <BackgroundRings />
+
+      {/* Title */}
+      <BackgroundDisplayTitle title="Reviews" />
     </PageDisplaySection>
   );
 }

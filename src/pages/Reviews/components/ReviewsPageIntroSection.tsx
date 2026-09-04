@@ -1,7 +1,10 @@
 import PageContentSection from "@/components/Page/PageContentSection";
-import marathonTest from "@/assets/marathon_test_img.png";
-import { ImageContentContainer } from "@/components/ContentContainer/ImageContentContainer";
+import { podiumGames } from "@/utils/podium_utils";
 import TextContentContainer from "@/components/ContentContainer/TextContentContainer";
+import { PAGES } from "@/utils/page_utils";
+import SubHeader from "@/components/ContentContainer/components/SubHeader";
+import GameShowcase from "@/components/Game/GameShowcase/GameShowcase";
+import pattern from "@/assets/Vector/pattern.svg";
 
 const PARAGRAPHS = [
   `
@@ -27,10 +30,26 @@ export default function ReviewsPageIntroSection() {
       title="Game Reviews"
       eyebrow="Repository of game reviews"
     >
-      <div className="flex flex-col gap-3 md:flex-row">
+      <div className="flex flex-col md:flex-row gap-3">
         {/* Image column */}
-        <div className="flex flex-3">
-          <ImageContentContainer title="Faye" image={marathonTest} />
+        <div className="flex-4">
+          <div className="flex flex-col">
+            <div className="flex-1 border-3 border-white">
+              <SubHeader title="Hall of Fame" />
+              <GameShowcase
+                games={podiumGames}
+                objectFit="cover"
+                autoPlay={true}
+              />
+              <a
+                href={`${PAGES.hallOfFame.path}`}
+                className="font-body bg-white h-15 flex items-center border-t-3 border-border-white justify-start pl-4 text-text-dark hover:text-text-primary hover:bg-background-main"
+              >
+                {`>> Hall of Fame <<`}
+              </a>
+            </div>
+            <img className="py-5" src={pattern} />
+          </div>
         </div>
 
         {/* Text column */}
