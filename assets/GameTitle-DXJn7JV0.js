@@ -1,3855 +1,3855 @@
-import{s as e}from"./PageDivider-BRnvrZvy.js";var t=`---
-slug: "a-hat-in-time"
-title: "A Hat in Time"
-year: 2017
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1uc.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,n=`---
-slug: "animal-crossing"
-title: "Animal Crossing"
-year: 2002
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wmn.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,r=`---
-slug: "animal-well"
-title: "ANIMAL WELL"
-year: 2024
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4hdh.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,i=`---
-slug: "apex-legends"
-title: "Apex Legends"
-year: 2019
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocqh2.jpg"
-reviewDate: "2026-08-21"
-playtimeHours: 2500
-rating: 6.6
-categories:
-  gameplay: 7.8
-  story: 2
-  music: 7.6
-  soundDesign: 8.2
-  visualDesign: 6
-  replayability: 10
----
-
-## Context
-
-As you can tell by my playtime hours on this game, this will likely be one of my most played games out of this entire site, thus likely being one of my most detailed reviews. Apex Legends is Respawn Entertainment's take on the Battle-Royale shooter with the same mechanics and overall feel of Titanfall 2. I began playing this game from Season 8 all the way up till roughly Season 21.
-
-Because of the sheer amount of hours I have put in this game, this review will feel more like a rant than a review. As is expected, this is going to be a complete nerd-out. Whilst i loved this game for what it was at the time, it doesn't make it a great game.
-
-## The Good
-
-I'm going to start with the good, because this game really does have a lot going for it as much as I like to criticize it.
-
-- ### Gunplay
-
-  Firstly, the gun play in this game is phenomenal, and I have yet to feel a game that feels as good to play as Apex. The heroes, guns, map design and movement compliment the style of play incredibly well, which makes it feel so unique than similar titles of the genre. The weapons are also unique in the way they function, such as the Sentinel requiring a shield cell to do more damage, the L-STAR having no magazine, but rather a overheat system, the Charge Rifle being hit-scan but requiring a charge up time between each shot, the CAR having two mags, one for light ammo and one for heavy ammo, whilst accepting both mags of either type. It's refreshing to see that there is more to the guns themselves than simply a fire-rate, spread, recoil, etc change.
-
-- ### Movement
-
-  This is the main contender of why I probably played this game as long as I did, Titanfall 2 has already taken the cake for arguably the best multiplayer movement shooter ever created, and Apex has the majority of the same techniques (though toned down heavily) as Titanfall 2. To this day more and more movement options are being discovered, practiced and mastered. Which makes the skill expression of this game exponentially higher than any other shooter out there, which additionally makes it insanely fun to watch, which is likely why it got incredibly high view counts during its prime.
-
-- ### Professional scene
-  The pro play scene is easily the most entertaining in any game I have watched (Overwatch being a high contender), to parrot the previous two points, the gunplay and movement are just so brilliant that watching professionals use both during fights are just incredibly enjoyable to watch and root for. Additionally, the pro scene is blessed with very entertaining, funny and (mostly) positive professionals. My personal favourites being Mande, NiceWigg, Daltoosh and Lou.
-
-It was probably a combination of all these things that made Apex stick to me so well, whilst also being a comfort game of mine during tough times, playing this with friends such as blast and doing stupid things in this game is way funnier than it should be. However, being the critic I am, and for playing this game for as long as I have, it's a must that I mention what makes this game incredibly flawed.
-
-## The Bad
-
-Maybe it's when you play a game for this long, you really notice its flaws. And my god does Apex have PLENTY. Before I rip into each and every nitpick of the game, I think overall this game just does not work as well for a casual audience, which is why I probably would not recommend this game to too many people.
-
-I personally believe that battle royales are inherently flawed due to the down-time to gameplay ratio. If you simply want to play a video game to kill some time, Apex is not one of them. There are far too many mechanics to this game that makes even playing it feel like an actual job. Even with the mindset of playing casually you are likely going to spend the majority of your playtime in a waiting menu, looting, then dying to a smurf as the SBMM in this game was atrocious during the course of me playing it.
-
-But with that out of mind, here is why Apex is so flawed as a video game.
-
-- ### Audio
-
-  Apex has to go down in history with the longest period of time that a simple common feature that is so significant to the overall combat and play-style of the game hasn't been fixed. It's actually ridiculous how I began playing this game from Season 8 all the way to Season 21 (3 YEARS AND 3 MONTHS) and from what I continue to hear from current seasons, remains to be a significant problem.
-
-  Apex continues to prove how competitive video games can really get, but refuses to fix something so rudimentary to the core gameplay that actively ruins its competitiveness. The audio in this game is fantastic in the way it presents information to the player in order for them to identify possible threats or ways to strategize, but seems to be a dice roll whether you get to hear it or not. Usually resulting in you, or possibly your entire team to be at a significant disadvantage from an enemy team sneaking up behind you without a whisper to be heard.
-
-- ### Ranked
-
-  Again, talking about the competitiveness of this game, and how much skill is required to play this game at the peak of its player-base. Respawn doesn't really seem to understand what makes a player skilled within their own game. There have been several ranked reworks to the complete structure of how a player can climb ranks, and yet it seems that they have consistently failed to hit the mark on what feels rewarding to climb.
-
-  These ranked reworks have existed due to the repetitive complaints of the player-base of this game, as there have been seasons where:
-  - Getting kills was essentially a non-requirement
-  - Getting placed Top 5 (With kills) could still result in a negative game
-  - Getting placed Top 5 (With no kills) could result in climbing astronomically fast
-  - Ending a game with 0 damage could allow you to climb to very high ranks
-
-  Respawn doesn't seem to understand that kills, placement and contesting are all part of the competitive nature of the game, and only seem to focus on one individual part of the game rather than looking at it in its entirety. I have personally played during a season where a professional player achieved the highest rank in the entire game, by doing 0 damage. (I am seriously not exaggerating by that statement, search "Sweetdreams 0 damage to predator") As I am writing this review, I am not up-to-date on the current state of ranked in Season 30, however my expectations are desperately low, but I really hope that one day the casual competitive scene of this game thrives because it has so much going for it.
-
-- ### Balancing
-
-  This might be low hanging fruit, because by the competitive nature of this game, it's bound to have a few balancing issues here and there. Which is completely fine overall, as changes in the meta can be interesting to change play-styles instead of just running the same hero, guns, poi, etc every game. However, Apex has had some ludicrous choices in the balancing department, where some seasons being borderline unplayable if you aren't running a certain hero or gun every damn game. Please if you find any of this interesting, research it for yourself because it is manic how some of this got through to the final game. Below is a few examples of how ridiculous some seasons have been:
-  - #### Season 10 Release Seer
-
-    In all my experience playing competitive games, this has to be the SECOND (behind Overwatch's release Brigitte) worst video game balance decision I have ever seen in my life. Keep in mind, Season 10 balancing was very different to current day balancing. There are characters like mirage, whose entire kit relies around tricking the enemy into shooting his clone. That's it. Pathfinder whose entire kit relies around a grappling hook on a +15s cool-down. That's it.
-
-    Now, with the release of Season 10, introduces a new recon legend, Seer. His kit contains the following:
-    - 0s cool-down, 24/7 uptime heartbeat sensor "passive". Showing you the exact position of any enemy around you within a 75m range, through walls or not.
-    - Tactical that reveals your position through walls with a 0.5s window of reaction to move out of a massive sized cylinder radius (that also goes through walls)
-    - Tactical that reveals your health and shield, of which at the time no other legend had the capability of doing.
-    - Tactical that interrupted ANY form of healing, shield or health.
-    - Tactical that interrupted reviving a teammate.
-    - Tactical that silenced your abilities
-    - Tactical that interrupted anything related to the map (such as doors, respawn beacons, zip lines, etc)
-    - Tactical that slowed your movement by 25%
-    - Tactical that flash-banged your screen for roughly 0.5s, where your entire screen would be white.
-    - Tactical that inflicted 10 damage, causing low health players to die behind walls with borderline 0 reaction time.
-    - Ultimate that constantly revealed every enemy within it's massive sized radius, also showing health and shield
-
-    If you were not running this character during this season you might as well be shooting yourself in the foot. The joke writes itself, I have no other words for this.
-
-  - #### Season 15 Catalyst / Bloodhound / Seer / Bangalore
-
-    This season was these 4 characters and seriously no in-between, pro players used it, casual players used it, ranked grinders used it. This was the most frustrating meta of legends in the game ever. You couldn't see anything ever, visual clutter the season, Catalyst could hold entire buildings and herself, whilst her and Bangalore made every encounter going in blind, just for Bloodhound or Seer to scan your entire team through the smoke and walls.
-
-    This felt like the most unskilled season of players because no one could even see who they were shooting. If you did not find a Digital Threat scope before mid-game, you already lost.
-
-  - #### Season 19 Revenant / Conduit
-
-    Honestly, Conduit deserves her own section here, instant 75 shield to your entire team through walls is nothing to scoff at. However, Revenant made this comp the cherry on top, allowing for Revenant to pounce on your team with upwards of 300 health that can be regenerated.
-
-  - #### Season 8 Spitfire + Horizon
-
-    LMG with 19 damage per bullet with upwards of 55 rounds in the mag (Thats 1045 damage a mag btw), with borderline perfect hip-fire accuracy, combined with a character who gets perfect accuracy moving high speeds whilst airborne.
-
-  - #### Season 10 Rampage
-
-    LMG with 28 damage per bullet with upwards of 40 bullets in the mag (Thats 1120 damage a mag btw), that can be doubled in fire-rate when using a thermite grenade.
-
-  - #### Pre-Season 14 Wingman
-    A handgun that could hold 9 bullets, each doing 50 damage. With incredible range, hip-fire accuracy and speed. Which at the time used heavy rounds, one of the most common ammunition types in the game, all whilst being the fastest held gun in the game.
-
-  Trust me I want to rant on and on about every horrible balance meta in this game, but this review would be Megabytes in size. I don't think I do these titles justice simply with text, but trust my word these were all miserable to play against, and there are several more like this.
-
-- ### Cheating
-
-  Every competitive game will have its fair share of cheaters, it's just bound to happen. Games recently have been far better with their anti-cheats and making sure that cheaters and exploiters alike can't ruin the fun for other players. Unfortunately, Apex is not one of them.
-
-  Apex has one of the worst cases of cheating problems in gaming history. But more accurately I believe it must be Respawn Entertainment / EA as a whole as there have been periods of times where Titanfall, Titanfall 2 and Apex have all been completely taken over by cheaters, to the point where you could not even play the video game in some worst-cases.
-
-  I must admit however, the cheaters in Apex have been the most creative cheaters I have ever seen in a competitive game. Here are just a few examples of the cheating scandals I have witnessed during my time playing:
-  - During the ALGS (Apex Legends Global Series) finals, ImperialHal and Genburten both were given ESP and aim-bot remotely from their own personal computers.
-  - During Season 12, there was an exploit that allowed cheaters to dual wield two guns, whilst also using faster fire rate cheats and aim-bot. A feature that literally did not exist until years in the future, somehow they had access to this. This also allowed them to offhand things such as healing, whilst shooting.
-  - Professional players and streamers that had been cheating upwards of 2 years straight, every game and getting away with it.
-  - Allegedly a developer of Apex advertised and sold cheats whilst playing the game.
-  - A large majority of movement players used macros and scripts to perform humanly-impossible movements, of which the developers were aware of, and didn’t address it for upwards of a year.
-  - A cheat where the charge rifle had no charge, infinite ammo, and always had the burst damage part of the beam, becoming essentially an insta-kill, no damage fall-off, hit-scan death ray. (Cheaters would typically use this with the next cheat mentioned)
-  - Flying, not much to say here, just straight up flight, infinitely, as high as they wanted. This was possible somehow.
-  - A cheat where ordinances (grenades, thermites, arc stars) could be thrown of which were instantly teleported to the nearest enemy, and instantly explode.
-  - A cheat where you could instantly loot any loot box without entering the menu, and it would automatically pick up all the necessary loot you wanted from it.
-  - An incredibly large majority of controller players were using a software to increase the noise generated from joystick movement to counter the recoil of basically every automatic gun in the entire game. This was used for many years without being addressed by Respawn.
-
-  I could continue to list more and more cheats, but I think you get the point. Of course there was the obvious aim-bot, esp, no-recoil cheats and what-not but those were of the most interesting and funniest sounding cheats I experienced during my playtime. There were a few seasons where it really did feel like if you were playing ranked you had to hope your team had at least one cheater to kill all the other cheaters in the lobby.
-`,a=`---
-slug: "ark-survival-evolved"
-title: "ARK: Survival Evolved"
-year: 2017
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co493k.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,o=`---
-slug: "awaria"
-title: "Awaria"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co960w.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,s=`---
-slug: "balatro"
-title: "Balatro"
-year: 2024
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9f4g.jpg"
-reviewDate: "2026-08-22"
-playtimeHours: 40
-rating: 9.5
-categories:
-  gameplay: 10
-  story: 0
-  music: 7.5
-  soundDesign: 9.5
-  visualDesign: 9.2
-  replayability: 10
----
-
-## Context
-
-Balatro is a rogue-like card game made by LocalThunk, and is considered to be the staple of all card-like video games due to how much this game achieves with so little.
-
-You start with a deck of cards and your goal is to create poker hands to defeat as many Ante's as possible, of which contain three blinds in succession, each blind getting progressively harder the further you play into the game. Sounds relatively simple, but the reason why Balatro is so globally praised is how much unique and interesting cards there are in this game.
-
-I promise you, this game sounds way more complex than it actually is, I am begging you to play this game for yourself because you will learn all of the min-max very quick, especially considering how well Balatro introduces you to the new mechanics.
-
-Balatro has (from the time I am writing this review):
-
-- 150 unique Joker cards that are provide some sort of passive ability
-- 12 unique Planet consumable cards that boost the base value of poker hands
-- 22 unique Tarot consumable cards that modify your deck or provide immediate effects
-- 18 unique Spectral consumable cards that significantly modify your deck or provide significant immediate effects
-- 8 unique enhanced cards which boost a specific value of a single base card.
-
-Each and every single one of these cards have a use case somewhere in the game and are synergise with other cards so perfectly, that there are possibly an infinite number of strategical load-outs for you to try. Every time you play this game feels completely fresh as you are being dealt with all the possible combinations of these cards for you to strategise on.
-
-## Game Feel
-
-Because of all these cards and combination, Balatro makes your feel really damn smart when you get the ball rolling. The feeling of combining a certain passive with another, or using a passive with a certain poker hand, or using face cards that are all amplified by your jokers, etc is just such as amazing feeling.
-
-This game encourages the player to make them feel like they are breaking the game with all the possible combinations you can achieve in this game, and this is amplified ten-fold when considering how smooth and satisfying the animations and sound effects are, especially when you hold a great deck.
-
-## Visual design
-
-This game should serve as a master class of how to perfectly fine-tune game juice. The animations, sounds and effects are just phenomenal. When achieving a massive score, all the animations kick in at once, numbers explode upwards, the sounds get higher and higher pitched, its so satisfying and addicting to watch it happen before your eyes.
-
-The overall visual style is so simple yet distinct and unique, the pixel art of the cards and the background are just so incredibly well done. And despite there only being around 5 main music tracks (all of which use the exact same motif), it somehow doesn't get repetitive at all and creates a exceptional atmosphere when playing.
-
-## Overall
-
-You will only truly find out how damn fun and addicting this game is until you start experimenting with different jokers, planet cards, tarots, spectral cards and so on. This game is the most re-playable game in recent memory and I strongly believe that this game will be continued to be played by hundreds of thousands of people decades in the future.
-
-Balatro has completely and utterly perfected the rogue-like and card game genre that I do not believe any game in its genre will even come remotely close to how incredible this game is. Please, for the love of everything, if you haven't already, play this incredible game.
-`,c=`---
-slug: "before-your-eyes"
-title: "Before Your Eyes"
-year: 2021
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2zr.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,l=`---
-slug: "bendy-and-the-dark-revival"
-title: "Bendy and the Dark Revival"
-year: 2022
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co683q.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,u=`---
-slug: "bendy-and-the-ink-machine"
-title: "Bendy and the Ink Machine"
-year: 2017
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67zs.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,d=`---
-slug: "big-walk"
-title: "Big Walk"
-year: 2026
-platforms:
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7h9m.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,f=`---
-slug: "bin-weevils"
-title: "Bin Weevils"
-year: 2007
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4vni.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,p=`---
-slug: "bioshock"
-title: "BioShock"
-year: 2007
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mli.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ee=`---
-slug: "bloons-td-5"
-title: "Bloons TD 5"
-year: 2011
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co232r.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,te=`---
-slug: "bloons-td-battles"
-title: "Bloons TD Battles"
-year: 2013
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n4l.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ne=`---
-slug: "brawlhalla"
-title: "Brawlhalla"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6i3u.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,re=`---
-slug: "call-of-duty-black-ops-4"
-title: "Call of Duty: Black Ops 4"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wkf.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ie=`---
-slug: "call-of-duty-infinite-warfare"
-title: "Call of Duty: Infinite Warfare"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wkp.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ae=`---
-slug: "carnival"
-title: "Carnival"
-year: 2007
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vm3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,oe=`---
-slug: "celeste"
-title: "Celeste"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9dh.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,se=`---
-slug: "clair-obscur-expedition-33"
-title: "Clair Obscur: Expedition 33"
-year: 2025
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ce=`---
-slug: "clash-royale"
-title: "Clash Royale"
-year: 2016
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobb48.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,le=`---
-slug: "class-of-09"
-title: "Class of '09"
-year: 2021
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co45oa.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ue=`---
-slug: "club-penguin-game-day"
-title: "Club Penguin: Game Day"
-year: 2010
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1krc.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,de=`---
-slug: "club-penguin"
-title: "Club Penguin"
-year: 2005
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2594.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,fe=`---
-slug: "control"
-title: "Control"
-year: 2019
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,pe=`---
-slug: "counter-strike"
-title: "Counter-Strike"
-year: 2012
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc32n.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,me=`---
-slug: "crank-it"
-title: "Crank It!"
-year: 2025
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaafn.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,he=`---
-slug: "cry-of-fear"
-title: "Cry of Fear"
-year: 2013
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6m51.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ge=`---
-slug: "cult-of-the-lamb"
-title: "Cult of the Lamb"
-year: 2022
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobbwj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,_e=`---
-slug: "cuphead"
-title: "Cuphead"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ao.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ve=`---
-slug: "cyberpunk-2077"
-title: "Cyberpunk 2077"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ye=`---
-slug: "deadlock"
-title: "Deadlock"
-year: 2027
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobc7s.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,be=`---
-slug: "deep-rock-galactic"
-title: "Deep Rock Galactic"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaat4.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,xe=`---
-slug: "deltarune"
-title: "DELTARUNE"
-year: 2025
-platforms:
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9m71.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Se=`---
-slug: "descending"
-title: "Descending"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8rkk.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ce=`---
-slug: "destiny"
-title: "Destiny"
-year: 2014
-platforms:
-  - PlayStation
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rco.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,we=`---
-slug: "detroit-become-human"
-title: "Detroit: Become Human"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocot9.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Te=`---
-slug: "disco-elysium"
-title: "Disco Elysium"
-year: 2019
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1sfj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ee=`---
-slug: "doki-doki-literature-club"
-title: "Doki Doki Literature Club"
-year: 2017
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6p5e.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,De=`---
-slug: "doom-eternal"
-title: "DOOM Eternal"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p5n.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Oe=`---
-slug: "ena-dream-bbq"
-title: "ENA: Dream BBQ"
-year: 2025
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ei.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ke=`---
-slug: "enter-the-gungeon"
-title: "Enter the Gungeon"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobl6c.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ae=`---
-slug: "evolve"
-title: "Evolve"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa2ha.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,je=`---
-slug: "firewatch"
-title: "Firewatch"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1ts.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Me=`---
-slug: "five-nights-at-freddys"
-title: "Five Nights at Freddy's"
-year: 2014
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8efb.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ne=`---
-slug: "for-honor"
-title: "FOR HONOR"
-year: 2017
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclez.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Pe=`---
-slug: "fortnite"
-title: "Fortnite"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocqrm.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Fe=`---
-slug: "garrys-mod"
-title: "Garry's Mod"
-year: 2004
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8pgw.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ie=`---
-slug: "geometry-dash"
-title: "Geometry Dash"
-year: 2013
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7jou.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Le=`---
-slug: "goat-simulator"
-title: "Goat Simulator"
-year: 2014
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dhr.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Re=`---
-slug: "grand-theft-auto-v"
-title: "Grand Theft Auto V"
-year: 2013
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbd.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ze=`---
-slug: "half-life-2"
-title: "Half-Life 2"
-year: 2004
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nmw.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Be=`---
-slug: "half-life"
-title: "Half-Life"
-year: 1998
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2ea.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ve=`---
-slug: "halo-infinite"
-title: "Halo Infinite"
-year: 2021
-platforms:
-  - Xbox
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dto.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,He=`---
-slug: "hello-charlotte"
-title: "Hello Charlotte"
-year: 2015
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co673t.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ue=`---
-slug: "helltaker"
-title: "Helltaker"
-year: 2020
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co279z.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,We=`---
-slug: "hollow-knight-silksong"
-title: "Hollow Knight: Silksong"
-year: 2025
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobebu.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ge=`---
-slug: "hollow-knight"
-title: "Hollow Knight"
-year: 2023
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociuq.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ke=`---
-slug: "horizon-zero-dawn"
-title: "Horizon Zero Dawn"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2una.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,qe=`---
-slug: "how-fish-is-made"
-title: "How Fish Is Made"
-year: 2022
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9emx.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Je=`---
-slug: "how-to-kill-a-fly"
-title: "how to kill a fly"
-year: 2026
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocq1s.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ye=`---
-slug: "hypixel-skyblock"
-title: "Hypixel Skyblock"
-year: 2012
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafrq.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Xe=`---
-slug: "idols-of-ash"
-title: "Idols of Ash"
-year: 2026
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb5o.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ze=`---
-slug: "illusion-carnival"
-title: "Illusion Carnival"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9dis.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Qe=`---
-slug: "imscared"
-title: "IMSCARED"
-year: 2016
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8wl3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,$e=`---
-slug: "in-stars-and-time"
-title: "In Stars And Time"
-year: 2023
-platforms:
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5bsf.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,et=`---
-slug: "infineural"
-title: "Infineural"
-year: 2022
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5f58.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,tt=`---
-slug: "inscryption"
-title: "Inscryption"
-year: 2021
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co401c.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,nt=`---
-slug: "iron-lung"
-title: "Iron Lung"
-year: 2022
-platforms:
-  - PC
-  - PlayStation
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5he3.jpg"
-reviewDate: "2026-08-22"
-playtimeHours: 1
-rating: 6.2
-categories:
-  gameplay: 3.1
-  story: 5
-  music: 6.5
-  soundDesign: 8.2
-  visualDesign: 6.5
-  replayability: 1
----
-
-## Context
-
-Iron lung is a very short indie horror game made by David Szymanski, the game introduces you as a convict sent on a suicide mission to explore an alien moon's blood ocean within a claustrophobic rusty submarine named the "Iron Lung".
-
-### Atmosphere
-
-If there is anything that Iron Lung does brilliantly, is the atmosphere. The submarine really feels like its holding on to dear life trying to keep you alive inside, like it was made out of scrap and prayers. The main reason of why the Iron Lung is so terrifying is that there is no window to show you where you are, or where you are going.
-
-Rather, a single primitive monochrome camera is attached to the front of the submarine, allowing you to only see an incredibly distorted front-view of the submarine every time you take a photo, which is the only form of visual information you have.
-
-Additionally, the sound design of this game is incredible, and proves to be a more reliable form of information than your sight. Hearing creaking, growling, blood dripping during your journey creates an amazing atmosphere during the game's runtime.
-
-With the severe lack of information you are given, and the constant feeling that your being hunted makes this game terrifying to play, an exceptional case of doing alot with so little.
-
-### Gameplay
-
-This game will take the average player around one hour to complete from start to finish, and revolves around the player navigating to specific co-ordinates to take photographs of points of interest for research purposes.
-
-During you journey of taking photographs at these coordinates, the submarine begins to deteriorate under the extreme pressure of the ocean, and oxygen levels drop significantly. The journey ends not by lack of oxygen, but by a massive creature that eats through the submarine towards the end of the game.
-
-But here is where the game really falls flat for me, the gameplay is such a slog to go through. You can argue that from a narrative point of view, the game want you to feel like a convict, doing something so terrifying and mind-numbing that it makes you go insane. However I don't think this game really captivates this feeling.
-
-Getting to a coordinate could take upwards of 10 minutes, usually the only obstacle being bumping into walls of which you cannot see. So the majority of this game will be head down holding a single button for a minute then turning a couple degrees and rinse and repeat.
-
-### Overall
-
-It really hurts me to rate this as low as I did, personally I really do believe this is a good game, the atmosphere is perfected but the gameplay is just too shallow for me to immerse myself as much as i wanted to. I wish I could recommend this, but I also wish that the gameplay was just a little more interesting throughout the journey.
-
-Regardless, try this game out if claustrophobic horror is your kind of thing, and certainly play it if you watched / planning to watch the Iron Lung movie made by Markiplier (which I thought was very well adapted!)
-`,rt=`---
-slug: "it-steals"
-title: "It Steals"
-year: 2020
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co46gq.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,it=`---
-slug: "it-takes-two"
-title: "It Takes Two"
-year: 2021
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob22v.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,at=`---
-slug: "just-act-natural"
-title: "Just Act Natural"
-year: 2021
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7hsx.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ot=`---
-slug: "just-dance-2014"
-title: "Just Dance 2014"
-year: 2013
-platforms:
-  - PlayStation
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xf3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,st=`---
-slug: "just-dance-4"
-title: "Just Dance 4"
-year: 2012
-platforms:
-  - PlayStation
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xf6.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ct=`---
-slug: "just-shapes-beats"
-title: "Just Shapes & Beats"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co27os.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,lt=`---
-slug: "kirbys-epic-yarn"
-title: "Kirby's Epic Yarn"
-year: 2010
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1w9w.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ut=`---
-slug: "krunker"
-title: "Krunker"
-year: 2018
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo2e.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,dt=`---
-slug: "lego-batman"
-title: "LEGO Batman"
-year: 2014
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7t2o.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ft=`---
-slug: "lego-dimensions"
-title: "Lego Dimensions"
-year: 2015
-platforms:
-  - PlayStation
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ghf.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,pt=`---
-slug: "lego-star-wars-iii"
-title: "LEGO Star Wars III"
-year: 2011
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2qk2.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,mt=`---
-slug: "lego-worlds"
-title: "Lego Worlds"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1j95.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ht=`---
-slug: "lethal-company"
-title: "Lethal Company"
-year: 2023
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ive.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,gt=`---
-slug: "life-is-strange-2"
-title: "Life is Strange 2"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r7p.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,_t=`---
-slug: "life-is-strange-before-the-storm"
-title: "Life is Strange: Before the Storm"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1twj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,vt=`---
-slug: "life-is-strange-true-colors"
-title: "Life is Strange: True Colors"
-year: 2021
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vpp.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,yt=`---
-slug: "life-is-strange"
-title: "Life is Strange"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r8e.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,bt=`---
-slug: "little-nightmares"
-title: "Little Nightmares"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rdi.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,xt=`---
-slug: "luigis-mansion-dark-moon"
-title: "Luigi's Mansion: Dark Moon"
-year: 2013
-platforms:
-  - Nintendo 3DS
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vjj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,St=`---
-slug: "mario-kart-8"
-title: "Mario Kart 8"
-year: 2014
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213q.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ct=`---
-slug: "mario-kart-wii"
-title: "Mario Kart Wii"
-year: 2008
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co214e.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,wt=`---
-slug: "mario-party-9"
-title: "Mario Party 9"
-year: 2012
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2241.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Tt=`---
-slug: "marvel-rivals"
-title: "Marvel Rivals"
-year: 2024
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmx1.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Et=`---
-slug: "milk-inside-a-bag-of-milk-inside-a-bag-of-milk"
-title: "Milk inside a bag of milk inside a bag of milk"
-year: 2020
-platforms:
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co66n4.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Dt=`---
-slug: "milk-outside-a-bag-of-milk-outside-a-bag-of-milk"
-title: "Milk outside a bag of milk outside a bag of milk"
-year: 2021
-platforms:
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4bsi.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ot=`---
-slug: "minecraft"
-title: "Minecraft"
-year: 2016
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fu7.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,kt=`---
-slug: "miside"
-title: "MiSide"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7e6i.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,At=`---
-slug: "mole"
-title: "MOLE"
-year: 2026
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobcv3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,jt=`---
-slug: "monster-hunter-world"
-title: "Monster Hunter: World"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rst.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Mt=`---
-slug: "moshi-monsters"
-title: "Moshi Monsters"
-year: 2008
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4opo.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Nt=`---
-slug: "motorslice"
-title: "MOTORSLICE"
-year: 2026
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8b9v.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Pt=`---
-slug: "mouthwashing"
-title: "Mouthwashing"
-year: 2024
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70oi.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ft=`---
-slug: "needy-streamer-overload"
-title: "NEEDY STREAMER OVERLOAD"
-year: 2022
-platforms:
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co57rh.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,It=`---
-slug: "new-super-mario-bros-wii"
-title: "New Super Mario Bros. Wii"
-year: 2009
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Lt=`---
-slug: "nier-automata"
-title: "NieR: Automata"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pcj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Rt=`---
-slug: "night-in-the-woods"
-title: "Night in the Woods"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4ovg.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,zt=`---
-slug: "off"
-title: "Off"
-year: 2008
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co96zj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Bt=`---
-slug: "omori"
-title: "OMORI"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - Nintendo 3DS
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xlp.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Vt=`---
-slug: "oneshot"
-title: "OneShot"
-year: 2014
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5rp6.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ht=`---
-slug: "outer-wilds"
-title: "Outer Wilds"
-year: 2019
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co65ac.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ut=`---
-slug: "overwatch"
-title: "Overwatch"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rcb.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Wt=`---
-slug: "palworld"
-title: "Palworld"
-year: 2026
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7n02.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Gt=`---
-slug: "paper-lily"
-title: "Paper Lily"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co756b.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Kt=`---
-slug: "payday-2"
-title: "PAYDAY 2"
-year: 2013
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaaqu.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,qt=`---
-slug: "payday-3"
-title: "PAYDAY 3"
-year: 2023
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6m2i.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Jt=`---
-slug: "persona-5"
-title: "Persona 5"
-year: 2016
-platforms:
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Yt=`---
-slug: "phasmophobia"
-title: "Phasmophobia"
-year: 2020
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coamcz.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Xt=`---
-slug: "pixel-gun-3d"
-title: "Pixel gun 3d"
-year: 2013
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co24bf.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Zt=`---
-slug: "plants-vs-zombies-garden-warfare-2"
-title: "Plants vs. Zombies: Garden Warfare 2"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3xur.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Qt=`---
-slug: "pokemon-go"
-title: "Pokemon GO"
-year: 2016
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gmb.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,$t=`---
-slug: "pokemon-lets-go-eevee"
-title: "Pokemon: Let's Go, Eevee!"
-year: 2018
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zjz.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,en=`---
-slug: "pokemon-moon"
-title: "Pokemon Moon"
-year: 2016
-platforms:
-  - Nintendo 3DS
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3co8.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,tn=`---
-slug: "pokemon-sword"
-title: "Pokemon Sword"
-year: 2019
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zk2.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,nn=`---
-slug: "pony-island"
-title: "Pony Island"
-year: 2016
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hqv.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,rn=`---
-slug: "poppy-playtime"
-title: "Poppy Playtime"
-year: 2021
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobi3t.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,an=`---
-slug: "portal-2"
-title: "Portal 2"
-year: 2011
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rs4.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,on=`---
-slug: "portal"
-title: "Portal"
-year: 2007
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay61.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,sn=`---
-slug: "psychopomp"
-title: "Psychopomp"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozd.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,cn=`---
-slug: "quake-iii-arena"
-title: "Quake III Arena"
-year: 1999
-platforms:
-  - PC
-  - Xbox
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ybj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ln=`---
-slug: "radio-the-universe"
-title: "Radio the Universe"
-year: 2027
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co27fn.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,un=`---
-slug: "rayman-legends"
-title: "Rayman Legends"
-year: 2013
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4jot.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,dn=`---
-slug: "rayman-raving-rabbids"
-title: "Rayman Raving Rabbids"
-year: 2006
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co81iy.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,fn=`---
-slug: "red-dead-redemption-2"
-title: "Red Dead Redemption 2"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1q1f.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,pn=`---
-slug: "risk-of-rain-2"
-title: "Risk of Rain 2"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaavb.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,mn=`---
-slug: "rocket-league"
-title: "Rocket League"
-year: 2015
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocdio.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,hn=`---
-slug: "rogue-company"
-title: "Rogue Company"
-year: 2020
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa995.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,gn=`---
-slug: "scp-secret-laboratory"
-title: "SCP: Secret Laboratory"
-year: 2017
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobqc0.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,_n=`---
-slug: "sea-of-thieves"
-title: "Sea of Thieves"
-year: 2018
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2558.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,vn=`---
-slug: "shipwrecked-64"
-title: "Shipwrecked 64"
-year: 2022
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zzg.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,yn=`---
-slug: "signalis"
-title: "SIGNALIS"
-year: 2022
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ig.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,bn=`---
-slug: "silent-hill-2"
-title: "SILENT HILL 2"
-year: 2001
-platforms:
-  - PlayStation
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyg.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,xn=`---
-slug: "sky-children-of-the-light"
-title: "Sky: Children of the Light"
-year: 2019
-platforms:
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaavd.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Sn=`---
-slug: "skylanders-trap-team"
-title: "Skylanders: Trap Team"
-year: 2014
-platforms:
-  - PlayStation
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ysd.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Cn=`---
-slug: "slay-the-princess"
-title: "Slay the Princess"
-year: 2023
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co501b.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,wn=`---
-slug: "slime-rancher"
-title: "Slime Rancher"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co73i2.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Tn=`---
-slug: "soma"
-title: "SOMA"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a20.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,En=`---
-slug: "sons-of-the-forest"
-title: "Sons Of The Forest"
-year: 2024
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobyfc.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Dn=`---
-slug: "splatoon-2"
-title: "Splatoon 2"
-year: 2017
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob8r9.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,On=`---
-slug: "splitgate"
-title: "Splitgate"
-year: 2019
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3cs5.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,kn=`---
-slug: "star-wars-battlefront"
-title: "Star Wars: Battlefront"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2res.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,An=`---
-slug: "steep"
-title: "Steep"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jpb.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,jn=`---
-slug: "stick-fight-the-game"
-title: "Stick Fight: The Game"
-year: 2017
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co86z5.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Mn=`---
-slug: "sunset-overdrive"
-title: "Sunset Overdrive"
-year: 2014
-platforms:
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20td.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Nn=`---
-slug: "super-mario-3d-world"
-title: "Super Mario 3D World"
-year: 2013
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob8wi.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Pn=`---
-slug: "super-mario-64"
-title: "Super Mario 64"
-year: 2020
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wv6.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Fn=`---
-slug: "super-mario-galaxy-2"
-title: "Super Mario Galaxy 2"
-year: 2010
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,In=`---
-slug: "super-mario-maker-2"
-title: "Super Mario Maker 2"
-year: 2019
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vy.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Ln=`---
-slug: "super-mario-odyssey"
-title: "Super Mario Odyssey"
-year: 2017
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1mxf.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Rn=`---
-slug: "super-smash-bros-ultimate"
-title: "Super Smash Bros. Ultimate"
-year: 2018
-platforms:
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,zn=`---
-slug: "superhot"
-title: "Superhot"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ybp.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Bn=`---
-slug: "temple-run"
-title: "Temple Run"
-year: 2011
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rk3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Vn=`---
-slug: "terraria"
-title: "Terraria"
-year: 2011
-platforms:
-  - PlayStation
-  - Nintendo 3DS
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaamg.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Hn=`---
-slug: "terratech"
-title: "TerraTech"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coalaw.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Un=`---
-slug: "the-awesome-adventures-of-captain-spirit"
-title: "The Awesome Adventures of Captain Spirit"
-year: 2018
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobugo.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Wn=`---
-slug: "the-beginners-guide"
-title: "The Beginner's Guide"
-year: 2015
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rz1.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Gn=`---
-slug: "the-coffin-of-andy-and-leyley"
-title: "The Coffin of Andy and Leyley"
-year: 2023
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mrn.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Kn=`---
-slug: "the-crew"
-title: "The Crew"
-year: 2014
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jtc.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,qn=`---
-slug: "the-escapists"
-title: "The Escapists"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1uvv.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Jn=`---
-slug: "the-finals"
-title: "THE FINALS"
-year: 2023
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociuq.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Yn=`---
-slug: "the-irony"
-title: "The IRONY"
-year: 2027
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobloq.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Xn=`---
-slug: "the-oily-depths"
-title: "The Oily Depths"
-year: 2026
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u4u.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Zn=`---
-slug: "titanfall-2"
-title: "Titanfall 2"
-year: 2016
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/fhbeilnghyhhmjqhinqa.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,Qn=`---
-slug: "to-the-moon"
-title: "To the Moon"
-year: 2025
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9o96.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,$n=`---
-slug: "tom-clancys-rainbow-six-siege"
-title: "Tom Clancy's Rainbow Six Siege"
-year: 2015
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocsnm.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,er=`---
-slug: "tomodachi-life"
-title: "Tomodachi Life"
-year: 2013
-platforms:
-  - Nintendo 3DS
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6tg3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,tr=`---
-slug: "trove"
-title: "Trove"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/yckmopwynvlncm1ub3om.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,nr=`---
-slug: "twwwr"
-title: "TWWWR"
-year: 2020
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co48ok.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,rr=`---
-slug: "ultrakill"
-title: "ULTRAKILL"
-year: 2020
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co46s3.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ir=`---
-slug: "undertale"
-title: "Undertale"
-year: 2015
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1t2.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ar=`---
-slug: "until-then"
-title: "Until Then"
-year: 2024
-platforms:
-  - Xbox
-  - PC
-  - PlayStation
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7r5n.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,or=`---
-slug: "upload-labs"
-title: "Upload Labs"
-year: 2025
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coag4s.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,sr=`---
-slug: "warframe"
-title: "Warframe"
-year: 2013
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocase.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,cr=`---
-slug: "wario-land-the-shake-dimension"
-title: "Wario Land: The Shake Dimension"
-year: 2008
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9o9l.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,lr=`---
-slug: "watch-dogs"
-title: "Watch_Dogs"
-year: 2014
-platforms:
-  - PlayStation
-  - PC
-  - Xbox
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2p5w.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,ur=`---
-slug: "wayfinder"
-title: "Wayfinder"
-year: 2024
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ac0.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,dr=`---
-slug: "what-remians-of-edith-finch"
-title: "What Remians of Edith Finch"
-year: 2017
-platforms:
-  - Xbox
-  - PlayStation
-  - PC
-  - Switch
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbj.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,fr=`---
-slug: "white-knuckle"
-title: "White Knuckle"
-year: 2025
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mws.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,pr=`---
-slug: "wii-sports-resort"
-title: "Wii Sports Resort"
-year: 2009
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocdbp.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,mr=`---
-slug: "wii-sports"
-title: "Wii Sports"
-year: 2006
-platforms:
-  []
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vge.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
-`,hr=`---
-slug: "yume-nikki"
-title: "Yume Nikki"
-year: 2004
-platforms:
-  - PC
-coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co81f2.jpg"
-reviewDate:
-playtimeHours:
-rating:
-categories:
-  gameplay:
-  story:
-  music:
-  soundDesign:
-  visualDesign:
-  replayability:
----
+import{s as e}from"./PageDivider-BRnvrZvy.js";var t=`---\r
+slug: "a-hat-in-time"\r
+title: "A Hat in Time"\r
+year: 2017\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1uc.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,n=`---\r
+slug: "animal-crossing"\r
+title: "Animal Crossing"\r
+year: 2002\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3wmn.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,r=`---\r
+slug: "animal-well"\r
+title: "ANIMAL WELL"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4hdh.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,i=`---\r
+slug: "apex-legends"\r
+title: "Apex Legends"\r
+year: 2019\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocqh2.jpg"\r
+reviewDate: "2026-08-21"\r
+playtimeHours: 2500\r
+rating: 6.6\r
+categories:\r
+  gameplay: 7.8\r
+  story: 2\r
+  music: 7.6\r
+  soundDesign: 8.2\r
+  visualDesign: 6\r
+  replayability: 10\r
+---\r
+\r
+## Context\r
+\r
+As you can tell by my playtime hours on this game, this will likely be one of my most played games out of this entire site, thus likely being one of my most detailed reviews. Apex Legends is Respawn Entertainment's take on the Battle-Royale shooter with the same mechanics and overall feel of Titanfall 2. I began playing this game from Season 8 all the way up till roughly Season 21.\r
+\r
+Because of the sheer amount of hours I have put in this game, this review will feel more like a rant than a review. As is expected, this is going to be a complete nerd-out. Whilst i loved this game for what it was at the time, it doesn't make it a great game.\r
+\r
+## The Good\r
+\r
+I'm going to start with the good, because this game really does have a lot going for it as much as I like to criticize it.\r
+\r
+- ### Gunplay\r
+\r
+  Firstly, the gun play in this game is phenomenal, and I have yet to feel a game that feels as good to play as Apex. The heroes, guns, map design and movement compliment the style of play incredibly well, which makes it feel so unique than similar titles of the genre. The weapons are also unique in the way they function, such as the Sentinel requiring a shield cell to do more damage, the L-STAR having no magazine, but rather a overheat system, the Charge Rifle being hit-scan but requiring a charge up time between each shot, the CAR having two mags, one for light ammo and one for heavy ammo, whilst accepting both mags of either type. It's refreshing to see that there is more to the guns themselves than simply a fire-rate, spread, recoil, etc change.\r
+\r
+- ### Movement\r
+\r
+  This is the main contender of why I probably played this game as long as I did, Titanfall 2 has already taken the cake for arguably the best multiplayer movement shooter ever created, and Apex has the majority of the same techniques (though toned down heavily) as Titanfall 2. To this day more and more movement options are being discovered, practiced and mastered. Which makes the skill expression of this game exponentially higher than any other shooter out there, which additionally makes it insanely fun to watch, which is likely why it got incredibly high view counts during its prime.\r
+\r
+- ### Professional scene\r
+  The pro play scene is easily the most entertaining in any game I have watched (Overwatch being a high contender), to parrot the previous two points, the gunplay and movement are just so brilliant that watching professionals use both during fights are just incredibly enjoyable to watch and root for. Additionally, the pro scene is blessed with very entertaining, funny and (mostly) positive professionals. My personal favourites being Mande, NiceWigg, Daltoosh and Lou.\r
+\r
+It was probably a combination of all these things that made Apex stick to me so well, whilst also being a comfort game of mine during tough times, playing this with friends such as blast and doing stupid things in this game is way funnier than it should be. However, being the critic I am, and for playing this game for as long as I have, it's a must that I mention what makes this game incredibly flawed.\r
+\r
+## The Bad\r
+\r
+Maybe it's when you play a game for this long, you really notice its flaws. And my god does Apex have PLENTY. Before I rip into each and every nitpick of the game, I think overall this game just does not work as well for a casual audience, which is why I probably would not recommend this game to too many people.\r
+\r
+I personally believe that battle royales are inherently flawed due to the down-time to gameplay ratio. If you simply want to play a video game to kill some time, Apex is not one of them. There are far too many mechanics to this game that makes even playing it feel like an actual job. Even with the mindset of playing casually you are likely going to spend the majority of your playtime in a waiting menu, looting, then dying to a smurf as the SBMM in this game was atrocious during the course of me playing it.\r
+\r
+But with that out of mind, here is why Apex is so flawed as a video game.\r
+\r
+- ### Audio\r
+\r
+  Apex has to go down in history with the longest period of time that a simple common feature that is so significant to the overall combat and play-style of the game hasn't been fixed. It's actually ridiculous how I began playing this game from Season 8 all the way to Season 21 (3 YEARS AND 3 MONTHS) and from what I continue to hear from current seasons, remains to be a significant problem.\r
+\r
+  Apex continues to prove how competitive video games can really get, but refuses to fix something so rudimentary to the core gameplay that actively ruins its competitiveness. The audio in this game is fantastic in the way it presents information to the player in order for them to identify possible threats or ways to strategize, but seems to be a dice roll whether you get to hear it or not. Usually resulting in you, or possibly your entire team to be at a significant disadvantage from an enemy team sneaking up behind you without a whisper to be heard.\r
+\r
+- ### Ranked\r
+\r
+  Again, talking about the competitiveness of this game, and how much skill is required to play this game at the peak of its player-base. Respawn doesn't really seem to understand what makes a player skilled within their own game. There have been several ranked reworks to the complete structure of how a player can climb ranks, and yet it seems that they have consistently failed to hit the mark on what feels rewarding to climb.\r
+\r
+  These ranked reworks have existed due to the repetitive complaints of the player-base of this game, as there have been seasons where:\r
+  - Getting kills was essentially a non-requirement\r
+  - Getting placed Top 5 (With kills) could still result in a negative game\r
+  - Getting placed Top 5 (With no kills) could result in climbing astronomically fast\r
+  - Ending a game with 0 damage could allow you to climb to very high ranks\r
+\r
+  Respawn doesn't seem to understand that kills, placement and contesting are all part of the competitive nature of the game, and only seem to focus on one individual part of the game rather than looking at it in its entirety. I have personally played during a season where a professional player achieved the highest rank in the entire game, by doing 0 damage. (I am seriously not exaggerating by that statement, search "Sweetdreams 0 damage to predator") As I am writing this review, I am not up-to-date on the current state of ranked in Season 30, however my expectations are desperately low, but I really hope that one day the casual competitive scene of this game thrives because it has so much going for it.\r
+\r
+- ### Balancing\r
+\r
+  This might be low hanging fruit, because by the competitive nature of this game, it's bound to have a few balancing issues here and there. Which is completely fine overall, as changes in the meta can be interesting to change play-styles instead of just running the same hero, guns, poi, etc every game. However, Apex has had some ludicrous choices in the balancing department, where some seasons being borderline unplayable if you aren't running a certain hero or gun every damn game. Please if you find any of this interesting, research it for yourself because it is manic how some of this got through to the final game. Below is a few examples of how ridiculous some seasons have been:\r
+  - #### Season 10 Release Seer\r
+\r
+    In all my experience playing competitive games, this has to be the SECOND (behind Overwatch's release Brigitte) worst video game balance decision I have ever seen in my life. Keep in mind, Season 10 balancing was very different to current day balancing. There are characters like mirage, whose entire kit relies around tricking the enemy into shooting his clone. That's it. Pathfinder whose entire kit relies around a grappling hook on a +15s cool-down. That's it.\r
+\r
+    Now, with the release of Season 10, introduces a new recon legend, Seer. His kit contains the following:\r
+    - 0s cool-down, 24/7 uptime heartbeat sensor "passive". Showing you the exact position of any enemy around you within a 75m range, through walls or not.\r
+    - Tactical that reveals your position through walls with a 0.5s window of reaction to move out of a massive sized cylinder radius (that also goes through walls)\r
+    - Tactical that reveals your health and shield, of which at the time no other legend had the capability of doing.\r
+    - Tactical that interrupted ANY form of healing, shield or health.\r
+    - Tactical that interrupted reviving a teammate.\r
+    - Tactical that silenced your abilities\r
+    - Tactical that interrupted anything related to the map (such as doors, respawn beacons, zip lines, etc)\r
+    - Tactical that slowed your movement by 25%\r
+    - Tactical that flash-banged your screen for roughly 0.5s, where your entire screen would be white.\r
+    - Tactical that inflicted 10 damage, causing low health players to die behind walls with borderline 0 reaction time.\r
+    - Ultimate that constantly revealed every enemy within it's massive sized radius, also showing health and shield\r
+\r
+    If you were not running this character during this season you might as well be shooting yourself in the foot. The joke writes itself, I have no other words for this.\r
+\r
+  - #### Season 15 Catalyst / Bloodhound / Seer / Bangalore\r
+\r
+    This season was these 4 characters and seriously no in-between, pro players used it, casual players used it, ranked grinders used it. This was the most frustrating meta of legends in the game ever. You couldn't see anything ever, visual clutter the season, Catalyst could hold entire buildings and herself, whilst her and Bangalore made every encounter going in blind, just for Bloodhound or Seer to scan your entire team through the smoke and walls.\r
+\r
+    This felt like the most unskilled season of players because no one could even see who they were shooting. If you did not find a Digital Threat scope before mid-game, you already lost.\r
+\r
+  - #### Season 19 Revenant / Conduit\r
+\r
+    Honestly, Conduit deserves her own section here, instant 75 shield to your entire team through walls is nothing to scoff at. However, Revenant made this comp the cherry on top, allowing for Revenant to pounce on your team with upwards of 300 health that can be regenerated.\r
+\r
+  - #### Season 8 Spitfire + Horizon\r
+\r
+    LMG with 19 damage per bullet with upwards of 55 rounds in the mag (Thats 1045 damage a mag btw), with borderline perfect hip-fire accuracy, combined with a character who gets perfect accuracy moving high speeds whilst airborne.\r
+\r
+  - #### Season 10 Rampage\r
+\r
+    LMG with 28 damage per bullet with upwards of 40 bullets in the mag (Thats 1120 damage a mag btw), that can be doubled in fire-rate when using a thermite grenade.\r
+\r
+  - #### Pre-Season 14 Wingman\r
+    A handgun that could hold 9 bullets, each doing 50 damage. With incredible range, hip-fire accuracy and speed. Which at the time used heavy rounds, one of the most common ammunition types in the game, all whilst being the fastest held gun in the game.\r
+\r
+  Trust me I want to rant on and on about every horrible balance meta in this game, but this review would be Megabytes in size. I don't think I do these titles justice simply with text, but trust my word these were all miserable to play against, and there are several more like this.\r
+\r
+- ### Cheating\r
+\r
+  Every competitive game will have its fair share of cheaters, it's just bound to happen. Games recently have been far better with their anti-cheats and making sure that cheaters and exploiters alike can't ruin the fun for other players. Unfortunately, Apex is not one of them.\r
+\r
+  Apex has one of the worst cases of cheating problems in gaming history. But more accurately I believe it must be Respawn Entertainment / EA as a whole as there have been periods of times where Titanfall, Titanfall 2 and Apex have all been completely taken over by cheaters, to the point where you could not even play the video game in some worst-cases.\r
+\r
+  I must admit however, the cheaters in Apex have been the most creative cheaters I have ever seen in a competitive game. Here are just a few examples of the cheating scandals I have witnessed during my time playing:\r
+  - During the ALGS (Apex Legends Global Series) finals, ImperialHal and Genburten both were given ESP and aim-bot remotely from their own personal computers.\r
+  - During Season 12, there was an exploit that allowed cheaters to dual wield two guns, whilst also using faster fire rate cheats and aim-bot. A feature that literally did not exist until years in the future, somehow they had access to this. This also allowed them to offhand things such as healing, whilst shooting.\r
+  - Professional players and streamers that had been cheating upwards of 2 years straight, every game and getting away with it.\r
+  - Allegedly a developer of Apex advertised and sold cheats whilst playing the game.\r
+  - A large majority of movement players used macros and scripts to perform humanly-impossible movements, of which the developers were aware of, and didn’t address it for upwards of a year.\r
+  - A cheat where the charge rifle had no charge, infinite ammo, and always had the burst damage part of the beam, becoming essentially an insta-kill, no damage fall-off, hit-scan death ray. (Cheaters would typically use this with the next cheat mentioned)\r
+  - Flying, not much to say here, just straight up flight, infinitely, as high as they wanted. This was possible somehow.\r
+  - A cheat where ordinances (grenades, thermites, arc stars) could be thrown of which were instantly teleported to the nearest enemy, and instantly explode.\r
+  - A cheat where you could instantly loot any loot box without entering the menu, and it would automatically pick up all the necessary loot you wanted from it.\r
+  - An incredibly large majority of controller players were using a software to increase the noise generated from joystick movement to counter the recoil of basically every automatic gun in the entire game. This was used for many years without being addressed by Respawn.\r
+\r
+  I could continue to list more and more cheats, but I think you get the point. Of course there was the obvious aim-bot, esp, no-recoil cheats and what-not but those were of the most interesting and funniest sounding cheats I experienced during my playtime. There were a few seasons where it really did feel like if you were playing ranked you had to hope your team had at least one cheater to kill all the other cheaters in the lobby.\r
+`,a=`---\r
+slug: "ark-survival-evolved"\r
+title: "ARK: Survival Evolved"\r
+year: 2017\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co493k.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,o=`---\r
+slug: "awaria"\r
+title: "Awaria"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co960w.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,s=`---\r
+slug: "balatro"\r
+title: "Balatro"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9f4g.jpg"\r
+reviewDate: "2026-08-22"\r
+playtimeHours: 40\r
+rating: 9.5\r
+categories:\r
+  gameplay: 10\r
+  story: 0\r
+  music: 7.5\r
+  soundDesign: 9.5\r
+  visualDesign: 9.2\r
+  replayability: 10\r
+---\r
+\r
+## Context\r
+\r
+Balatro is a rogue-like card game made by LocalThunk, and is considered to be the staple of all card-like video games due to how much this game achieves with so little.\r
+\r
+You start with a deck of cards and your goal is to create poker hands to defeat as many Ante's as possible, of which contain three blinds in succession, each blind getting progressively harder the further you play into the game. Sounds relatively simple, but the reason why Balatro is so globally praised is how much unique and interesting cards there are in this game.\r
+\r
+I promise you, this game sounds way more complex than it actually is, I am begging you to play this game for yourself because you will learn all of the min-max very quick, especially considering how well Balatro introduces you to the new mechanics.\r
+\r
+Balatro has (from the time I am writing this review):\r
+\r
+- 150 unique Joker cards that are provide some sort of passive ability\r
+- 12 unique Planet consumable cards that boost the base value of poker hands\r
+- 22 unique Tarot consumable cards that modify your deck or provide immediate effects\r
+- 18 unique Spectral consumable cards that significantly modify your deck or provide significant immediate effects\r
+- 8 unique enhanced cards which boost a specific value of a single base card.\r
+\r
+Each and every single one of these cards have a use case somewhere in the game and are synergise with other cards so perfectly, that there are possibly an infinite number of strategical load-outs for you to try. Every time you play this game feels completely fresh as you are being dealt with all the possible combinations of these cards for you to strategise on.\r
+\r
+## Game Feel\r
+\r
+Because of all these cards and combination, Balatro makes your feel really damn smart when you get the ball rolling. The feeling of combining a certain passive with another, or using a passive with a certain poker hand, or using face cards that are all amplified by your jokers, etc is just such as amazing feeling.\r
+\r
+This game encourages the player to make them feel like they are breaking the game with all the possible combinations you can achieve in this game, and this is amplified ten-fold when considering how smooth and satisfying the animations and sound effects are, especially when you hold a great deck.\r
+\r
+## Visual design\r
+\r
+This game should serve as a master class of how to perfectly fine-tune game juice. The animations, sounds and effects are just phenomenal. When achieving a massive score, all the animations kick in at once, numbers explode upwards, the sounds get higher and higher pitched, its so satisfying and addicting to watch it happen before your eyes.\r
+\r
+The overall visual style is so simple yet distinct and unique, the pixel art of the cards and the background are just so incredibly well done. And despite there only being around 5 main music tracks (all of which use the exact same motif), it somehow doesn't get repetitive at all and creates a exceptional atmosphere when playing.\r
+\r
+## Overall\r
+\r
+You will only truly find out how damn fun and addicting this game is until you start experimenting with different jokers, planet cards, tarots, spectral cards and so on. This game is the most re-playable game in recent memory and I strongly believe that this game will be continued to be played by hundreds of thousands of people decades in the future.\r
+\r
+Balatro has completely and utterly perfected the rogue-like and card game genre that I do not believe any game in its genre will even come remotely close to how incredible this game is. Please, for the love of everything, if you haven't already, play this incredible game.\r
+`,c=`---\r
+slug: "before-your-eyes"\r
+title: "Before Your Eyes"\r
+year: 2021\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2zr.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,l=`---\r
+slug: "bendy-and-the-dark-revival"\r
+title: "Bendy and the Dark Revival"\r
+year: 2022\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co683q.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,u=`---\r
+slug: "bendy-and-the-ink-machine"\r
+title: "Bendy and the Ink Machine"\r
+year: 2017\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co67zs.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,d=`---\r
+slug: "big-walk"\r
+title: "Big Walk"\r
+year: 2026\r
+platforms:\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7h9m.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,f=`---\r
+slug: "bin-weevils"\r
+title: "Bin Weevils"\r
+year: 2007\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4vni.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,p=`---\r
+slug: "bioshock"\r
+title: "BioShock"\r
+year: 2007\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2mli.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ee=`---\r
+slug: "bloons-td-5"\r
+title: "Bloons TD 5"\r
+year: 2011\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co232r.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,te=`---\r
+slug: "bloons-td-battles"\r
+title: "Bloons TD Battles"\r
+year: 2013\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1n4l.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ne=`---\r
+slug: "brawlhalla"\r
+title: "Brawlhalla"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6i3u.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,re=`---\r
+slug: "call-of-duty-black-ops-4"\r
+title: "Call of Duty: Black Ops 4"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wkf.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ie=`---\r
+slug: "call-of-duty-infinite-warfare"\r
+title: "Call of Duty: Infinite Warfare"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1wkp.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ae=`---\r
+slug: "carnival"\r
+title: "Carnival"\r
+year: 2007\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vm3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,oe=`---\r
+slug: "celeste"\r
+title: "Celeste"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob9dh.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,se=`---\r
+slug: "clair-obscur-expedition-33"\r
+title: "Clair Obscur: Expedition 33"\r
+year: 2025\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gam.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ce=`---\r
+slug: "clash-royale"\r
+title: "Clash Royale"\r
+year: 2016\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobb48.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,le=`---\r
+slug: "class-of-09"\r
+title: "Class of '09"\r
+year: 2021\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co45oa.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ue=`---\r
+slug: "club-penguin-game-day"\r
+title: "Club Penguin: Game Day"\r
+year: 2010\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1krc.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,de=`---\r
+slug: "club-penguin"\r
+title: "Club Penguin"\r
+year: 2005\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2594.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,fe=`---\r
+slug: "control"\r
+title: "Control"\r
+year: 2019\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2evj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,pe=`---\r
+slug: "counter-strike"\r
+title: "Counter-Strike"\r
+year: 2012\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc32n.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,me=`---\r
+slug: "crank-it"\r
+title: "Crank It!"\r
+year: 2025\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaafn.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,he=`---\r
+slug: "cry-of-fear"\r
+title: "Cry of Fear"\r
+year: 2013\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6m51.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ge=`---\r
+slug: "cult-of-the-lamb"\r
+title: "Cult of the Lamb"\r
+year: 2022\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobbwj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,_e=`---\r
+slug: "cuphead"\r
+title: "Cuphead"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ao.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ve=`---\r
+slug: "cyberpunk-2077"\r
+title: "Cyberpunk 2077"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaih8.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ye=`---\r
+slug: "deadlock"\r
+title: "Deadlock"\r
+year: 2027\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobc7s.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,be=`---\r
+slug: "deep-rock-galactic"\r
+title: "Deep Rock Galactic"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaat4.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,xe=`---\r
+slug: "deltarune"\r
+title: "DELTARUNE"\r
+year: 2025\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9m71.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Se=`---\r
+slug: "descending"\r
+title: "Descending"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8rkk.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ce=`---\r
+slug: "destiny"\r
+title: "Destiny"\r
+year: 2014\r
+platforms:\r
+  - PlayStation\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rco.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,we=`---\r
+slug: "detroit-become-human"\r
+title: "Detroit: Become Human"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocot9.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Te=`---\r
+slug: "disco-elysium"\r
+title: "Disco Elysium"\r
+year: 2019\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1sfj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ee=`---\r
+slug: "doki-doki-literature-club"\r
+title: "Doki Doki Literature Club"\r
+year: 2017\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6p5e.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,De=`---\r
+slug: "doom-eternal"\r
+title: "DOOM Eternal"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3p5n.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Oe=`---\r
+slug: "ena-dream-bbq"\r
+title: "ENA: Dream BBQ"\r
+year: 2025\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ei.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ke=`---\r
+slug: "enter-the-gungeon"\r
+title: "Enter the Gungeon"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobl6c.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ae=`---\r
+slug: "evolve"\r
+title: "Evolve"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa2ha.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,je=`---\r
+slug: "firewatch"\r
+title: "Firewatch"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1ts.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Me=`---\r
+slug: "five-nights-at-freddys"\r
+title: "Five Nights at Freddy's"\r
+year: 2014\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8efb.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ne=`---\r
+slug: "for-honor"\r
+title: "FOR HONOR"\r
+year: 2017\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclez.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Pe=`---\r
+slug: "fortnite"\r
+title: "Fortnite"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocqrm.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Fe=`---\r
+slug: "garrys-mod"\r
+title: "Garry's Mod"\r
+year: 2004\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8pgw.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ie=`---\r
+slug: "geometry-dash"\r
+title: "Geometry Dash"\r
+year: 2013\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7jou.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Le=`---\r
+slug: "goat-simulator"\r
+title: "Goat Simulator"\r
+year: 2014\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dhr.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Re=`---\r
+slug: "grand-theft-auto-v"\r
+title: "Grand Theft Auto V"\r
+year: 2013\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2lbd.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ze=`---\r
+slug: "half-life-2"\r
+title: "Half-Life 2"\r
+year: 2004\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1nmw.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Be=`---\r
+slug: "half-life"\r
+title: "Half-Life"\r
+year: 1998\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2ea.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ve=`---\r
+slug: "halo-infinite"\r
+title: "Halo Infinite"\r
+year: 2021\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2dto.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,He=`---\r
+slug: "hello-charlotte"\r
+title: "Hello Charlotte"\r
+year: 2015\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co673t.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ue=`---\r
+slug: "helltaker"\r
+title: "Helltaker"\r
+year: 2020\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co279z.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,We=`---\r
+slug: "hollow-knight-silksong"\r
+title: "Hollow Knight: Silksong"\r
+year: 2025\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobebu.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ge=`---\r
+slug: "hollow-knight"\r
+title: "Hollow Knight"\r
+year: 2023\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociuq.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ke=`---\r
+slug: "horizon-zero-dawn"\r
+title: "Horizon Zero Dawn"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2una.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,qe=`---\r
+slug: "how-fish-is-made"\r
+title: "How Fish Is Made"\r
+year: 2022\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9emx.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Je=`---\r
+slug: "how-to-kill-a-fly"\r
+title: "how to kill a fly"\r
+year: 2026\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocq1s.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ye=`---\r
+slug: "hypixel-skyblock"\r
+title: "Hypixel Skyblock"\r
+year: 2012\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafrq.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Xe=`---\r
+slug: "idols-of-ash"\r
+title: "Idols of Ash"\r
+year: 2026\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb5o.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ze=`---\r
+slug: "illusion-carnival"\r
+title: "Illusion Carnival"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9dis.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Qe=`---\r
+slug: "imscared"\r
+title: "IMSCARED"\r
+year: 2016\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8wl3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,$e=`---\r
+slug: "in-stars-and-time"\r
+title: "In Stars And Time"\r
+year: 2023\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5bsf.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,et=`---\r
+slug: "infineural"\r
+title: "Infineural"\r
+year: 2022\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5f58.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,tt=`---\r
+slug: "inscryption"\r
+title: "Inscryption"\r
+year: 2021\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co401c.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,nt=`---\r
+slug: "iron-lung"\r
+title: "Iron Lung"\r
+year: 2022\r
+platforms:\r
+  - PC\r
+  - PlayStation\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5he3.jpg"\r
+reviewDate: "2026-08-22"\r
+playtimeHours: 1\r
+rating: 6.2\r
+categories:\r
+  gameplay: 3.1\r
+  story: 5\r
+  music: 6.5\r
+  soundDesign: 8.2\r
+  visualDesign: 6.5\r
+  replayability: 1\r
+---\r
+\r
+## Context\r
+\r
+Iron lung is a very short indie horror game made by David Szymanski, the game introduces you as a convict sent on a suicide mission to explore an alien moon's blood ocean within a claustrophobic rusty submarine named the "Iron Lung".\r
+\r
+### Atmosphere\r
+\r
+If there is anything that Iron Lung does brilliantly, is the atmosphere. The submarine really feels like its holding on to dear life trying to keep you alive inside, like it was made out of scrap and prayers. The main reason of why the Iron Lung is so terrifying is that there is no window to show you where you are, or where you are going.\r
+\r
+Rather, a single primitive monochrome camera is attached to the front of the submarine, allowing you to only see an incredibly distorted front-view of the submarine every time you take a photo, which is the only form of visual information you have.\r
+\r
+Additionally, the sound design of this game is incredible, and proves to be a more reliable form of information than your sight. Hearing creaking, growling, blood dripping during your journey creates an amazing atmosphere during the game's runtime.\r
+\r
+With the severe lack of information you are given, and the constant feeling that your being hunted makes this game terrifying to play, an exceptional case of doing alot with so little.\r
+\r
+### Gameplay\r
+\r
+This game will take the average player around one hour to complete from start to finish, and revolves around the player navigating to specific co-ordinates to take photographs of points of interest for research purposes.\r
+\r
+During you journey of taking photographs at these coordinates, the submarine begins to deteriorate under the extreme pressure of the ocean, and oxygen levels drop significantly. The journey ends not by lack of oxygen, but by a massive creature that eats through the submarine towards the end of the game.\r
+\r
+But here is where the game really falls flat for me, the gameplay is such a slog to go through. You can argue that from a narrative point of view, the game want you to feel like a convict, doing something so terrifying and mind-numbing that it makes you go insane. However I don't think this game really captivates this feeling.\r
+\r
+Getting to a coordinate could take upwards of 10 minutes, usually the only obstacle being bumping into walls of which you cannot see. So the majority of this game will be head down holding a single button for a minute then turning a couple degrees and rinse and repeat.\r
+\r
+### Overall\r
+\r
+It really hurts me to rate this as low as I did, personally I really do believe this is a good game, the atmosphere is perfected but the gameplay is just too shallow for me to immerse myself as much as i wanted to. I wish I could recommend this, but I also wish that the gameplay was just a little more interesting throughout the journey.\r
+\r
+Regardless, try this game out if claustrophobic horror is your kind of thing, and certainly play it if you watched / planning to watch the Iron Lung movie made by Markiplier (which I thought was very well adapted!)\r
+`,rt=`---\r
+slug: "it-steals"\r
+title: "It Steals"\r
+year: 2020\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co46gq.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,it=`---\r
+slug: "it-takes-two"\r
+title: "It Takes Two"\r
+year: 2021\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob22v.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,at=`---\r
+slug: "just-act-natural"\r
+title: "Just Act Natural"\r
+year: 2021\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7hsx.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ot=`---\r
+slug: "just-dance-2014"\r
+title: "Just Dance 2014"\r
+year: 2013\r
+platforms:\r
+  - PlayStation\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xf3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,st=`---\r
+slug: "just-dance-4"\r
+title: "Just Dance 4"\r
+year: 2012\r
+platforms:\r
+  - PlayStation\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xf6.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ct=`---\r
+slug: "just-shapes-beats"\r
+title: "Just Shapes & Beats"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co27os.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,lt=`---\r
+slug: "kirbys-epic-yarn"\r
+title: "Kirby's Epic Yarn"\r
+year: 2010\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1w9w.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ut=`---\r
+slug: "krunker"\r
+title: "Krunker"\r
+year: 2018\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo2e.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,dt=`---\r
+slug: "lego-batman"\r
+title: "LEGO Batman"\r
+year: 2014\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7t2o.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ft=`---\r
+slug: "lego-dimensions"\r
+title: "Lego Dimensions"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ghf.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,pt=`---\r
+slug: "lego-star-wars-iii"\r
+title: "LEGO Star Wars III"\r
+year: 2011\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2qk2.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,mt=`---\r
+slug: "lego-worlds"\r
+title: "Lego Worlds"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1j95.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ht=`---\r
+slug: "lethal-company"\r
+title: "Lethal Company"\r
+year: 2023\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5ive.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,gt=`---\r
+slug: "life-is-strange-2"\r
+title: "Life is Strange 2"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r7p.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,_t=`---\r
+slug: "life-is-strange-before-the-storm"\r
+title: "Life is Strange: Before the Storm"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1twj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,vt=`---\r
+slug: "life-is-strange-true-colors"\r
+title: "Life is Strange: True Colors"\r
+year: 2021\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vpp.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,yt=`---\r
+slug: "life-is-strange"\r
+title: "Life is Strange"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r8e.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,bt=`---\r
+slug: "little-nightmares"\r
+title: "Little Nightmares"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rdi.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,xt=`---\r
+slug: "luigis-mansion-dark-moon"\r
+title: "Luigi's Mansion: Dark Moon"\r
+year: 2013\r
+platforms:\r
+  - Nintendo 3DS\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vjj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,St=`---\r
+slug: "mario-kart-8"\r
+title: "Mario Kart 8"\r
+year: 2014\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co213q.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ct=`---\r
+slug: "mario-kart-wii"\r
+title: "Mario Kart Wii"\r
+year: 2008\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co214e.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,wt=`---\r
+slug: "mario-party-9"\r
+title: "Mario Party 9"\r
+year: 2012\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2241.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Tt=`---\r
+slug: "marvel-rivals"\r
+title: "Marvel Rivals"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmx1.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Et=`---\r
+slug: "milk-inside-a-bag-of-milk-inside-a-bag-of-milk"\r
+title: "Milk inside a bag of milk inside a bag of milk"\r
+year: 2020\r
+platforms:\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co66n4.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Dt=`---\r
+slug: "milk-outside-a-bag-of-milk-outside-a-bag-of-milk"\r
+title: "Milk outside a bag of milk outside a bag of milk"\r
+year: 2021\r
+platforms:\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4bsi.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ot=`---\r
+slug: "minecraft"\r
+title: "Minecraft"\r
+year: 2016\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8fu7.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,kt=`---\r
+slug: "miside"\r
+title: "MiSide"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7e6i.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,At=`---\r
+slug: "mole"\r
+title: "MOLE"\r
+year: 2026\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobcv3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,jt=`---\r
+slug: "monster-hunter-world"\r
+title: "Monster Hunter: World"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rst.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Mt=`---\r
+slug: "moshi-monsters"\r
+title: "Moshi Monsters"\r
+year: 2008\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4opo.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Nt=`---\r
+slug: "motorslice"\r
+title: "MOTORSLICE"\r
+year: 2026\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8b9v.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Pt=`---\r
+slug: "mouthwashing"\r
+title: "Mouthwashing"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co70oi.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ft=`---\r
+slug: "needy-streamer-overload"\r
+title: "NEEDY STREAMER OVERLOAD"\r
+year: 2022\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co57rh.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,It=`---\r
+slug: "new-super-mario-bros-wii"\r
+title: "New Super Mario Bros. Wii"\r
+year: 2009\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Lt=`---\r
+slug: "nier-automata"\r
+title: "NieR: Automata"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5pcj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Rt=`---\r
+slug: "night-in-the-woods"\r
+title: "Night in the Woods"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4ovg.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,zt=`---\r
+slug: "off"\r
+title: "Off"\r
+year: 2008\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co96zj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Bt=`---\r
+slug: "omori"\r
+title: "OMORI"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - Nintendo 3DS\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xlp.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Vt=`---\r
+slug: "oneshot"\r
+title: "OneShot"\r
+year: 2014\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5rp6.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ht=`---\r
+slug: "outer-wilds"\r
+title: "Outer Wilds"\r
+year: 2019\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co65ac.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ut=`---\r
+slug: "overwatch"\r
+title: "Overwatch"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rcb.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Wt=`---\r
+slug: "palworld"\r
+title: "Palworld"\r
+year: 2026\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7n02.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Gt=`---\r
+slug: "paper-lily"\r
+title: "Paper Lily"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co756b.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Kt=`---\r
+slug: "payday-2"\r
+title: "PAYDAY 2"\r
+year: 2013\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaaqu.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,qt=`---\r
+slug: "payday-3"\r
+title: "PAYDAY 3"\r
+year: 2023\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6m2i.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Jt=`---\r
+slug: "persona-5"\r
+title: "Persona 5"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1r76.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Yt=`---\r
+slug: "phasmophobia"\r
+title: "Phasmophobia"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coamcz.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Xt=`---\r
+slug: "pixel-gun-3d"\r
+title: "Pixel gun 3d"\r
+year: 2013\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co24bf.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Zt=`---\r
+slug: "plants-vs-zombies-garden-warfare-2"\r
+title: "Plants vs. Zombies: Garden Warfare 2"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3xur.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Qt=`---\r
+slug: "pokemon-go"\r
+title: "Pokemon GO"\r
+year: 2016\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9gmb.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,$t=`---\r
+slug: "pokemon-lets-go-eevee"\r
+title: "Pokemon: Let's Go, Eevee!"\r
+year: 2018\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zjz.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,en=`---\r
+slug: "pokemon-moon"\r
+title: "Pokemon Moon"\r
+year: 2016\r
+platforms:\r
+  - Nintendo 3DS\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3co8.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,tn=`---\r
+slug: "pokemon-sword"\r
+title: "Pokemon Sword"\r
+year: 2019\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1zk2.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,nn=`---\r
+slug: "pony-island"\r
+title: "Pony Island"\r
+year: 2016\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2hqv.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,rn=`---\r
+slug: "poppy-playtime"\r
+title: "Poppy Playtime"\r
+year: 2021\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobi3t.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,an=`---\r
+slug: "portal-2"\r
+title: "Portal 2"\r
+year: 2011\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rs4.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,on=`---\r
+slug: "portal"\r
+title: "Portal"\r
+year: 2007\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay61.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,sn=`---\r
+slug: "psychopomp"\r
+title: "Psychopomp"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ozd.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,cn=`---\r
+slug: "quake-iii-arena"\r
+title: "Quake III Arena"\r
+year: 1999\r
+platforms:\r
+  - PC\r
+  - Xbox\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ybj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ln=`---\r
+slug: "radio-the-universe"\r
+title: "Radio the Universe"\r
+year: 2027\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co27fn.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,un=`---\r
+slug: "rayman-legends"\r
+title: "Rayman Legends"\r
+year: 2013\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4jot.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,dn=`---\r
+slug: "rayman-raving-rabbids"\r
+title: "Rayman Raving Rabbids"\r
+year: 2006\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co81iy.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,fn=`---\r
+slug: "red-dead-redemption-2"\r
+title: "Red Dead Redemption 2"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1q1f.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,pn=`---\r
+slug: "risk-of-rain-2"\r
+title: "Risk of Rain 2"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaavb.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,mn=`---\r
+slug: "rocket-league"\r
+title: "Rocket League"\r
+year: 2015\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocdio.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,hn=`---\r
+slug: "rogue-company"\r
+title: "Rogue Company"\r
+year: 2020\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa995.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,gn=`---\r
+slug: "scp-secret-laboratory"\r
+title: "SCP: Secret Laboratory"\r
+year: 2017\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobqc0.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,_n=`---\r
+slug: "sea-of-thieves"\r
+title: "Sea of Thieves"\r
+year: 2018\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2558.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,vn=`---\r
+slug: "shipwrecked-64"\r
+title: "Shipwrecked 64"\r
+year: 2022\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co4zzg.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,yn=`---\r
+slug: "signalis"\r
+title: "SIGNALIS"\r
+year: 2022\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co62ig.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,bn=`---\r
+slug: "silent-hill-2"\r
+title: "SILENT HILL 2"\r
+year: 2001\r
+platforms:\r
+  - PlayStation\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2vyg.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,xn=`---\r
+slug: "sky-children-of-the-light"\r
+title: "Sky: Children of the Light"\r
+year: 2019\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaavd.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Sn=`---\r
+slug: "skylanders-trap-team"\r
+title: "Skylanders: Trap Team"\r
+year: 2014\r
+platforms:\r
+  - PlayStation\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1ysd.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Cn=`---\r
+slug: "slay-the-princess"\r
+title: "Slay the Princess"\r
+year: 2023\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co501b.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,wn=`---\r
+slug: "slime-rancher"\r
+title: "Slime Rancher"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co73i2.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Tn=`---\r
+slug: "soma"\r
+title: "SOMA"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2a20.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,En=`---\r
+slug: "sons-of-the-forest"\r
+title: "Sons Of The Forest"\r
+year: 2024\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobyfc.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Dn=`---\r
+slug: "splatoon-2"\r
+title: "Splatoon 2"\r
+year: 2017\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob8r9.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,On=`---\r
+slug: "splitgate"\r
+title: "Splitgate"\r
+year: 2019\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3cs5.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,kn=`---\r
+slug: "star-wars-battlefront"\r
+title: "Star Wars: Battlefront"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2res.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,An=`---\r
+slug: "steep"\r
+title: "Steep"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jpb.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,jn=`---\r
+slug: "stick-fight-the-game"\r
+title: "Stick Fight: The Game"\r
+year: 2017\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co86z5.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Mn=`---\r
+slug: "sunset-overdrive"\r
+title: "Sunset Overdrive"\r
+year: 2014\r
+platforms:\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co20td.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Nn=`---\r
+slug: "super-mario-3d-world"\r
+title: "Super Mario 3D World"\r
+year: 2013\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob8wi.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Pn=`---\r
+slug: "super-mario-64"\r
+title: "Super Mario 64"\r
+year: 2020\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co5wv6.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Fn=`---\r
+slug: "super-mario-galaxy-2"\r
+title: "Super Mario Galaxy 2"\r
+year: 2010\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21tl.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,In=`---\r
+slug: "super-mario-maker-2"\r
+title: "Super Mario Maker 2"\r
+year: 2019\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co21vy.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Ln=`---\r
+slug: "super-mario-odyssey"\r
+title: "Super Mario Odyssey"\r
+year: 2017\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1mxf.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Rn=`---\r
+slug: "super-smash-bros-ultimate"\r
+title: "Super Smash Bros. Ultimate"\r
+year: 2018\r
+platforms:\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2255.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,zn=`---\r
+slug: "superhot"\r
+title: "Superhot"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7ybp.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Bn=`---\r
+slug: "temple-run"\r
+title: "Temple Run"\r
+year: 2011\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rk3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Vn=`---\r
+slug: "terraria"\r
+title: "Terraria"\r
+year: 2011\r
+platforms:\r
+  - PlayStation\r
+  - Nintendo 3DS\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaamg.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Hn=`---\r
+slug: "terratech"\r
+title: "TerraTech"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coalaw.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Un=`---\r
+slug: "the-awesome-adventures-of-captain-spirit"\r
+title: "The Awesome Adventures of Captain Spirit"\r
+year: 2018\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobugo.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Wn=`---\r
+slug: "the-beginners-guide"\r
+title: "The Beginner's Guide"\r
+year: 2015\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2rz1.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Gn=`---\r
+slug: "the-coffin-of-andy-and-leyley"\r
+title: "The Coffin of Andy and Leyley"\r
+year: 2023\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mrn.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Kn=`---\r
+slug: "the-crew"\r
+title: "The Crew"\r
+year: 2014\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2jtc.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,qn=`---\r
+slug: "the-escapists"\r
+title: "The Escapists"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1uvv.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Jn=`---\r
+slug: "the-finals"\r
+title: "THE FINALS"\r
+year: 2023\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cociuq.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Yn=`---\r
+slug: "the-irony"\r
+title: "The IRONY"\r
+year: 2027\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobloq.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Xn=`---\r
+slug: "the-oily-depths"\r
+title: "The Oily Depths"\r
+year: 2026\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u4u.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Zn=`---\r
+slug: "titanfall-2"\r
+title: "Titanfall 2"\r
+year: 2016\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/fhbeilnghyhhmjqhinqa.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,Qn=`---\r
+slug: "to-the-moon"\r
+title: "To the Moon"\r
+year: 2025\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9o96.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,$n=`---\r
+slug: "tom-clancys-rainbow-six-siege"\r
+title: "Tom Clancy's Rainbow Six Siege"\r
+year: 2015\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocsnm.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,er=`---\r
+slug: "tomodachi-life"\r
+title: "Tomodachi Life"\r
+year: 2013\r
+platforms:\r
+  - Nintendo 3DS\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6tg3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,tr=`---\r
+slug: "trove"\r
+title: "Trove"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/yckmopwynvlncm1ub3om.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,nr=`---\r
+slug: "twwwr"\r
+title: "TWWWR"\r
+year: 2020\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co48ok.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,rr=`---\r
+slug: "ultrakill"\r
+title: "ULTRAKILL"\r
+year: 2020\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co46s3.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ir=`---\r
+slug: "undertale"\r
+title: "Undertale"\r
+year: 2015\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1t2.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ar=`---\r
+slug: "until-then"\r
+title: "Until Then"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PC\r
+  - PlayStation\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co7r5n.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,or=`---\r
+slug: "upload-labs"\r
+title: "Upload Labs"\r
+year: 2025\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coag4s.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,sr=`---\r
+slug: "warframe"\r
+title: "Warframe"\r
+year: 2013\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocase.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,cr=`---\r
+slug: "wario-land-the-shake-dimension"\r
+title: "Wario Land: The Shake Dimension"\r
+year: 2008\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9o9l.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,lr=`---\r
+slug: "watch-dogs"\r
+title: "Watch_Dogs"\r
+year: 2014\r
+platforms:\r
+  - PlayStation\r
+  - PC\r
+  - Xbox\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co2p5w.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,ur=`---\r
+slug: "wayfinder"\r
+title: "Wayfinder"\r
+year: 2024\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co8ac0.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,dr=`---\r
+slug: "what-remians-of-edith-finch"\r
+title: "What Remians of Edith Finch"\r
+year: 2017\r
+platforms:\r
+  - Xbox\r
+  - PlayStation\r
+  - PC\r
+  - Switch\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1rbj.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,fr=`---\r
+slug: "white-knuckle"\r
+title: "White Knuckle"\r
+year: 2025\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9mws.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,pr=`---\r
+slug: "wii-sports-resort"\r
+title: "Wii Sports Resort"\r
+year: 2009\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocdbp.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,mr=`---\r
+slug: "wii-sports"\r
+title: "Wii Sports"\r
+year: 2006\r
+platforms:\r
+  []\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3vge.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
+`,hr=`---\r
+slug: "yume-nikki"\r
+title: "Yume Nikki"\r
+year: 2004\r
+platforms:\r
+  - PC\r
+coverUrl: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co81f2.jpg"\r
+reviewDate:\r
+playtimeHours:\r
+rating:\r
+categories:\r
+  gameplay:\r
+  story:\r
+  music:\r
+  soundDesign:\r
+  visualDesign:\r
+  replayability:\r
+---\r
 `,m=Symbol(`NOT_RESOLVED`),gr=Symbol(`MERGE_KEY`);function h(e,t){return{tagName:e,nodeKind:`scalar`,implicit:t.implicit??!1,matchByTagPrefix:t.matchByTagPrefix??!1,implicitFirstChars:t.implicitFirstChars??null,resolve:t.resolve,identify:t.identify??null,represent:t.represent??(e=>String(e)),representTagName:t.representTagName??null}}function _r(e,t){let n=t.finalize===void 0;return{tagName:e,nodeKind:`sequence`,implicit:!1,matchByTagPrefix:t.matchByTagPrefix??!1,create:t.create,addItem:t.addItem,finalize:t.finalize??(e=>e),carrierIsResult:n,identify:t.identify??null,represent:t.represent??(e=>e),representTagName:t.representTagName??null}}function vr(e,t){let n=t.finalize===void 0;return{tagName:e,nodeKind:`mapping`,implicit:!1,matchByTagPrefix:t.matchByTagPrefix??!1,create:t.create,addPair:t.addPair,has:t.has,keys:t.keys,get:t.get,finalize:t.finalize??(e=>e),carrierIsResult:n,identify:t.identify??null,represent:t.represent??(e=>e),representTagName:t.representTagName??null}}var yr=h(`tag:yaml.org,2002:str`,{resolve:e=>e,identify:e=>typeof e==`string`}),br=[``,`~`,`null`,`Null`,`NULL`],xr=h(`tag:yaml.org,2002:null`,{implicit:!0,implicitFirstChars:[``,`~`,`n`,`N`],resolve:e=>br.indexOf(e)===-1?m:null,identify:e=>e===null,represent:()=>`null`}),Sr=h(`tag:yaml.org,2002:null`,{implicit:!0,implicitFirstChars:[`n`],resolve:(e,t)=>e===`null`||t&&e===``?null:m,identify:e=>e===null,represent:()=>`null`}),Cr=[``,`~`,`null`,`Null`,`NULL`],wr=h(`tag:yaml.org,2002:null`,{implicit:!0,implicitFirstChars:[``,`~`,`n`,`N`],resolve:e=>Cr.indexOf(e)===-1?m:null,identify:e=>e===null,represent:()=>`null`}),Tr=[`true`,`True`,`TRUE`],Er=[`false`,`False`,`FALSE`],Dr=h(`tag:yaml.org,2002:bool`,{implicit:!0,implicitFirstChars:[`t`,`T`,`f`,`F`],resolve:e=>Tr.indexOf(e)!==-1||Er.indexOf(e)===-1&&m,identify:e=>Object.prototype.toString.call(e)===`[object Boolean]`,represent:e=>e?`true`:`false`}),Or=[`true`],kr=[`false`],Ar=h(`tag:yaml.org,2002:bool`,{implicit:!0,implicitFirstChars:[`t`,`f`],resolve:e=>Or.indexOf(e)!==-1||kr.indexOf(e)===-1&&m,identify:e=>Object.prototype.toString.call(e)===`[object Boolean]`,represent:e=>e?`true`:`false`}),jr=[`true`,`True`,`TRUE`,`y`,`Y`,`yes`,`Yes`,`YES`,`on`,`On`,`ON`],Mr=[`false`,`False`,`FALSE`,`n`,`N`,`no`,`No`,`NO`,`off`,`Off`,`OFF`],Nr=h(`tag:yaml.org,2002:bool`,{implicit:!0,implicitFirstChars:[`y`,`Y`,`n`,`N`,`t`,`T`,`f`,`F`,`o`,`O`],resolve:e=>jr.indexOf(e)!==-1||Mr.indexOf(e)===-1&&m,identify:e=>Object.prototype.toString.call(e)===`[object Boolean]`,represent:e=>e?`true`:`false`}),Pr=RegExp(`^(?:0o[0-7]+|0x[0-9a-fA-F]+|[-+]?[0-9]+)$`),Fr=RegExp(`^(?:[-+]?0b[0-1]+|[-+]?0o[0-7]+|[-+]?0x[0-9a-fA-F]+|[-+]?[0-9]+)$`);function Ir(e){let t=e,n=1;return(t[0]===`-`||t[0]===`+`)&&(t[0]===`-`&&(n=-1),t=t.slice(1)),t.startsWith(`0b`)?n*parseInt(t.slice(2),2):t.startsWith(`0o`)?n*parseInt(t.slice(2),8):t.startsWith(`0x`)?n*parseInt(t.slice(2),16):n*parseInt(t,10)}function Lr(e,t){if(t){if(!Fr.test(e))return m}else if(!Pr.test(e))return m;let n=Ir(e);return Number.isFinite(n)?n:m}var Rr=h(`tag:yaml.org,2002:int`,{implicit:!0,implicitFirstChars:[`-`,`+`,...`0123456789`],resolve:Lr,identify:e=>Number.isInteger(e)&&!Object.is(e,-0)&&e.toString(10).indexOf(`e`)<0,represent:e=>e.toString(10)}),zr=RegExp(`^-?(?:0|[1-9][0-9]*)$`),Br=RegExp(`^(?:[-+]?0b[0-1]+|[-+]?0o[0-7]+|[-+]?0x[0-9a-fA-F]+|[-+]?[0-9]+)$`);function Vr(e){let t=e,n=1;return(t[0]===`-`||t[0]===`+`)&&(t[0]===`-`&&(n=-1),t=t.slice(1)),t.startsWith(`0b`)?n*parseInt(t.slice(2),2):t.startsWith(`0o`)?n*parseInt(t.slice(2),8):t.startsWith(`0x`)?n*parseInt(t.slice(2),16):n*parseInt(t,10)}function Hr(e,t){if(t){if(!Br.test(e))return m}else if(!zr.test(e))return m;let n=Vr(e);return Number.isFinite(n)?n:m}var Ur=h(`tag:yaml.org,2002:int`,{implicit:!0,implicitFirstChars:[`-`,...`0123456789`],resolve:Hr,identify:e=>Number.isInteger(e)&&!Object.is(e,-0)&&e.toString(10).indexOf(`e`)<0,represent:e=>e.toString(10)}),Wr=RegExp(`^(?:[-+]?0b[0-1_]+|[-+]?0[0-7_]+|[-+]?0x[0-9a-fA-F_]+|[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+|[-+]?(?:0|[1-9][0-9_]*))$`);function Gr(e){let t=e.replace(/_/g,``),n=1;if((t[0]===`-`||t[0]===`+`)&&(t[0]===`-`&&(n=-1),t=t.slice(1)),t.startsWith(`0b`))return n*parseInt(t.slice(2),2);if(t.startsWith(`0x`))return n*parseInt(t.slice(2),16);if(t.includes(`:`)){let e=0;for(let n of t.split(`:`))e=e*60+Number(n);return n*e}return t!==`0`&&t[0]===`0`?n*parseInt(t,8):n*parseInt(t,10)}function Kr(e){if(!Wr.test(e))return m;let t=Gr(e);return Number.isFinite(t)?t:m}var qr=h(`tag:yaml.org,2002:int`,{implicit:!0,implicitFirstChars:[`-`,`+`,...`0123456789`],resolve:Kr,identify:e=>Number.isInteger(e)&&!Object.is(e,-0)&&e.toString(10).indexOf(`e`)<0,represent:e=>e.toString(10)}),Jr=RegExp(`^(?:[-+]?[0-9]+(?:\\.[0-9]*)?(?:[eE][-+]?[0-9]+)?|[-+]?\\.[0-9]+(?:[eE][-+]?[0-9]+)?|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$`),Yr=RegExp(`^(?:[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$`);function Xr(e){if(!Jr.test(e))return m;let t=e.toLowerCase(),n=t[0]===`-`?-1:1;if(`+-`.includes(t[0])&&(t=t.slice(1)),t===`.inf`)return n===1?1/0:-1/0;if(t===`.nan`)return NaN;let r=n*parseFloat(t);return Number.isFinite(r)||Yr.test(e)?r:m}function Zr(e){if(isNaN(e))return`.nan`;if(e===1/0)return`.inf`;if(e===-1/0)return`-.inf`;if(Object.is(e,-0))return`-0.0`;let t=e.toString(10);return/^[-+]?[0-9]+e/.test(t)?t.replace(`e`,`.e`):t}var Qr=h(`tag:yaml.org,2002:float`,{implicit:!0,implicitFirstChars:[`-`,`+`,`.`,...`0123456789`],resolve:Xr,identify:e=>typeof e==`number`&&(!Number.isInteger(e)||Object.is(e,-0)||e.toString(10).indexOf(`e`)>=0),represent:Zr}),$r=RegExp(`^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]*)?(?:[eE][-+]?[0-9]+)?$`),ei=RegExp(`^(?:[-+]?[0-9]+(?:\\.[0-9]*)?(?:[eE][-+]?[0-9]+)?|[-+]?\\.[0-9]+(?:[eE][-+]?[0-9]+)?|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$`);function ti(e,t){if(t){if(!ei.test(e))return m;let t=e.toLowerCase(),n=t[0]===`-`?-1:1;if(`+-`.includes(t[0])&&(t=t.slice(1)),t===`.inf`)return n===1?1/0:-1/0;if(t===`.nan`)return NaN;let r=n*parseFloat(t);return Number.isFinite(r)?r:m}if(!$r.test(e))return m;let n=Number(e);return Number.isFinite(n)?n:m}function ni(e){if(isNaN(e))return`.nan`;if(e===1/0)return`.inf`;if(e===-1/0)return`-.inf`;if(Object.is(e,-0))return`-0.0`;let t=e.toString(10);return/^[-+]?[0-9]+e/.test(t)?t.replace(`e`,`.e`):t}var ri=h(`tag:yaml.org,2002:float`,{implicit:!0,implicitFirstChars:[`-`,...`0123456789`],resolve:ti,identify:e=>typeof e==`number`&&(!Number.isInteger(e)||Object.is(e,-0)||e.toString(10).indexOf(`e`)>=0),represent:ni}),ii=RegExp(`^(?:[-+]?(?:(?:[0-9][0-9_]*)?\\.[0-9_]*)(?:[eE][-+][0-9]+)?|[-+]?[0-9][0-9_]*(?::[0-5]?[0-9])+\\.[0-9_]*|[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$`),ai=RegExp(`^(?:[-+]?\\.(?:inf|Inf|INF)|\\.(?:nan|NaN|NAN))$`);function oi(e){if(!ii.test(e))return m;let t=e.toLowerCase().replace(/_/g,``),n=t[0]===`-`?-1:1;if(`+-`.includes(t[0])&&(t=t.slice(1)),t===`.inf`)return n===1?1/0:-1/0;if(t===`.nan`)return NaN;let r=0;if(t.includes(`:`)){for(let e of t.split(`:`))r=r*60+Number(e);r*=n}else r=n*parseFloat(t);return Number.isFinite(r)||ai.test(e)?r:m}function si(e){if(isNaN(e))return`.nan`;if(e===1/0)return`.inf`;if(e===-1/0)return`-.inf`;if(Object.is(e,-0))return`-0.0`;let t=e.toString(10);return/^[-+]?[0-9]+e/.test(t)?t.replace(`e`,`.e`):t}var ci=h(`tag:yaml.org,2002:float`,{implicit:!0,implicitFirstChars:[`-`,`+`,`.`,...`0123456789`],resolve:oi,identify:e=>typeof e==`number`&&(!Number.isInteger(e)||Object.is(e,-0)||e.toString(10).indexOf(`e`)>=0),represent:si}),li=h(`tag:yaml.org,2002:merge`,{implicit:!0,implicitFirstChars:[`<`],resolve:(e,t)=>e===`<<`||t&&e===``?gr:m}),ui=/^[A-Za-z0-9+/]*={0,2}$/;function di(e){let t=e.replace(/\s/g,``);if(t.length%4!=0||!ui.test(t))return m;let n=atob(t),r=new Uint8Array(n.length);for(let e=0;e<n.length;e++)r[e]=n.charCodeAt(e);return r}function fi(e){let t=``;for(let n=0;n<e.length;n++)t+=String.fromCharCode(e[n]);return btoa(t)}var pi=h(`tag:yaml.org,2002:binary`,{resolve:di,identify:e=>Object.prototype.toString.call(e)===`[object Uint8Array]`,represent:fi}),mi=RegExp(`^([0-9][0-9][0-9][0-9])-([0-9][0-9])-([0-9][0-9])$`),hi=RegExp(`^([0-9][0-9][0-9][0-9])-([0-9][0-9]?)-([0-9][0-9]?)(?:[Tt]|[ \\t]+)([0-9][0-9]?):([0-9][0-9]):([0-9][0-9])(?:\\.([0-9]*))?(?:[ \\t]*(Z|([-+])([0-9][0-9]?)(?::([0-9][0-9]))?))?$`);function gi(e,t,n,r=0,i=0,a=0,o=0){let s=new Date(Date.UTC(e,t,n,r,i,a,o));return s.setUTCFullYear(e,t,n),s}function _i(e){let t=mi.exec(e);if(t===null&&(t=hi.exec(e)),t===null)return m;let n=+t[1],r=t[2]-1,i=+t[3];if(!t[4]){let e=gi(n,r,i);return e.getUTCFullYear()!==n||e.getUTCMonth()!==r||e.getUTCDate()!==i?m:e}let a=+t[4],o=+t[5],s=+t[6],c=0;if(a>23||o>59||s>59)return m;if(t[7]){let e=t[7].slice(0,3);for(;e.length<3;)e+=`0`;c=+e}let l=gi(n,r,i,a,o,s,c);if(l.getUTCFullYear()!==n||l.getUTCMonth()!==r||l.getUTCDate()!==i)return m;if(t[9]){let e=+t[10],n=+(t[11]||0);if(e>23||n>59)return m;let r=(e*60+n)*6e4;l.setTime(l.getTime()-(t[9]===`-`?-r:r))}return l}var vi=h(`tag:yaml.org,2002:timestamp`,{implicit:!0,implicitFirstChars:[...`0123456789`],resolve:_i,identify:e=>e instanceof Date,represent:e=>e.toISOString()}),yi=_r(`tag:yaml.org,2002:seq`,{create:()=>[],addItem:(e,t)=>{e.push(t)},identify:Array.isArray});function bi(e){if(typeof e!=`object`||!e||Array.isArray(e))return!1;let t=Object.getPrototypeOf(e);return t===null||t===Object.prototype}function xi(e,t){let n={};for(let r of t)e[r]!==void 0&&(n[r]=e[r]);return n}var Si=_r(`tag:yaml.org,2002:omap`,{create:()=>({list:[],seen:new Set}),addItem:(e,t)=>{let n;if(t instanceof Map){if(t.size!==1)return`cannot resolve an ordered map item`;n=t.keys().next().value}else if(bi(t)){let e=Object.keys(t);if(e.length!==1)return`cannot resolve an ordered map item`;n=e[0]}else return`cannot resolve an ordered map item`;return e.seen.has(n)?`duplicate key in ordered map`:(e.seen.add(n),e.list.push(t),``)},finalize:e=>e.list}),Ci=_r(`tag:yaml.org,2002:pairs`,{create:()=>[],addItem:(e,t)=>{if(t instanceof Map)return t.size===1?(e.push(t.entries().next().value),``):`cannot resolve a pairs item`;if(Object.prototype.toString.call(t)!==`[object Object]`)return`cannot resolve a pairs item`;let n=t,r=Object.keys(n);return r.length===1?(e.push([r[0],n[r[0]]]),``):`cannot resolve a pairs item`}}),wi=vr(`tag:yaml.org,2002:map`,{create:()=>({}),identify:bi,represent:e=>{let t=new Map;for(let n of Object.keys(e))t.set(n,e[n]);return t},addPair:(e,t,n)=>{if(typeof t==`object`&&t)return`object-based map does not support complex keys`;let r=String(t);return r===`__proto__`?Object.defineProperty(e,r,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[r]=n,``},has:(e,t)=>typeof t==`object`&&t?!1:Object.prototype.hasOwnProperty.call(e,String(t)),keys:e=>Object.keys(e),get:(e,t)=>{let n=String(t);return Object.prototype.hasOwnProperty.call(e,n)?e[n]:null}}),Ti=vr(`tag:yaml.org,2002:set`,{create:()=>new Set,identify:e=>e instanceof Set,represent:e=>{let t=new Map;for(let n of e)t.set(n,null);return t},addPair:(e,t,n)=>n===null?(e.add(t),``):`cannot resolve a set item`,has:(e,t)=>e.has(t),keys:e=>e.keys(),get:()=>null});function Ei(){return{scalar:Object.create(null),sequence:Object.create(null),mapping:Object.create(null)}}function Di(){return{scalar:[],sequence:[],mapping:[]}}function Oi(e){let t=[];for(let n of e){let e=t.length;for(let r=0;r<t.length;r++){let i=t[r];if(i.nodeKind===n.nodeKind&&i.tagName===n.tagName&&i.matchByTagPrefix===n.matchByTagPrefix){e=r;break}}t[e]=n}return t}var ki=class e{tags;implicitScalarTags;implicitScalarByFirstChar;implicitScalarAnyFirstChar;defaultScalarTag;defaultSequenceTag;defaultMappingTag;exact;prefix;constructor(e){let t=Oi(e),n=[],r=Ei(),i=Di();for(let e of t){if(e.nodeKind===`scalar`&&e.implicit){if(e.matchByTagPrefix)throw Error(`Implicit scalar tags cannot match by tag prefix`);n.push(e)}switch(e.nodeKind){case`scalar`:e.matchByTagPrefix?i.scalar.push(e):r.scalar[e.tagName]=e;break;case`sequence`:e.matchByTagPrefix?i.sequence.push(e):r.sequence[e.tagName]=e;break;case`mapping`:e.matchByTagPrefix?i.mapping.push(e):r.mapping[e.tagName]=e}}let a=n.filter(e=>e.implicitFirstChars===null),o=new Set;for(let e of n)if(e.implicitFirstChars!==null)for(let t of e.implicitFirstChars)o.add(t);let s=new Map;for(let e of o)s.set(e,n.filter(t=>t.implicitFirstChars===null||t.implicitFirstChars.indexOf(e)!==-1));let c=r.scalar[`tag:yaml.org,2002:str`];if(!c)throw Error(`schema does not define the default scalar tag (tag:yaml.org,2002:str)`);this.tags=t,this.implicitScalarTags=n,this.implicitScalarByFirstChar=s,this.implicitScalarAnyFirstChar=a,this.defaultScalarTag=c,this.defaultSequenceTag=r.sequence[`tag:yaml.org,2002:seq`],this.defaultMappingTag=r.mapping[`tag:yaml.org,2002:map`],this.exact=r,this.prefix=i}withTags(...t){let n=[];for(let e of t)n=n.concat(e);return new e([...this.tags,...n])}},Ai=new ki([yr,yi,wi]);new ki([...Ai.tags,Sr,Ar,Ur,ri]);var ji=new ki([...Ai.tags,xr,Dr,Rr,Qr]),Mi=new ki([...Ai.tags,wr,Nr,qr,ci,vi,li,pi,Si,Ci,Ti]);vr(`tag:yaml.org,2002:map`,{create:()=>new Map,addPair:(e,t,n)=>(e.set(t,n),``),has:(e,t)=>e.has(t),keys:e=>e.keys(),get:(e,t)=>e.get(t),identify:e=>e instanceof Map||bi(e),represent:e=>{if(e instanceof Map)return e;let t=new Map,n=e;for(let e of Object.keys(n))t.set(e,n[e]);return t}});function Ni(e){if(Array.isArray(e)){let t=Array.prototype.slice.call(e);for(let e=0;e<t.length;e++){if(Array.isArray(t[e]))return null;typeof t[e]==`object`&&Object.prototype.toString.call(t[e])===`[object Object]`&&(t[e]=`[object Object]`)}return String(t)}return typeof e==`object`&&Object.prototype.toString.call(e)===`[object Object]`?`[object Object]`:String(e)}vr(`tag:yaml.org,2002:map`,{create:()=>({}),identify:bi,represent:e=>{let t=new Map;for(let n of Object.keys(e))t.set(n,e[n]);return t},addPair:(e,t,n)=>{let r=Ni(t);return r===null?`nested arrays are not supported inside keys`:(r===`__proto__`?Object.defineProperty(e,r,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[r]=n,``)},has:(e,t)=>{let n=Ni(t);return n!==null&&Object.prototype.hasOwnProperty.call(e,n)},keys:e=>Object.keys(e),get:(e,t)=>{let n=String(t);return Object.prototype.hasOwnProperty.call(e,n)?e[n]:null}});var Pi={maxLength:79,indent:1,linesBefore:3,linesAfter:2};function Fi(e,t,n,r,i){let a=``,o=``,s=Math.floor(i/2)-1;return r-t>s&&(a=` ... `,t=r-s+a.length),n-r>s&&(o=` ...`,n=r+s-o.length),{str:a+e.slice(t,n).replace(/\t/g,`→`)+o,pos:r-t+a.length}}function Ii(e,t){return` `.repeat(Math.max(t-e.length,0))+e}function Li(e,t){if(!e.buffer)return null;let n={...Pi,...t},r=/\r?\n|\r|\0/g,i=[0],a=[],o,s=-1;for(;o=r.exec(e.buffer);)a.push(o.index),i.push(o.index+o[0].length),e.position<=o.index&&s<0&&(s=i.length-2);s<0&&(s=i.length-1);let c=``,l=Math.min(e.line+n.linesAfter,a.length).toString().length,u=n.maxLength-(n.indent+l+3);for(let t=1;t<=n.linesBefore&&!(s-t<0);t++){let r=Fi(e.buffer,i[s-t],a[s-t],e.position-(i[s]-i[s-t]),u);c=`${` `.repeat(n.indent)}${Ii((e.line-t+1).toString(),l)} | ${r.str}\n${c}`}let d=Fi(e.buffer,i[s],a[s],e.position,u);c+=`${` `.repeat(n.indent)}${Ii((e.line+1).toString(),l)} | ${d.str}\n`,c+=`${`-`.repeat(n.indent+l+3+d.pos)}^\n`;for(let t=1;t<=n.linesAfter&&!(s+t>=a.length);t++){let r=Fi(e.buffer,i[s+t],a[s+t],e.position-(i[s]-i[s+t]),u);c+=`${` `.repeat(n.indent)}${Ii((e.line+t+1).toString(),l)} | ${r.str}\n`}return c.replace(/\n$/,``)}function Ri(e,t){let n=``;return e.mark?(e.mark.name&&(n+=`in "${e.mark.name}" `),n+=`(${e.mark.line+1}:${e.mark.column+1})`,!t&&e.mark.snippet&&(n+=`\n\n${e.mark.snippet}`),`${e.reason} ${n}`):e.reason}var zi=class extends Error{reason;mark;constructor(e,t){super(),this.name=`YAMLException`,this.reason=e,this.mark=t,this.message=Ri(this,!1),Error.captureStackTrace&&Error.captureStackTrace(this,this.constructor)}toString(e){return`${this.name}: ${Ri(this,e)}`}};function Bi(e,t,n,r=``){let i=0,a=0;for(let n=0;n<t;n++){let t=e.charCodeAt(n);t===10?(i++,a=n+1):t===13&&(i++,e.charCodeAt(n+1)===10&&n++,a=n+1)}let o={name:r,buffer:e,position:t,line:i,column:t-a};throw o.snippet=Li(o),new zi(n,o)}var Vi=-1;function Hi(e){switch(e){case 48:return`\0`;case 97:return`\x07`;case 98:return`\b`;case 116:return`	`;case 9:return`	`;case 110:return`
 `;case 118:return`\v`;case 102:return`\f`;case 114:return`\r`;case 101:return`\x1B`;case 32:return` `;case 34:return`"`;case 47:return`/`;case 92:return`\\`;case 78:return``;case 95:return`\xA0`;case 76:return`\u2028`;case 80:return`\u2029`;default:return``}}var Ui=Array(256),Wi=Array(256);for(let e=0;e<256;e++)Ui[e]=+!!Hi(e),Wi[e]=Hi(e);function Gi(e){return e<=65535?String.fromCharCode(e):String.fromCharCode((e-65536>>10)+55296,(e-65536&1023)+56320)}function Ki(e){return e>=48&&e<=57?e-48:(e|32)-97+10}function qi(e){return e===120?2:e===117?4:8}function Ji(e,t,n){let r=0;for(;t<n;){let n=e.charCodeAt(t);if(n===10)r++,t++;else if(n===13)r++,t++,e.charCodeAt(t)===10&&t++;else if(n===32||n===9)t++;else break}return{position:t,breaks:r}}function Yi(e){return e===1?` `:`
 `.repeat(e-1)}function Xi(e,t,n){let r=``,i=t,a=t,o=t;for(;i<n;){let t=e.charCodeAt(i);if(t===10||t===13){r+=e.slice(a,o);let t=Ji(e,i,n);r+=Yi(t.breaks),i=a=o=t.position}else i++,t!==32&&t!==9&&(o=i)}return r+e.slice(a,o)}function Zi(e,t,n){let r=``,i=t,a=t,o=t;for(;i<n;){let t=e.charCodeAt(i);if(t===39)r+=e.slice(a,i)+`'`,i+=2,a=o=i;else if(t===10||t===13){r+=e.slice(a,o);let t=Ji(e,i,n);r+=Yi(t.breaks),i=a=o=t.position}else i++,t!==32&&t!==9&&(o=i)}return r+e.slice(a,n)}function Qi(e,t,n){let r=``,i=t,a=t,o=t;for(;i<n;){let t=e.charCodeAt(i);if(t===92){r+=e.slice(a,i),i++;let t=e.charCodeAt(i);if(t===10||t===13)i=Ji(e,i,n).position;else if(t<256&&Ui[t])r+=Wi[t],i++;else{let n=qi(t),a=0;for(;n>0;n--){i++;let t=Ki(e.charCodeAt(i));a=(a<<4)+t}r+=Gi(a),i++}a=o=i}else if(t===10||t===13){r+=e.slice(a,o);let t=Ji(e,i,n);r+=Yi(t.breaks),i=a=o=t.position}else i++,t!==32&&t!==9&&(o=i)}return r+e.slice(a,n)}function $i(e,t,n,r,i,a){let o=r<0?0:r,s=e.slice(t,n).replace(/\r\n?/g,`
