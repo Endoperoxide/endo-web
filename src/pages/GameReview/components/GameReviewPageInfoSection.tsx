@@ -22,7 +22,11 @@ export default function GameReviewPageInfoSection({ game }: Properties) {
           href={`${PAGES.reviews.path}`}
           onClick={(e) => {
             e.preventDefault();
-            window.history.back();
+            if (window.history.length > 1 && document.referrer) {
+              window.history.back();
+            } else {
+              window.location.href = PAGES.reviews.path;
+            }
           }}
           className="inline-flex size-9 shrink-0 items-center justify-center text-text-accent"
         >
