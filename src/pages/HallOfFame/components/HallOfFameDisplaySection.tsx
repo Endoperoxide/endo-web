@@ -1,6 +1,6 @@
 import PageDisplaySection from "@/components/Page/PageDisplaySection";
 import fayeConfused from "@/assets/Faye/faye_confused.png";
-import BackgroundDisplayTitle from "@/components/Background/BackgroundDisplayTitle";
+import PageDisplayTitle from "@/components/Page/PageDisplayTitle";
 
 export default function HallOfFameDisplaySection() {
   return (
@@ -12,7 +12,7 @@ export default function HallOfFameDisplaySection() {
         className="pointer-events-none absolute object-cover bottom-0 left-1/2 -translate-x-1/2 z-2 h-full"
       />
       {/* Title */}
-      <BackgroundDisplayTitle title="Hall of fame" />
+      <PageDisplayTitle title="Hall of fame" />
     </PageDisplaySection>
   );
 }

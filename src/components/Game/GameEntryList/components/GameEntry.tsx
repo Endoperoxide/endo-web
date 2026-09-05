@@ -40,7 +40,7 @@ export default function GameEntry({ game }: Properties) {
           </div>
         </div>
       </a>
-      <div className="flex flex-col items-center gap-2 pl-3 text-text-primary">
+      <div className="hidden sm:block flex-col items-center gap-2 pl-3 text-text-primary">
         <QrCode size={24} />
         <span className="font-barcode text-2xl whitespace-nowrap [writing-mode:vertical-rl] rotate-180">
           {ratingLabel}

@@ -5,9 +5,9 @@ type Properties = {
   title: string;
 };
 
-export default function BackgroundDisplayTitle({ title }: Properties) {
+export default function PageDisplayTitle({ title }: Properties) {
   return (
-    <div className="relative z-10 flex flex-col items-center gap-2 sm:mt-10 mix-blend-exclusion p-2">
+    <div className="relative z-10 flex flex-col items-center gap-2 sm:mt-10 p-2">
       <img src={decorativeHeader} className="mx-auto" />
       <h1 className="text-text-primary sm:text-7xl text-center h-auto">
         {title.toUpperCase()}

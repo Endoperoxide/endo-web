@@ -1,7 +1,7 @@
 import PageContentSection from "@/components/Page/PageContentSection";
 import { ImageContentContainer } from "@/components/ContentContainer/ImageContentContainer";
 import TextContentContainer from "@/components/ContentContainer/TextContentContainer";
-import illustration from "@/assets/signalis_test.jpg";
+import fayeFiredUp from "@/assets/Faye/faye_fired_up.png";
 
 const PARAGRAPHS = [
   `This site was initially intended to be a repository of my game reviews, something to do whilst I was burnt out from other projects, 
@@ -21,7 +21,7 @@ export default function HomePageIntroSection() {
       <div className="flex flex-col gap-3 md:flex-row">
         {/* Image column */}
         <div className="flex flex-3">
-          <ImageContentContainer title="Faye" image={illustration} />
+          <img className="w-full object-cover" src={fayeFiredUp} alt={"Faye"} />
         </div>
 
         {/* Text column */}

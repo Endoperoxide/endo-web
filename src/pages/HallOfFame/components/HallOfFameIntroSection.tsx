@@ -1,7 +1,7 @@
 import { ImageContentContainer } from "@/components/ContentContainer/ImageContentContainer";
 import PageContentSection from "@/components/Page/PageContentSection";
 import TextContentContainer from "@/components/ContentContainer/TextContentContainer";
-import underConstruction from "@/assets/Backgrounds/under_construction.webp";
+import underConstruction from "@/assets/under_construction.webp";
 
 const PARAGRAPHS = [
   `This page is not complete! It takes me a while to evaluate my thoughts on all the games i have played! Please bear with me whilst this section is still being made!`,

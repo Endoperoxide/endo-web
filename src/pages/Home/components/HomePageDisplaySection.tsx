@@ -1,5 +1,5 @@
 import PageDisplaySection from "@/components/Page/PageDisplaySection";
-import fayeStand from "@/assets/Faye/faye_stand_no_sphere.png";
+import fayeStand from "@/assets/Faye/faye_stand.png";
 import titleName from "@/assets/Vector/title_name.svg";
 import BackgroundRings from "@/components/Background/BackgroundRings";
 
