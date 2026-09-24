@@ -20,8 +20,8 @@ export default function GameReviewPageInfoSection({ game }: Properties) {
       <div className="flex flex-row items-center gap-2 shrink-0">
         <a
           href={`${PAGES.reviews.path}`}
-          onClick={(e) => {
-            e.preventDefault();
+          onClick={(event) => {
+            event.preventDefault();
             if (window.history.length > 1 && document.referrer) {
               window.history.back();
             } else {

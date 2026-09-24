@@ -21,7 +21,7 @@ export default function GameReviewPage({ slug }: Properties) {
   return (
     <>
       <section className="flex flex-col sm:flex-row sm:gap-10 section">
-        <div className="flex flex-1 flex-col pt-5 sm:sticky sm:top-(--navbar-height) sm:self-start">
+        <div className="flex flex-1 flex-col py-5 sm:sticky sm:top-(--navbar-height) sm:self-start">
           <GameReviewPageInfoSection game={game} />
         </div>
 
